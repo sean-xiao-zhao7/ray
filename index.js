@@ -1,4 +1,8 @@
+// models
 import Artist from "./src/models/Artist.js";
+
+// data
+import { ray } from "./data/ray.js";
 
 class App {
     artist;
@@ -14,8 +18,5 @@ class App {
     }
 }
 
-const app = new App({
-    firstname: "Raymond",
-    lastname: "Mowla",
-});
+const app = new App(ray);
 app.launch();

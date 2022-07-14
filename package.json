@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "watch-sass": "sass --watch style/index.scss style/output/index.css",
+        "watch-sass": "sass --watch --no-source-map style/index.scss style/output/index.css",
         "compile-css": "sass --no-source-map --style=compressed style/index.scss style/output/index.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },

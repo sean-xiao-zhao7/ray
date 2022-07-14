@@ -1,1 +1,29 @@
-h1{color:red}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  display: grid;
+  grid-template-rows: [header-start] 10vh [header-end content-start] min-content [content-end];
+  grid-template-columns: [sidebar-start] 30vw [sidebar-end display-start] 70vw [display-end];
+}
+
+header {
+  grid-column: sidebar-start/display-end;
+}
+
+/*# sourceMappingURL=index.css.map */

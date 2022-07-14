@@ -1,0 +1,5 @@
+body {
+    display: grid;
+    grid-template-rows: [header-start] 10vh [header-end content-start] min-content [content-end];
+    grid-template-columns: [sidebar-start] 30vw [sidebar-end display-start] 70vw [display-end];
+}

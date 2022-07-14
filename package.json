@@ -1,0 +1,19 @@
+{
+  "name": "ray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sean-xiao-zhao7/ray.git"
+  },
+  "author": "Sean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean-xiao-zhao7/ray/issues"
+  },
+  "homepage": "https://github.com/sean-xiao-zhao7/ray#readme"
+}

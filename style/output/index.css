@@ -18,12 +18,34 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: [header-start] 10vh [header-end content-start] min-content [content-end];
-  grid-template-columns: [sidebar-start] 30vw [sidebar-end display-start] 70vw [display-end];
+  grid-template-rows: [header-start] 15vh [header-end content-start] 85vh [content-end];
+  grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 
 header {
   grid-column: sidebar-start/display-end;
+  font-size: 2rem;
+  background: linear-gradient(to right, white, whitesmoke);
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
 }
 
-/*# sourceMappingURL=index.css.map */
+#sidebar {
+  background-color: rgba(246, 246, 246, 0.562);
+}
+#sidebar .item-link {
+  font-size: 3rem;
+  display: flex;
+  padding: 3rem;
+  border-bottom: solid 1px rgba(221, 221, 221, 0.562);
+  transition: background-color 0.1s;
+}
+#sidebar .item-link:hover, #sidebar .item-link__clicked {
+  cursor: pointer;
+  background-color: white;
+}
+
+#display {
+  padding: 4rem 5rem;
+}

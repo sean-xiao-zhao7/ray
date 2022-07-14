@@ -1,0 +1,19 @@
+@import "../common/colors";
+
+#sidebar {
+    background-color: $gray1;
+
+    .item-link {
+        font-size: 3rem;
+        display: flex;
+        padding: 3rem;
+        border-bottom: solid 1px $gray2;
+        transition: background-color 0.1s;
+
+        &:hover,
+        &__clicked {
+            cursor: pointer;
+            background-color: white;
+        }
+    }
+}

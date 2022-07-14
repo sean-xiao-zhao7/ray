@@ -1,11 +1,12 @@
 class Artist {
-    constructor(firstname, lastname) {
+    constructor(firstname, lastname, nickname = "") {
         this.firstname = firstname;
         this.lastname = lastname;
+        this.nickname = ` (${nickname})`;
     }
 
     fullName() {
-        return this.firstname + " " + this.lastname;
+        return this.firstname + " " + this.lastname + this.nickname;
     }
 }
 

@@ -1,3 +1,9 @@
 header {
     grid-column: sidebar-start / display-end;
+
+    font-size: 2rem;
+    background: linear-gradient(to right, white, whitesmoke);
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
 }

@@ -3,7 +3,7 @@
 
 header {
     grid-column: sidebar-start / display-end;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: $fira;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.526), whitesmoke), url('../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg') top left/auto 100% no-repeat;
     display: flex;
@@ -12,7 +12,9 @@ header {
     justify-content: space-between;
 
     h1 {
-        font-weight: 400;
+        font-weight: 500;
+        letter-spacing: -1px;
+        font-family: $manrope;
     }
 
     #social {

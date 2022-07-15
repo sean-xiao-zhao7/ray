@@ -5,8 +5,9 @@
     background-color: $gray1;
 
     .item-link {
-        font-size: 2.5rem;
-        font-family: $fira;
+        font-size: 2.3rem;
+        font-family: $manrope;
+        font-weight: bold;
         display: flex;
         padding: 3rem;
         border-bottom: solid 1px $gray2;
@@ -16,6 +17,7 @@
         &__clicked {
             cursor: pointer;
             background-color: white;
+            color: $color-highlight;
         }
     }
 }

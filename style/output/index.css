@@ -24,7 +24,7 @@ body {
 
 header {
   grid-column: sidebar-start/display-end;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Fira Sans", sans-serif;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.526), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   display: flex;
@@ -33,7 +33,9 @@ header {
   justify-content: space-between;
 }
 header h1 {
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-family: "Manrope", sans-serif;
 }
 header #social {
   display: grid;
@@ -76,8 +78,9 @@ header #social a.fa-soundcloud {
   background-color: rgba(246, 246, 246, 0.562);
 }
 #sidebar .item-link {
-  font-size: 2.5rem;
-  font-family: "Fira Sans", sans-serif;
+  font-size: 2.3rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
   display: flex;
   padding: 3rem;
   border-bottom: solid 1px rgba(221, 221, 221, 0.562);
@@ -86,6 +89,7 @@ header #social a.fa-soundcloud {
 #sidebar .item-link:hover, #sidebar .item-link__clicked {
   cursor: pointer;
   background-color: white;
+  color: #a93838;
 }
 
 #display {
@@ -94,8 +98,8 @@ header #social a.fa-soundcloud {
 #display h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
 }
 #display .metadata {
   margin-top: 2rem;

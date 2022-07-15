@@ -1,5 +1,5 @@
 body {
     display: grid;
-    grid-template-rows: [header-start] 15vh [header-end content-start] 85vh [content-end];
+    grid-template-rows: [header-start] 15vh [header-end content-start] max-content [content-end];
     grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }

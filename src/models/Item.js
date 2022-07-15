@@ -1,5 +1,3 @@
-import Artist from "./Artist.js";
-
 class Item {
     constructor(title, links, images, collab = []) {
         this.title = title;
@@ -38,6 +36,8 @@ class Item {
         const youtube = document.createElement("iframe");
         youtube.src = this.links.youtube;
         youtube.allowfullscreen = true;
+        youtube.width = "100%";
+        youtube.height = "60%";
         youtube.allow =
             "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
         display.appendChild(youtube);

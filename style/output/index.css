@@ -18,7 +18,7 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: [header-start] 15vh [header-end content-start] 85vh [content-end];
+  grid-template-rows: [header-start] 15vh [header-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 
@@ -35,7 +35,7 @@ header {
   background-color: rgba(246, 246, 246, 0.562);
 }
 #sidebar .item-link {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   padding: 3rem;
   border-bottom: solid 1px rgba(221, 221, 221, 0.562);
@@ -48,4 +48,8 @@ header {
 
 #display {
   padding: 4rem 5rem;
+}
+#display h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }

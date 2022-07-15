@@ -1,8 +1,32 @@
+@import "../common/colors.scss";
+
 #display {
     padding: 4rem 5rem;
 
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
+    }
+
+    .metadata {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: solid 1px $gray2;
+        display: grid;
+        grid-template-columns: [heading-start]20%[heading-end body-start]80%[body-end];
+        grid-template-rows: repeat(6, min-content);
+        grid-row-gap: 1rem;
+
+        p {
+            font-size: 2rem;
+        }
+
+        .heading {
+            grid-column: heading-start / heading-end;
+        }
+
+        .body {
+            grid-column: body-start / body-end;
+        }
     }
 }

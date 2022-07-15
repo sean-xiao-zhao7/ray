@@ -1,4 +1,5 @@
 @import "../common/colors.scss";
+@import "../common/fonts.scss";
 
 #display {
     padding: 4rem 5rem;
@@ -6,6 +7,8 @@
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
+        font-family: $fira;
+        font-weight: 500;
     }
 
     .metadata {
@@ -19,6 +22,7 @@
 
         p {
             font-size: 2rem;
+            font-family: $fira;
         }
 
         .heading {

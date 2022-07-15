@@ -2,6 +2,15 @@ export const ray = {
     firstname: "Raymond",
     lastname: "Mowla",
     nickname: "Stylus",
+    social: {
+        instagram: "https://www.instagram.com/raymond.mowla.music/",
+        applemusic:
+            "https://music.apple.com/ca/artist/raymond-mowla/1476190204",
+        youtube: "https://www.youtube.com/channel/UCkLJVRMfX9REoIQUXf41xEA",
+        spotify: "https://open.spotify.com/artist/6tagqdfCHMk6oBnpDDdgvr",
+        soundcloud: "https://soundcloud.com/raymond-mowla",
+        shazam: "https://www.shazam.com/artist/raymond-mowla/1476190204",
+    },
 };
 
 export const playlistDATA = [

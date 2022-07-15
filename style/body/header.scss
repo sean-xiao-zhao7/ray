@@ -1,3 +1,5 @@
+@import "../common/colors.scss";
+
 header {
     grid-column: sidebar-start / display-end;
 
@@ -5,5 +7,51 @@ header {
     background: linear-gradient(to right, white, whitesmoke);
     display: flex;
     align-items: center;
-    padding-left: 5rem;
+    padding: 0 5rem;
+    justify-content: space-between;
+
+    #social {
+        display: grid;
+        grid-template-columns: repeat(6, min-content);
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 7px;
+            height: 100%;
+            color: black;
+            transition: background-color 0.1s;
+        }
+
+        a:before {
+            padding: 5px 7px;
+        }
+
+        a:hover {
+            background-color: $gray2;
+        }
+
+        a.fa-instagram {
+            color: $color-instagram;
+        }
+
+        a.fa-youtube {
+            color: $color-youtube;
+        }
+
+        a.fa-apple {
+            color: black;
+        }
+
+        a.fa-spotify {
+            color: $color-spotify;
+        }
+
+        a.fa-soundcloud {
+            color: orange;
+        }
+    }
 }

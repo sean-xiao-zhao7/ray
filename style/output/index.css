@@ -18,7 +18,7 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: [header-start] 15vh [header-end content-start] max-content [content-end];
+  grid-template-rows: [header-start] minmax(12rem, 17vh) [header-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 
@@ -28,7 +28,44 @@ header {
   background: linear-gradient(to right, white, whitesmoke);
   display: flex;
   align-items: center;
-  padding-left: 5rem;
+  padding: 0 5rem;
+  justify-content: space-between;
+}
+header #social {
+  display: grid;
+  grid-template-columns: repeat(6, min-content);
+}
+header #social a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 7px;
+  height: 100%;
+  color: black;
+  transition: background-color 0.1s;
+}
+header #social a:before {
+  padding: 5px 7px;
+}
+header #social a:hover {
+  background-color: rgba(221, 221, 221, 0.562);
+}
+header #social a.fa-instagram {
+  color: #e95950;
+}
+header #social a.fa-youtube {
+  color: #d14b4b;
+}
+header #social a.fa-apple {
+  color: black;
+}
+header #social a.fa-spotify {
+  color: #1DB954;
+}
+header #social a.fa-soundcloud {
+  color: orange;
 }
 
 #sidebar {

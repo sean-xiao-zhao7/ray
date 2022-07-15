@@ -25,6 +25,7 @@ class App {
         header.textContent = this.artist.fullName();
         document.title = this.artist.fullName();
         this.playlist.render();
+        this.playlist.playlist[0].render();
     }
 }
 

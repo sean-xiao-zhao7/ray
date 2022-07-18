@@ -94,7 +94,6 @@ class Item {
         const headingYear = document.createElement("p");
         headingYear.className = "heading";
         headingYear.textContent = "Year:";
-
         // for single track only
         let heading2, heading3, headingTracks;
         if (this.type === "single") {
@@ -114,9 +113,8 @@ class Item {
         const bodyYear = document.createElement("p");
         bodyYear.className = "body";
         bodyYear.textContent = this.year;
-
         // for single tracks only
-        let body2, body3;
+        let body2, body3, tracksBody;
         if (this.type === "single") {
             body2 = document.createElement("p");
             body2.className = "body";
@@ -124,8 +122,15 @@ class Item {
             body3 = document.createElement("p");
             body3.className = "body";
             body3.textContent = this.collab.replace(" ft.", "");
+        } else {
+            tracksBody = document.createElement("section");
+            this.tracks.forEach((track) => {
+                const trackEl = document.createElement("p");
+                trackEl.textContent = `${track.trackNum}. ${track.title}`;
+                tracksBody.appendChild(trackEl);
+            });
         }
-
+        // add elements to metadata container
         if (this.type === "single") {
             metadata.append(
                 heading2,
@@ -136,7 +141,7 @@ class Item {
                 body3
             );
         } else {
-            metadata.append(headingYear, bodyYear, headingTracks);
+            metadata.append(headingYear, bodyYear, headingTracks, tracksBody);
         }
 
         display.appendChild(metadata);

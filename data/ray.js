@@ -52,7 +52,17 @@ export const playlistDATA = [
         collab: [],
         year: "2022",
         type: "album",
-        tracks: [{ title: "TO BE ADDED", trackNum: 1 }],
+        tracks: [
+            { title: "The Distance Between Us", trackNum: 1 },
+            { title: "Exodus Four-Ten", trackNum: 2 },
+            { title: "Who Am I", trackNum: 3 },
+            { title: "Conqueror", trackNum: 4 },
+            { title: "A Night Away", trackNum: 5 },
+            { title: "Life Ain't Easy", trackNum: 6 },
+            { title: "Bleeding Heart", trackNum: 7 },
+            { title: "Not The Same Brute", trackNum: 8 },
+            { title: "We Need You", trackNum: 9 },
+        ],
     },
     {
         title: "The Seven Deadly Hymns",

@@ -75,6 +75,7 @@ class Item {
         const youtubeSocial = document.createElement("a");
         youtubeSocial.className = "fa fa-youtube fa-2x";
         youtubeSocial.target = "_blank";
+        youtubeSocial.href = this.links.youtube;
         const apple = document.createElement("a");
         apple.className = "fa fa-apple fa-2x";
         apple.target = "_blank";

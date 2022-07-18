@@ -34,6 +34,9 @@ class Item {
         // add title
         const h1 = document.createElement("h1");
         h1.textContent = this.title + this.collab + ` (${this.year})`;
+        if (this.type === "album") {
+            h1.textContent += " (Album)";
+        }
         display.appendChild(h1);
 
         // add youtube iframe
@@ -57,6 +60,32 @@ class Item {
             allowfullscreen
         ></iframe>;
         */
+
+        // add social buttons
+        // <a href="#" class="fa fa-instagram fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-youtube fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-apple fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-spotify fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-soundcloud fa-2x" target="_blank"></a>
+        const social = document.createElement("social");
+        social.className = "social";
+        const download = document.createElement("a");
+        download.className = "fa fa-download fa-2x";
+        download.target = "_blank";
+        const youtubeSocial = document.createElement("a");
+        youtubeSocial.className = "fa fa-youtube fa-2x";
+        youtubeSocial.target = "_blank";
+        const apple = document.createElement("a");
+        apple.className = "fa fa-apple fa-2x";
+        apple.target = "_blank";
+        const spotify = document.createElement("a");
+        spotify.className = "fa fa-spotify fa-2x";
+        spotify.target = "_blank";
+        const soundcloud = document.createElement("a");
+        soundcloud.className = "fa fa-soundcloud fa-2x";
+        soundcloud.target = "_blank";
+        social.append(download, youtubeSocial, apple, spotify, soundcloud);
+        display.appendChild(social);
 
         /* add metadata */
         // add headings
@@ -111,33 +140,6 @@ class Item {
         }
 
         display.appendChild(metadata);
-
-        // add social buttons
-        // <a href="#" class="fa fa-instagram fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-youtube fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-apple fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-spotify fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-soundcloud fa-2x" target="_blank"></a>
-        const social = document.createElement("social");
-        social.className = "social";
-        const download = document.createElement("a");
-        download.className = "fa fa-download fa-2x";
-        download.target = "_blank";
-        const youtubeSocial = document.createElement("a");
-        youtubeSocial.className = "fa fa-youtube fa-2x";
-        youtubeSocial.target = "_blank";
-        const apple = document.createElement("a");
-        apple.className = "fa fa-apple fa-2x";
-        apple.target = "_blank";
-        const spotify = document.createElement("a");
-        spotify.className = "fa fa-spotify fa-2x";
-        spotify.target = "_blank";
-        const soundcloud = document.createElement("a");
-        soundcloud.className = "fa fa-soundcloud fa-2x";
-        soundcloud.target = "_blank";
-        social.append(download, youtubeSocial, apple, spotify, soundcloud);
-
-        display.appendChild(social);
     }
 }
 

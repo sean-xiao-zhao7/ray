@@ -32,6 +32,9 @@ class Playlist {
             playlistItem.className = "item-link";
             const titleElement = document.createElement("span");
             titleElement.textContent = item.title;
+            if (item.type === "album") {
+                titleElement.textContent += " (Album)";
+            }
             playlistItem.appendChild(titleElement);
             playlistItem.addEventListener("click", () => {
                 const otherItems = document.querySelectorAll(

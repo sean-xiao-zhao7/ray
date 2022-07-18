@@ -24,7 +24,7 @@ body {
 
 #header-image {
   grid-column: sidebar-start/display-end;
-  background: linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), url(../../assets/images/saugatowers4.png);
+  background: linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), url(../../assets/images/saugatowersBW.png);
   background-size: 100% auto;
   background-position: top 0;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ header {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   display: flex;
   align-items: center;
-  padding: 0 5rem 0 15rem;
+  padding: 0 5rem 0 18rem;
   justify-content: space-between;
 }
 header h1 {

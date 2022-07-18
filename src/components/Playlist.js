@@ -17,7 +17,9 @@ class Playlist {
                 data.images,
                 data.collab,
                 data.album,
-                data.year
+                data.year,
+                data.type,
+                data.tracks
             );
             this.playlist.push(newItem);
         });

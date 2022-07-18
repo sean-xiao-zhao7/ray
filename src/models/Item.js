@@ -1,11 +1,22 @@
 class Item {
-    constructor(title, links, images, collab = [], album = {}, year = "") {
+    constructor(
+        title,
+        links,
+        images,
+        collab = [],
+        album = {},
+        year = "",
+        type = "single",
+        tracks = []
+    ) {
         this.title = title;
         this.links = links;
         this.images = images;
         this.collab = "";
         this.album = album;
         this.year = year;
+        this.type = type;
+        this.tracks = tracks;
 
         // get collabs
         if (collab.length > 0) {
@@ -51,73 +62,82 @@ class Item {
         // add headings
         const metadata = document.createElement("section");
         metadata.className = "metadata";
-        const heading1 = document.createElement("p");
-        heading1.className = "heading";
-        heading1.textContent = "Download:";
         const headingYear = document.createElement("p");
         headingYear.className = "heading";
         headingYear.textContent = "Year:";
-        const heading4 = document.createElement("p");
-        heading4.className = "heading";
-        heading4.textContent = "Spotify:";
-        const heading5 = document.createElement("p");
-        heading5.className = "heading";
-        heading5.textContent = "Soundcloud:";
-        const heading6 = document.createElement("p");
-        heading6.className = "heading";
-        heading6.textContent = "Apple Music:";
 
         // for single track only
-        const heading2 = document.createElement("p");
-        heading2.className = "heading";
-        heading2.textContent = "Album:";
-        const heading3 = document.createElement("p");
-        heading3.className = "heading";
-        heading3.textContent = "Featuring:";
+        let heading2, heading3, headingTracks;
+        if (this.type === "single") {
+            heading2 = document.createElement("p");
+            heading2.className = "heading";
+            heading2.textContent = "Album:";
+            heading3 = document.createElement("p");
+            heading3.className = "heading";
+            heading3.textContent = "Featuring:";
+        } else {
+            headingTracks = document.createElement("p");
+            headingTracks.className = "heading";
+            headingTracks.textContent = "Tracks:";
+        }
 
         // add bodies to headings
-        const body1 = document.createElement("p");
-        body1.className = "body";
-        body1.textContent = "Click to download";
         const bodyYear = document.createElement("p");
         bodyYear.className = "body";
         bodyYear.textContent = this.year;
-        const body4 = document.createElement("p");
-        body4.className = "body";
-        body4.textContent = this.links.spotify;
-        const body5 = document.createElement("p");
-        body5.className = "body";
-        body5.textContent = this.links.soundcloud;
-        const body6 = document.createElement("p");
-        body6.className = "body";
-        body6.textContent = this.links.apple;
 
         // for single tracks only
-        const body2 = document.createElement("p");
-        body2.className = "body";
-        body2.textContent = this.album.title;
-        const body3 = document.createElement("p");
-        body3.className = "body";
-        body3.textContent = this.collab.replace(" ft.", "");
+        let body2, body3;
+        if (this.type === "single") {
+            body2 = document.createElement("p");
+            body2.className = "body";
+            body2.textContent = this.album.title;
+            body3 = document.createElement("p");
+            body3.className = "body";
+            body3.textContent = this.collab.replace(" ft.", "");
+        }
 
-        metadata.append(
-            heading1,
-            body1,
-            heading2,
-            body2,
-            headingYear,
-            bodyYear,
-            heading3,
-            body3,
-            heading4,
-            body4,
-            heading5,
-            body5,
-            heading6,
-            body6
-        );
+        if (this.type === "single") {
+            metadata.append(
+                heading2,
+                body2,
+                headingYear,
+                bodyYear,
+                heading3,
+                body3
+            );
+        } else {
+            metadata.append(headingYear, bodyYear, headingTracks);
+        }
 
         display.appendChild(metadata);
+
+        // add social buttons
+        // <a href="#" class="fa fa-instagram fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-youtube fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-apple fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-spotify fa-2x" target="_blank"></a>
+        // <a href="#" class="fa fa-soundcloud fa-2x" target="_blank"></a>
+        const social = document.createElement("social");
+        social.className = "social";
+        const download = document.createElement("a");
+        download.className = "fa fa-download fa-2x";
+        download.target = "_blank";
+        const youtubeSocial = document.createElement("a");
+        youtubeSocial.className = "fa fa-youtube fa-2x";
+        youtubeSocial.target = "_blank";
+        const apple = document.createElement("a");
+        apple.className = "fa fa-apple fa-2x";
+        apple.target = "_blank";
+        const spotify = document.createElement("a");
+        spotify.className = "fa fa-spotify fa-2x";
+        spotify.target = "_blank";
+        const soundcloud = document.createElement("a");
+        soundcloud.className = "fa fa-soundcloud fa-2x";
+        soundcloud.target = "_blank";
+        social.append(download, youtubeSocial, apple, spotify, soundcloud);
+
+        display.appendChild(social);
     }
 }
 

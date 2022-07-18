@@ -17,7 +17,6 @@
         border-top: solid 1px $gray2;
         display: grid;
         grid-template-columns: [heading-start]20%[heading-end body-start]80%[body-end];
-        grid-template-rows: repeat(6, min-content);
         grid-row-gap: 1rem;
 
         p {
@@ -31,6 +30,42 @@
 
         .body {
             grid-column: body-start / body-end;
+        }
+    }
+
+    .social {
+        display: flex;
+        margin-top: 2rem;
+
+        a.fa-2x {
+            font-size: 4rem;
+            display: flex;
+            padding: 1rem;
+            color: white;
+            background-color: black;
+            margin-right: 1rem;
+            width: 8rem;
+            height: 8rem;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.1s;
+        }
+
+        a.fa-youtube {
+            background-color: $color-youtube;
+        }
+
+        a.fa-spotify {
+            background-color: $color-spotify;
+        }
+
+        a.fa-soundcloud {
+            background-color: $color-soundcloud;
+        }
+
+        a:hover {
+            cursor: pointer;
+            transform: translateY(-5px);
         }
     }
 }

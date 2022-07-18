@@ -47,21 +47,16 @@ class Item {
         ></iframe>;
         */
 
-        // add metadata
+        /* add metadata */
+        // add headings
         const metadata = document.createElement("section");
         metadata.className = "metadata";
         const heading1 = document.createElement("p");
         heading1.className = "heading";
         heading1.textContent = "Download:";
-        const heading2 = document.createElement("p");
-        heading2.className = "heading";
-        heading2.textContent = "Album:";
         const headingYear = document.createElement("p");
         headingYear.className = "heading";
         headingYear.textContent = "Year:";
-        const heading3 = document.createElement("p");
-        heading3.className = "heading";
-        heading3.textContent = "Featuring:";
         const heading4 = document.createElement("p");
         heading4.className = "heading";
         heading4.textContent = "Spotify:";
@@ -72,18 +67,21 @@ class Item {
         heading6.className = "heading";
         heading6.textContent = "Apple Music:";
 
+        // for single track only
+        const heading2 = document.createElement("p");
+        heading2.className = "heading";
+        heading2.textContent = "Album:";
+        const heading3 = document.createElement("p");
+        heading3.className = "heading";
+        heading3.textContent = "Featuring:";
+
+        // add bodies to headings
         const body1 = document.createElement("p");
         body1.className = "body";
         body1.textContent = "Click to download";
-        const body2 = document.createElement("p");
-        body2.className = "body";
-        body2.textContent = this.album.title;
         const bodyYear = document.createElement("p");
         bodyYear.className = "body";
         bodyYear.textContent = this.year;
-        const body3 = document.createElement("p");
-        body3.className = "body";
-        body3.textContent = this.collab.replace(" ft.", "");
         const body4 = document.createElement("p");
         body4.className = "body";
         body4.textContent = this.links.spotify;
@@ -93,6 +91,15 @@ class Item {
         const body6 = document.createElement("p");
         body6.className = "body";
         body6.textContent = this.links.apple;
+
+        // for single tracks only
+        const body2 = document.createElement("p");
+        body2.className = "body";
+        body2.textContent = this.album.title;
+        const body3 = document.createElement("p");
+        body3.className = "body";
+        body3.textContent = this.collab.replace(" ft.", "");
+
         metadata.append(
             heading1,
             body1,

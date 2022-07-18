@@ -18,15 +18,24 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: [header-start] minmax(12rem, 17vh) [header-end content-start] max-content [content-end];
+  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
+}
+
+#header-image {
+  grid-column: sidebar-start/display-end;
+  background: linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), url(../../assets/images/saugatowers4.png);
+  background-size: 100% auto;
+  background-position: top 0;
+  background-repeat: no-repeat;
+  overflow: visible;
 }
 
 header {
   grid-column: sidebar-start/display-end;
   font-size: 1.8rem;
   font-family: "Fira Sans", sans-serif;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.526), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   display: flex;
   align-items: center;
   padding: 0 5rem 0 15rem;

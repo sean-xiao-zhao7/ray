@@ -21,12 +21,17 @@ body {
   grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
+@media only screen and (max-width: 62.5em) {
+  body {
+    grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end content-start] max-content [content-end];
+  }
+}
 
 #header-image {
   grid-column: sidebar-start/display-end;
   background: linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), url(../../assets/images/saugatowersBW.png);
   background-size: 100% auto;
-  background-position: top 0;
+  background-position: 0 0;
   background-repeat: no-repeat;
   overflow: visible;
 }
@@ -40,6 +45,14 @@ header {
   align-items: center;
   padding: 0 5rem 0 18rem;
   justify-content: space-between;
+}
+@media only screen and (max-width: 62.5em) {
+  header {
+    flex-direction: column;
+    padding: 0%;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.779), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
+  }
 }
 header h1 {
   font-weight: 500;

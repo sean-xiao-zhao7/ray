@@ -1,5 +1,11 @@
+@import "../common/spacing-variables.scss";
+
 body {
     display: grid;
     grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end content-start] max-content [content-end];
     grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
+
+    @media only screen and (max-width: $bp-large) {
+        grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end content-start] max-content [content-end];
+    }
 }

@@ -164,11 +164,17 @@ header #social a.fa-soundcloud {
 }
 #display .metadata {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-top: 2rem;
   border-top: solid 1px rgba(221, 221, 221, 0.562);
   display: grid;
   grid-template-columns: [heading-start] 20% [heading-end body-start] 80% [body-end];
   grid-row-gap: 1rem;
+}
+@media only screen and (max-width: 62.5em) {
+  #display .metadata {
+    grid-template-columns: [heading-start] 30% [heading-end body-start] max-content [body-end];
+  }
 }
 #display .metadata p {
   font-size: 2rem;
@@ -184,6 +190,14 @@ header #social a.fa-soundcloud {
   display: flex;
   margin-top: 2rem;
 }
+@media only screen and (max-width: 62.5em) {
+  #display .social {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    grid-column-gap: 0.5rem;
+    justify-content: center;
+  }
+}
 #display .social a.fa-2x {
   font-size: 4rem;
   display: flex;
@@ -196,6 +210,14 @@ header #social a.fa-soundcloud {
   align-items: center;
   justify-content: center;
   transition: transform 0.1s;
+}
+@media only screen and (max-width: 62.5em) {
+  #display .social a.fa-2x {
+    margin: 0;
+    width: 7rem;
+    height: 7rem;
+    font-size: 4rem;
+  }
 }
 #display .social a.fa-youtube {
   background-color: #d14b4b;

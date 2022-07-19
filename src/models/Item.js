@@ -45,7 +45,7 @@ class Item {
         youtube.src = this.links.youtube;
         youtube.allowfullscreen = true;
         youtube.width = "100%";
-        youtube.height = "60%";
+        youtube.height = "500rem";
         youtube.allow =
             "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
         display.appendChild(youtube);

@@ -50,7 +50,7 @@ class Playlist {
 
                 // hide list on mobile
                 const hamburger = document.querySelector("#mobile-menu-toggle");
-                if (window.getComputedStyle(hamburger).display) {
+                if (window.getComputedStyle(hamburger).display !== "none") {
                     sidebar.style.display = "none";
                     hamburger.querySelector("span").textContent =
                         "See discography";

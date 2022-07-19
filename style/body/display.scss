@@ -4,6 +4,11 @@
 #display {
     padding: 4rem 5rem;
 
+    @media only screen and (max-width: $bp-large) {
+        grid-row: content-start / content-end;
+        grid-column: sidebar-start / display-end;
+    }
+
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;

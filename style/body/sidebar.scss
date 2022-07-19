@@ -4,6 +4,12 @@
 #sidebar {
     background-color: $gray1;
 
+    @media only screen and (max-width: $bp-large) {
+        grid-row: menu-start / menu-end;
+        grid-column: sidebar-start / display-end;
+        display: none;
+    }
+
     .item-link {
         font-size: 2.3rem;
         font-family: $manrope;
@@ -19,5 +25,27 @@
             background-color: white;
             color: $color-highlight;
         }
+    }
+}
+
+#mobile-menu-toggle {
+    font-family: $fira;
+    text-transform: uppercase;
+    display: none;
+
+    .fa-bars {
+        color: black;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 1rem;
+        border: 0;
+        background-color: $gray1;
+        padding: 2rem 0;
     }
 }

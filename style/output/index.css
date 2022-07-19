@@ -10,6 +10,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+html a {
+  text-decoration: none;
+}
 @media only screen and (max-width: 75em) {
   html {
     font-size: 50%;
@@ -23,7 +26,8 @@ body {
 }
 @media only screen and (max-width: 62.5em) {
   body {
-    grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end content-start] max-content [content-end];
+    grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end hamburger-start] max-content [hamburger-end menu-start] max-content [menu-end content-start] max-content [content-end];
+    grid-template-columns: [sidebar-start] 0 [sidebar-end display-start] 100% [display-end];
   }
 }
 
@@ -99,6 +103,13 @@ header #social a.fa-soundcloud {
 #sidebar {
   background-color: rgba(246, 246, 246, 0.562);
 }
+@media only screen and (max-width: 62.5em) {
+  #sidebar {
+    grid-row: menu-start/menu-end;
+    grid-column: sidebar-start/display-end;
+    display: none;
+  }
+}
 #sidebar .item-link {
   font-size: 2.3rem;
   font-family: "Manrope", sans-serif;
@@ -114,8 +125,36 @@ header #social a.fa-soundcloud {
   color: #a93838;
 }
 
+#mobile-menu-toggle {
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  display: none;
+}
+#mobile-menu-toggle .fa-bars {
+  color: black;
+}
+@media only screen and (max-width: 62.5em) {
+  #mobile-menu-toggle {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 1rem;
+    border: 0;
+    background-color: rgba(246, 246, 246, 0.562);
+    padding: 2rem 0;
+  }
+}
+
 #display {
   padding: 4rem 5rem;
+}
+@media only screen and (max-width: 62.5em) {
+  #display {
+    grid-row: content-start/content-end;
+    grid-column: sidebar-start/display-end;
+  }
 }
 #display h1 {
   font-size: 3rem;

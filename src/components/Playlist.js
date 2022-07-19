@@ -47,8 +47,29 @@ class Playlist {
                 }
                 playlistItem.classList.add("item-link__clicked");
                 item.render();
+
+                // hide list on mobile
+                const hamburger = document.querySelector("#mobile-menu-toggle");
+                if (window.getComputedStyle(hamburger).display) {
+                    sidebar.style.display = "none";
+                    hamburger.querySelector("span").textContent =
+                        "See discography";
+                }
             });
             sidebar.appendChild(playlistItem);
+        });
+        // bind mobile menu toggle
+        const hamburger = document.querySelector("#mobile-menu-toggle");
+        hamburger.addEventListener("click", (event) => {
+            event.preventDefault();
+            if (sidebar.style.display === "block") {
+                sidebar.style.display = "none";
+                hamburger.querySelector("span").textContent = "See discography";
+            } else {
+                sidebar.style.display = "block";
+                hamburger.querySelector("span").textContent =
+                    "Hide discography";
+            }
         });
     }
 }

@@ -10,7 +10,9 @@
 
     button {
         border: 0;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 50vw;
         font-family: $manrope;
         font-size: 2.3rem;
@@ -18,9 +20,24 @@
         text-transform: uppercase;
         padding: 3rem;
         background-color: $gray1;
+        transition: background-color 0.1s;
+
+        i {
+            display: inline-block;
+            margin-right: 0.5rem;
+            font-size: 3rem;
+            color: $color-instagram;
+            transition: transform 0.1s;
+        }
     }
 
     button:hover {
         cursor: pointer;
+        background-color: white;
+        box-shadow: $upshadow1;
+
+        i {
+            transform: translateY(-5px);
+        }
     }
 }

@@ -110,7 +110,9 @@ header #social a.fa-soundcloud {
 }
 #menu button {
   border: 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50vw;
   font-family: "Manrope", sans-serif;
   font-size: 2.3rem;
@@ -118,9 +120,22 @@ header #social a.fa-soundcloud {
   text-transform: uppercase;
   padding: 3rem;
   background-color: rgba(246, 246, 246, 0.562);
+  transition: background-color 0.1s;
+}
+#menu button i {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-size: 3rem;
+  color: #e95950;
+  transition: transform 0.1s;
 }
 #menu button:hover {
   cursor: pointer;
+  background-color: white;
+  box-shadow: 0 1px 4px 1px rgb(216, 216, 216) inset;
+}
+#menu button:hover i {
+  transform: translateY(-5px);
 }
 
 #sidebar {

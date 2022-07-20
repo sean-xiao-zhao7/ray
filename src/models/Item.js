@@ -62,28 +62,28 @@ class Item {
         */
 
         // add social buttons
-        // <a href="#" class="fa fa-instagram fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-youtube fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-apple fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-spotify fa-2x" target="_blank"></a>
-        // <a href="#" class="fa fa-soundcloud fa-2x" target="_blank"></a>
+        // <a href="#" class="fa-brands fa-instagram fa-2x" target="_blank"></a>
+        // <a href="#" class="fa-brands fa-youtube fa-2x" target="_blank"></a>
+        // <a href="#" class="fa-brands fa-apple fa-2x" target="_blank"></a>
+        // <a href="#" class="fa-brands fa-spotify fa-2x" target="_blank"></a>
+        // <a href="#" class="fa-brands fa-soundcloud fa-2x" target="_blank"></a>
         const social = document.createElement("social");
         social.className = "social";
         const download = document.createElement("a");
         download.className = "fa fa-download fa-2x";
         download.target = "_blank";
         const youtubeSocial = document.createElement("a");
-        youtubeSocial.className = "fa fa-youtube fa-2x";
+        youtubeSocial.className = "fa-brands fa-youtube fa-2x";
         youtubeSocial.target = "_blank";
         youtubeSocial.href = this.links.youtube;
         const apple = document.createElement("a");
-        apple.className = "fa fa-apple fa-2x";
+        apple.className = "fa-brands fa-apple fa-2x";
         apple.target = "_blank";
         const spotify = document.createElement("a");
-        spotify.className = "fa fa-spotify fa-2x";
+        spotify.className = "fa-brands fa-spotify fa-2x";
         spotify.target = "_blank";
         const soundcloud = document.createElement("a");
-        soundcloud.className = "fa fa-soundcloud fa-2x";
+        soundcloud.className = "fa-brands fa-soundcloud fa-2x";
         soundcloud.target = "_blank";
         social.append(download, youtubeSocial, apple, spotify, soundcloud);
         display.appendChild(social);

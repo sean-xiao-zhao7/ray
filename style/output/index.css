@@ -21,7 +21,7 @@ html a {
 
 body {
   display: grid;
-  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end content-start] max-content [content-end];
+  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 @media only screen and (max-width: 62.5em) {
@@ -49,6 +49,7 @@ header {
   align-items: center;
   padding: 0 5rem 0 18rem;
   justify-content: space-between;
+  box-shadow: 0 1px 4px 1px rgb(215, 215, 215);
 }
 @media only screen and (max-width: 62.5em) {
   header {
@@ -98,6 +99,28 @@ header #social a.fa-spotify {
 }
 header #social a.fa-soundcloud {
   color: orange;
+}
+
+#menu {
+  grid-column: sidebar-start/display-end;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  border-bottom: solid 1px rgba(221, 221, 221, 0.562);
+  box-shadow: 0 1px 4px 1px rgb(216, 216, 216) inset;
+}
+#menu button {
+  border: 0;
+  display: block;
+  width: 50vw;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 3rem;
+  background-color: rgba(246, 246, 246, 0.562);
+}
+#menu button:hover {
+  cursor: pointer;
 }
 
 #sidebar {

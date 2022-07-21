@@ -31,7 +31,8 @@
         }
     }
 
-    button:hover {
+    button:hover,
+    button.button-clicked {
         cursor: pointer;
         background-color: white;
         box-shadow: $upshadow1;

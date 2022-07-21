@@ -43,9 +43,13 @@ class App {
         const singlesButton = document.querySelector("button#singles");
         const albumsButton = document.querySelector("button#albums");
         singlesButton.addEventListener("click", () => {
+            singlesButton.classList.add("button-clicked");
+            albumsButton.classList.remove("button-clicked");
             this.playlist.switch("singles");
         });
         albumsButton.addEventListener("click", () => {
+            singlesButton.classList.remove("button-clicked");
+            albumsButton.classList.add("button-clicked");
             this.playlist.switch("albums");
         });
     }

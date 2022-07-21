@@ -129,13 +129,15 @@ header #social a.fa-soundcloud {
   color: #e95950;
   transition: transform 0.1s;
 }
-#menu button:hover {
+#menu button:hover,
+#menu button.button-clicked {
   cursor: pointer;
   background-color: white;
   box-shadow: 0 1px 4px 1px rgb(216, 216, 216) inset;
   color: #a93838;
 }
-#menu button:hover i {
+#menu button:hover i,
+#menu button.button-clicked i {
   transform: translateY(-5px);
 }
 

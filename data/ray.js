@@ -238,7 +238,7 @@ export const playlistDATA = [
             },
             {
                 title: "Rise Before You Fall",
-                links: { youtube: "https://www.youtube.com/embed/FC8Xm54sInM" },
+                links: { youtube: "https://www.youtube.com/embed/d4X_rrGbjYA" },
                 images: [],
                 collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
                 album: {
@@ -321,7 +321,7 @@ export const playlistDATA = [
             },
             {
                 title: "The Heart Of A Father",
-                links: { youtube: "https://www.youtube.com/embed/NHKeYfTzck" },
+                links: { youtube: "https://www.youtube.com/embed/-NHKeYfTzck" },
                 images: [],
                 collab: [],
                 album: { title: "The Redemption Album", link: "" },
@@ -437,7 +437,7 @@ export const playlistDATA = [
         tracks: [
             {
                 title: "The Chosen Few",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/fNsdE-DI6F0" },
                 images: [],
                 collab: [],
                 album: { title: "The 20/20 Album", link: "" },
@@ -473,7 +473,7 @@ export const playlistDATA = [
             },
             {
                 title: "Predestined",
-                links: { youtube: "https://www.youtube.com/embed/QDOErSGP4I" },
+                links: { youtube: "https://www.youtube.com/embed/-QDOErSGP4I" },
                 images: [],
                 collab: [],
                 album: { title: "The 20/20 Album", link: "" },

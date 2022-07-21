@@ -72,7 +72,7 @@ class Playlist {
             // set on click
             playlistItem.addEventListener("click", () => {
                 // if this item is an album, update list with album's tracks
-                if (item.type === "album") {
+                if (item.type === "album" && item.tracks.playlist.length > 0) {
                     item.tracks.render();
                     return;
                 }

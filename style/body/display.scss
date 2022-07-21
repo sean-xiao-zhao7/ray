@@ -16,6 +16,15 @@
         font-weight: bold;
     }
 
+    h2.album-title {
+        font-size: 2.2rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        font-family: $manrope;
+        font-weight: bold;
+        color: $color-highlight;
+    }
+
     .metadata {
         margin-top: 2rem;
         margin-bottom: 2rem;

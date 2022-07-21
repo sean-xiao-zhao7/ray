@@ -37,7 +37,6 @@ class App {
 
         // make playlist sidebar
         this.playlist.render();
-        this.playlist.playlist[0].render();
 
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");

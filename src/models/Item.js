@@ -1,4 +1,6 @@
 class Item {
+    playlistItem;
+
     constructor(
         title,
         links,
@@ -7,7 +9,8 @@ class Item {
         album = {},
         year = "",
         type = "single",
-        tracks = []
+        tracks = [],
+        trackNum = 0
     ) {
         this.title = title;
         this.links = links;
@@ -17,6 +20,7 @@ class Item {
         this.year = year;
         this.type = type;
         this.tracks = tracks;
+        this.trackNum = trackNum;
 
         // get collabs
         if (collab.length > 0) {
@@ -27,7 +31,21 @@ class Item {
         }
     }
 
+    setPlaylistItem(playlistItem) {
+        this.playlistItem = playlistItem;
+    }
+
     render() {
+        // highlight sidebar item
+        const otherItems = document.querySelectorAll(".item-link__clicked");
+        if (otherItems.length > 0) {
+            otherItems.forEach((oI) => {
+                oI.classList.remove("item-link__clicked");
+            });
+        }
+        this.playlistItem.classList.add("item-link__clicked");
+
+        // render main content
         const display = document.querySelector("#display");
         display.innerHTML = "";
 
@@ -38,6 +56,15 @@ class Item {
             h1.textContent += " (Album)";
         }
         display.appendChild(h1);
+
+        // add album title if exists
+        let albumTitle;
+        if (this.trackNum !== 0) {
+            albumTitle = document.createElement("h2");
+            albumTitle.classList.add("album-title");
+            albumTitle.textContent = this.album.title;
+            display.appendChild(albumTitle);
+        }
 
         // add youtube iframe
 

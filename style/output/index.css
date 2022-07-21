@@ -156,7 +156,7 @@ header #social a.fa-soundcloud {
   font-family: "Manrope", sans-serif;
   font-weight: bold;
   display: flex;
-  padding: 3rem;
+  padding: 3rem 0.5rem 3rem 2rem;
   border-bottom: solid 1px rgba(221, 221, 221, 0.562);
   transition: background-color 0.1s;
 }
@@ -202,6 +202,14 @@ header #social a.fa-soundcloud {
   margin-bottom: 2rem;
   font-family: "Manrope", sans-serif;
   font-weight: bold;
+}
+#display h2.album-title {
+  font-size: 2.2rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  color: #a93838;
 }
 #display .metadata {
   margin-top: 2rem;

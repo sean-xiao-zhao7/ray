@@ -4,14 +4,20 @@ class Playlist {
     #originalPlaylist = [];
     playlist = [];
 
-    constructor(playlist = []) {
+    constructor(playlist = [], isAlbum = false) {
         if (playlist.length > 0) {
             this.#makeModels(playlist);
         }
+        this.isAlbum = isAlbum;
     }
 
     #makeModels(playlist) {
         playlist.forEach((data) => {
+            // make album tracks playlist
+            let tracksPlaylist = [];
+            if (data.type === "album") {
+                tracksPlaylist = new Playlist(data.tracks, true);
+            }
             const newItem = new Item(
                 data.title,
                 data.links,
@@ -20,7 +26,8 @@ class Playlist {
                 data.album,
                 data.year,
                 data.type,
-                data.tracks
+                tracksPlaylist,
+                data.trackNum
             );
             this.playlist.push(newItem);
             this.#originalPlaylist.push(newItem);
@@ -50,23 +57,27 @@ class Playlist {
         sidebar.innerHTML = "";
         this.playlist.forEach((item) => {
             const playlistItem = document.createElement("section");
+            item.setPlaylistItem(playlistItem);
+
+            // set attributes
             playlistItem.className = "item-link";
             const titleElement = document.createElement("span");
-            titleElement.textContent = item.title;
+            const trackNum = this.isAlbum ? `${item.trackNum}. ` : "";
+            titleElement.textContent = `${trackNum}${item.title}`;
             if (item.type === "album") {
                 titleElement.textContent += " (Album)";
             }
             playlistItem.appendChild(titleElement);
+
+            // set on click
             playlistItem.addEventListener("click", () => {
-                const otherItems = document.querySelectorAll(
-                    ".item-link__clicked"
-                );
-                if (otherItems.length > 0) {
-                    otherItems.forEach((oI) => {
-                        oI.classList.remove("item-link__clicked");
-                    });
+                // if this item is an album, update list with album's tracks
+                if (item.type === "album") {
+                    item.tracks.render();
+                    return;
                 }
-                playlistItem.classList.add("item-link__clicked");
+
+                // if it's a single, show the content
                 item.render();
 
                 // hide list on mobile
@@ -77,8 +88,13 @@ class Playlist {
                         "See discography";
                 }
             });
+
             sidebar.appendChild(playlistItem);
         });
+
+        // show the first item in display
+        this.playlist[0].render();
+
         // bind mobile menu toggle
         const hamburger = document.querySelector("#mobile-menu-toggle");
         hamburger.addEventListener("click", (event) => {

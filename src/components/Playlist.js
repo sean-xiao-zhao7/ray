@@ -1,15 +1,16 @@
 import Item from "../models/Item.js";
 
 class Playlist {
+    #originalPlaylist = [];
     playlist = [];
 
     constructor(playlist = []) {
         if (playlist.length > 0) {
-            this.makeModels(playlist);
+            this.#makeModels(playlist);
         }
     }
 
-    makeModels(playlist) {
+    #makeModels(playlist) {
         playlist.forEach((data) => {
             const newItem = new Item(
                 data.title,
@@ -22,11 +23,31 @@ class Playlist {
                 data.tracks
             );
             this.playlist.push(newItem);
+            this.#originalPlaylist.push(newItem);
         });
+    }
+
+    switch(type) {
+        switch (type) {
+            case "singles":
+                this.playlist = this.#originalPlaylist.filter(
+                    (item) => item.type !== "album"
+                );
+                break;
+            case "albums":
+                this.playlist = this.#originalPlaylist.filter(
+                    (item) => item.type === "album"
+                );
+                break;
+            default:
+                break;
+        }
+        this.render();
     }
 
     render() {
         const sidebar = document.querySelector("#sidebar");
+        sidebar.innerHTML = "";
         this.playlist.forEach((item) => {
             const playlistItem = document.createElement("section");
             playlistItem.className = "item-link";

@@ -277,6 +277,12 @@ header #social a.fa-soundcloud {
 #display .social a.fa-soundcloud {
   background-color: orange;
 }
+#display .social a.fa-amazon {
+  background-color: orange;
+}
+#display .social a.fa-napster {
+  background-color: #0054a8;
+}
 #display .social a:hover {
   cursor: pointer;
   transform: translateY(-5px);

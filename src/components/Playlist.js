@@ -67,9 +67,9 @@ class Playlist {
             const titleElement = document.createElement("span");
             const trackNum = this.isAlbum ? `${item.trackNum}. ` : "";
             titleElement.textContent = `${trackNum}${item.title}`;
-            if (item.type === "album") {
-                titleElement.textContent += " (Album)";
-            }
+            // if (item.type === "album") {
+            //     titleElement.textContent += " (Album)";
+            // }
             playlistItem.appendChild(titleElement);
 
             // set on click

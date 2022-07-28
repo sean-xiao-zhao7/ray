@@ -51,7 +51,7 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/93GD28mBmU4" },
         images: [],
         collab: [{ firstname: "Sean", lastname: "Xiao", nickname: "" }],
-        album: { title: "TODO", link: "" },
+        album: {},
         year: "2022",
     },
     {
@@ -59,7 +59,7 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
         images: [],
         collab: [{ firstname: "Ariel", lastname: "Venner", nickname: "" }],
-        album: { title: "TODO", link: "" },
+        album: {},
         year: "2022",
     },
     {
@@ -67,7 +67,7 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/4jvbjBpHI6w" },
         images: [],
         collab: [],
-        album: { title: "TODO", link: "" },
+        album: {},
         year: "2022",
     },
     {
@@ -75,7 +75,7 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/E0dfs0zU0Jc" },
         images: [],
         collab: [],
-        album: { title: "TODO", link: "" },
+        album: {},
         year: "2022",
     },
     {
@@ -83,7 +83,7 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/v6KwmBTDwzQ" },
         images: [],
         collab: [],
-        album: { title: "TODO", link: "" },
+        album: {},
         year: "2021",
     },
     {
@@ -91,28 +91,52 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/NcnYUc_fggA" },
         images: [],
         collab: [],
-        album: { title: "TODO", link: "" },
+        album: {},
+        year: "2021",
+    },
+    {
+        title: "The Cry",
+        links: {
+            youtube: "https://www.youtube.com/embed/MALeUK8Rp8Y",
+            spotify: "https://open.spotify.com/album/3Ay35guXGsB0v1ugNWkTwN",
+            apple: "https://music.apple.com/us/album/the-cry-single/1588614061?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/us/album/263083592",
+            amazon: "https://www.amazon.com/dp/B09HPVS141",
+        },
+        images: [],
+        collab: [
+            { firstname: "Dani", lastname: "", nickname: '"V"' },
+            { firstname: "Kloud9", lastname: "", nickname: "Kloud9" },
+        ],
+        album: {},
         year: "2021",
     },
 
     // Ekklēsia
     {
         title: "Ekklēsia",
-        links: { youtube: "https://www.youtube.com/embed/9Jxz_infBUs" },
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/9Jxz_infBUs",
+            youtube:
+                "https://www.youtube.com/playlist?list=OLAK5uy_kun6s4kzTviAKiDB1MxeyO_lY2ojjnbNg",
+            apple: "https://music.apple.com/us/album/ekklesia/1626709098",
+            spotify: "https://open.spotify.com/album/1WHMJc8pwDWVIycushBuyZ",
+            deezer: "https://www.deezer.com/album/322929327",
+        },
         images: [],
         collab: [],
         year: "2022",
         type: "album",
         tracks: [
-            { title: "The Distance Between Us", trackNum: 1 },
-            { title: "Exodus Four-Ten", trackNum: 2 },
-            { title: "Who Am I", trackNum: 3 },
-            { title: "Conqueror", trackNum: 4 },
-            { title: "A Night Away", trackNum: 5 },
-            { title: "Life Ain't Easy", trackNum: 6 },
-            { title: "Bleeding Heart", trackNum: 7 },
-            { title: "Not The Same Brute", trackNum: 8 },
-            { title: "We Need You", trackNum: 9 },
+            // { title: "The Distance Between Us", trackNum: 1 },
+            // { title: "Exodus Four-Ten", trackNum: 2 },
+            // { title: "Who Am I", trackNum: 3 },
+            // { title: "Conqueror", trackNum: 4 },
+            // { title: "A Night Away", trackNum: 5 },
+            // { title: "Life Ain't Easy", trackNum: 6 },
+            // { title: "Bleeding Heart", trackNum: 7 },
+            // { title: "Not The Same Brute", trackNum: 8 },
+            // { title: "We Need You", trackNum: 9 },
         ],
     },
 
@@ -122,6 +146,9 @@ export const playlistDATA = [
         links: {
             youtube:
                 "https://www.youtube.com/embed/y6KNBIa-5w8&list=OLAK5uy_kD8e19cLNLgKlG44KE0XDSJErtc2L5qYI",
+            apple: "http://itunes.apple.com/album/id1615965202?ls=1&app=itunes",
+            spotify: "https://open.spotify.com/album/4C2F5IqkC0gA3RddJBq1DO",
+            deezer: "https://www.deezer.com/album/305555637",
         },
         images: [],
         collab: [],
@@ -218,6 +245,12 @@ export const playlistDATA = [
         title: "The Redemption Album",
         links: {
             youtube: "https://www.youtube.com/embed/Xluzsnu3fE0",
+            spotify: "https://open.spotify.com/album/5onyiPoT0KbcbfOFpfmH3z",
+            apple: "https://music.apple.com/us/album/the-redemption-album/1606536423",
+            amazon: "https://amazon.com/dp/B09QZ22M23",
+            deezer: "https://www.deezer.com/album/289738542",
+            napster:
+                "https://napster.com/artist/art.226792455/album/alb.300046255/track/tra.300046276",
         },
         images: [],
         collab: [],
@@ -290,63 +323,35 @@ export const playlistDATA = [
         ],
     },
 
-    // The Resurrection of Stylus
+    // The 20/20 Remix Album Ft Dj Christylz
     {
-        title: "The Resurrection of Stylus EP",
+        title: "The 20/20 Remix Album Ft. Dj Christylz",
         links: {
-            youtube: "https://www.youtube.com/embed/TlI1T_7C36A",
+            youtubeAlbum: "https://www.youtube.com/embed/kZrGHF-KL2M",
+            youtube: "https://www.youtube.com/watch?v=kZrGHF-KL2M",
+            hypeddit:
+                "https://hypeddit.com/stylus/the2020remixalbumftdjchristylz",
+            soundcloud:
+                "https://soundcloud.com/raymond-mowla/the-2020-remix-album-ft-dj-christylz?si=9b31720088dc45b69576e8cd9209c415&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+            download:
+                "https://hypeddit.com/stylus/the2020remixalbumftdjchristylz-1",
         },
         images: [],
         collab: [],
         year: "2021",
         type: "album",
-        tracks: [
-            {
-                title: "Dimensions",
-                links: { youtube: "https://www.youtube.com/embed/87AI4yZsBjY" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 1,
-            },
-            {
-                title: "Rise Before You Fall",
-                links: { youtube: "https://www.youtube.com/embed/d4X_rrGbjYA" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 2,
-            },
-            {
-                title: "Sword To The Storm",
-                links: { youtube: "https://www.youtube.com/embed/G5chakUnx2Q" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 3,
-            },
-        ],
+        tracks: [],
     },
 
-    // The 20/20 Remix Album Ft Dj Christylz
+    // THE LEGACY MIXTAPE
     {
-        title: "The 20/20 Remix Album Ft Dj Christylz",
+        title: "The Legacy Mixtape",
         links: {
-            youtube: "https://www.youtube.com/embed/kZrGHF-KL2M",
-            hypeddit:
-                "https://hypeddit.com/stylus/the2020remixalbumftdjchristylz",
+            youtubeAlbum: "https://www.youtube.com/embed/0-WUG3YjpeI",
+            youtube: "https://www.youtube.com/watch?v=0-WUG3YjpeI",
+            soundcloud:
+                "https://soundcloud.com/raymond-mowla/the-legacy-mixtape-2021?si=50405be924924e1fab7b5d26765e342e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+            download: "https://hypeddit.com/stylus/thelegacymixtape2021stylus",
         },
         images: [],
         collab: [],
@@ -424,11 +429,65 @@ export const playlistDATA = [
         ],
     },
 
+    // The Resurrection of Stylus
+    {
+        title: "The Resurrection of Stylus EP",
+        links: {
+            youtube: "https://www.youtube.com/embed/TlI1T_7C36A",
+        },
+        images: [],
+        collab: [],
+        year: "2021",
+        type: "album",
+        tracks: [
+            {
+                title: "Dimensions",
+                links: { youtube: "https://www.youtube.com/embed/87AI4yZsBjY" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 1,
+            },
+            {
+                title: "Rise Before You Fall",
+                links: { youtube: "https://www.youtube.com/embed/d4X_rrGbjYA" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 2,
+            },
+            {
+                title: "Sword To The Storm",
+                links: { youtube: "https://www.youtube.com/embed/G5chakUnx2Q" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 3,
+            },
+        ],
+    },
+
     // The 20/20 Album
     {
         title: "The 20/20 Album",
         links: {
             youtube: "https://www.youtube.com/embed/MPQWTnrgbCQ",
+            apple: "https://music.apple.com/ca/album/the-20-20-album/1538558866",
+            spotify: "https://open.spotify.com/album/5HTksU2gHCSrSqUDWUTNbh",
+            deezer: "https://www.deezer.com/us/album/184268852",
+            amazon: "https://music.amazon.com/albums/B08MY8FRV2?&do=play",
         },
         images: [],
         collab: [],
@@ -605,8 +664,7 @@ export const playlistDATA = [
             spotify: "https://open.spotify.com/track/6TxoKj45qiOsDO9iMyjQqo",
             apple: "https://music.apple.com/ca/album/the-speak-album/1535927197",
             soundcloud: "https://soundcloud.com/raymond-mowla/",
-            amazon: "https://music.amazon.com/albums/B08LB2P3PQ?&do=play",
-            deezer: "https://www.deezer.com/track/1111821482",
+            deezer: "https://www.deezer.com/us/album/180195382",
         },
         images: [],
         collab: [],

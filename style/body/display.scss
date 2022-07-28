@@ -96,6 +96,14 @@
             background-color: $color-soundcloud;
         }
 
+        a.fa-amazon {
+            background-color: $color-soundcloud;
+        }
+
+        a.fa-napster {
+            background-color: $color-napster;
+        }
+
         a:hover {
             cursor: pointer;
             transform: translateY(-5px);

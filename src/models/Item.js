@@ -25,14 +25,32 @@ class Item {
         // get collabs
         if (collab.length > 0) {
             this.collab = " ft.";
-            collab.forEach((artist) => {
-                this.collab += " " + artist.firstname + " " + artist.lastname;
+            collab.forEach((artist, index) => {
+                if (artist.nickname.length > 0) {
+                    this.collab += " " + artist.nickname;
+                } else {
+                    this.collab +=
+                        " " + artist.firstname + " " + artist.lastname;
+                }
+                if (index + 1 < collab.length) {
+                    this.collab += ", ";
+                }
             });
         }
     }
 
     setPlaylistItem(playlistItem) {
         this.playlistItem = playlistItem;
+    }
+
+    makeSocialButton(parent, social) {
+        if (this.links[social]) {
+            const socialButton = document.createElement("a");
+            socialButton.className = `fa-brands fa-${social} fa-2x`;
+            socialButton.target = "_blank";
+            socialButton.href = this.links[social];
+            parent.appendChild(socialButton);
+        }
     }
 
     render() {
@@ -102,23 +120,14 @@ class Item {
         const download = document.createElement("a");
         download.className = "fa fa-download fa-2x";
         download.target = "_blank";
-        const youtubeSocial = document.createElement("a");
-        youtubeSocial.className = "fa-brands fa-youtube fa-2x";
-        youtubeSocial.target = "_blank";
-        youtubeSocial.href = this.links.youtube;
-        const apple = document.createElement("a");
-        apple.className = "fa-brands fa-apple fa-2x";
-        apple.target = "_blank";
-        apple.href = this.links.apple;
-        const spotify = document.createElement("a");
-        spotify.className = "fa-brands fa-spotify fa-2x";
-        spotify.target = "_blank";
-        spotify.href = this.links.spotify;
-        const soundcloud = document.createElement("a");
-        soundcloud.className = "fa-brands fa-soundcloud fa-2x";
-        soundcloud.target = "_blank";
-        soundcloud.href = this.links.soundcloud;
-        social.append(download, youtubeSocial, apple, spotify, soundcloud);
+        social.appendChild(download);
+        this.makeSocialButton(social, "youtube");
+        this.makeSocialButton(social, "apple");
+        this.makeSocialButton(social, "spotify");
+        this.makeSocialButton(social, "soundcloud");
+        this.makeSocialButton(social, "amazon");
+        this.makeSocialButton(social, "deezer");
+        // this.makeSocialButton(social, "napster");
         display.appendChild(social);
 
         /* add metadata */
@@ -133,10 +142,19 @@ class Item {
         if (this.type === "single") {
             heading2 = document.createElement("p");
             heading2.className = "heading";
-            heading2.textContent = "Album:";
+            if (!this.album.title) {
+                heading2.textContent = "";
+            } else {
+                heading2.textContent = "Album:";
+            }
+
             heading3 = document.createElement("p");
             heading3.className = "heading";
-            heading3.textContent = "Featuring:";
+            if (this.collab) {
+                heading3.textContent = "Featuring:";
+            } else {
+                heading3.textContent = "";
+            }
         } else {
             headingTracks = document.createElement("p");
             headingTracks.className = "heading";

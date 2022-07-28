@@ -4,11 +4,12 @@ class Playlist {
     #originalPlaylist = [];
     playlist = [];
 
-    constructor(playlist = [], isAlbum = false) {
+    constructor(playlist = [], isAlbum = false, albumLinks = {}) {
+        this.isAlbum = isAlbum;
+        this.albumLinks = albumLinks;
         if (playlist.length > 0) {
             this.#makeModels(playlist);
         }
-        this.isAlbum = isAlbum;
     }
 
     #makeModels(playlist) {
@@ -16,11 +17,13 @@ class Playlist {
             // make album tracks playlist
             let tracksPlaylist = [];
             if (data.type === "album") {
-                tracksPlaylist = new Playlist(data.tracks, true);
+                tracksPlaylist = new Playlist(data.tracks, true, data.links);
             }
             const newItem = new Item(
                 data.title,
-                data.links,
+                this.isAlbum
+                    ? { ...this.albumLinks, ...data.links }
+                    : data.links,
                 data.images,
                 data.collab,
                 data.album,

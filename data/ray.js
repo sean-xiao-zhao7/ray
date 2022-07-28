@@ -213,56 +213,6 @@ export const playlistDATA = [
         ],
     },
 
-    // The Resurrection of Stylus
-    {
-        title: "The Resurrection of Stylus EP",
-        links: {
-            youtube: "https://www.youtube.com/embed/TlI1T_7C36A",
-        },
-        images: [],
-        collab: [],
-        year: "2021",
-        type: "album",
-        tracks: [
-            {
-                title: "Dimensions",
-                links: { youtube: "https://www.youtube.com/embed/87AI4yZsBjY" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 1,
-            },
-            {
-                title: "Rise Before You Fall",
-                links: { youtube: "https://www.youtube.com/embed/d4X_rrGbjYA" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 2,
-            },
-            {
-                title: "Sword To The Storm",
-                links: { youtube: "https://www.youtube.com/embed/G5chakUnx2Q" },
-                images: [],
-                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
-                album: {
-                    title: "The Resurrection of Stylus",
-                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
-                },
-                year: "2021",
-                trackNum: 3,
-            },
-        ],
-    },
-
     // The Redemption Album
     {
         title: "The Redemption Album",
@@ -336,6 +286,56 @@ export const playlistDATA = [
                 album: { title: "The Redemption Album", link: "" },
                 year: "2022",
                 trackNum: 7,
+            },
+        ],
+    },
+
+    // The Resurrection of Stylus
+    {
+        title: "The Resurrection of Stylus EP",
+        links: {
+            youtube: "https://www.youtube.com/embed/TlI1T_7C36A",
+        },
+        images: [],
+        collab: [],
+        year: "2021",
+        type: "album",
+        tracks: [
+            {
+                title: "Dimensions",
+                links: { youtube: "https://www.youtube.com/embed/87AI4yZsBjY" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 1,
+            },
+            {
+                title: "Rise Before You Fall",
+                links: { youtube: "https://www.youtube.com/embed/d4X_rrGbjYA" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 2,
+            },
+            {
+                title: "Sword To The Storm",
+                links: { youtube: "https://www.youtube.com/embed/G5chakUnx2Q" },
+                images: [],
+                collab: [{ firstname: "DANI", lastname: "", nickname: "V" }],
+                album: {
+                    title: "The Resurrection of Stylus",
+                    link: "https://www.youtube.com/embed/r8VSb2jxnCE",
+                },
+                year: "2021",
+                trackNum: 3,
             },
         ],
     },
@@ -584,7 +584,10 @@ export const playlistDATA = [
     {
         title: "The SPEAK Remix Album",
         links: {
-            youtube: "https://www.youtube.com/embed/nF5-0h2B_BM",
+            youtubeAlbum: "https://www.youtube.com/embed/nF5-0h2B_BM",
+            youtube: "https://www.youtube.com/watch?v=nF5-0h2B_BM",
+            soundcloud:
+                "https://soundcloud.com/raymond-mowla/the-speak-remix-album?si=1dc90057e09b4d41bfb39091caa6e187",
         },
         images: [],
         collab: [],
@@ -597,7 +600,13 @@ export const playlistDATA = [
     {
         title: "The SPEAK Album",
         links: {
-            youtube: "https://www.youtube.com/embed/_ayuoIQ3Nw4",
+            youtubeAlbum: "https://www.youtube.com/embed/_ayuoIQ3Nw4",
+            hypeddit: "https://hypeddit.com/jpdg4n",
+            spotify: "https://open.spotify.com/track/6TxoKj45qiOsDO9iMyjQqo",
+            apple: "https://music.apple.com/ca/album/the-speak-album/1535927197",
+            soundcloud: "https://soundcloud.com/raymond-mowla/",
+            amazon: "https://music.amazon.com/albums/B08LB2P3PQ?&do=play",
+            deezer: "https://www.deezer.com/track/1111821482",
         },
         images: [],
         collab: [],
@@ -672,7 +681,7 @@ export const playlistDATA = [
             },
             {
                 title: "Autonomy",
-                links: { youtube: "https://www.youtube.com/embed/PZ0FQp-4bs" },
+                links: { youtube: "https://www.youtube.com/embed/MyKQdKJBSBU" },
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },

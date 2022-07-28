@@ -69,7 +69,10 @@ class Item {
         // add youtube iframe
 
         const youtube = document.createElement("iframe");
-        youtube.src = this.links.youtube;
+        youtube.src =
+            this.type === "album"
+                ? this.links.youtubeAlbum
+                : this.links.youtube;
         youtube.allowfullscreen = true;
         youtube.width = "100%";
         youtube.height = "500rem";
@@ -106,12 +109,15 @@ class Item {
         const apple = document.createElement("a");
         apple.className = "fa-brands fa-apple fa-2x";
         apple.target = "_blank";
+        apple.href = this.links.apple;
         const spotify = document.createElement("a");
         spotify.className = "fa-brands fa-spotify fa-2x";
         spotify.target = "_blank";
+        spotify.href = this.links.spotify;
         const soundcloud = document.createElement("a");
         soundcloud.className = "fa-brands fa-soundcloud fa-2x";
         soundcloud.target = "_blank";
+        soundcloud.href = this.links.soundcloud;
         social.append(download, youtubeSocial, apple, spotify, soundcloud);
         display.appendChild(social);
 
@@ -150,7 +156,7 @@ class Item {
             body3 = document.createElement("p");
             body3.className = "body";
             body3.textContent = this.collab.replace(" ft.", "");
-        } else {
+        } else if (this.tracks.length > 0) {
             tracksBody = document.createElement("section");
             this.tracks.forEach((track) => {
                 const trackEl = document.createElement("p");
@@ -168,8 +174,10 @@ class Item {
                 heading3,
                 body3
             );
-        } else {
+        } else if (this.tracks.length > 0) {
             metadata.append(headingYear, bodyYear, headingTracks, tracksBody);
+        } else {
+            metadata.append(headingYear, bodyYear);
         }
 
         display.appendChild(metadata);

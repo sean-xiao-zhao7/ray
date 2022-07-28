@@ -366,6 +366,8 @@ export const playlistDATA = [
         links: {
             youtube: "https://www.youtube.com/embed/-jCtJnRG-go",
             hypeddit: "https://hypeddit.com/raymondmowla/thestreetstylinalbum",
+            spotify: "https://open.spotify.com/album/2olFZaJcPzxEGRd29m5px1",
+            deezer: "https://www.deezer.com/album/257694312",
         },
         images: [],
         collab: [],

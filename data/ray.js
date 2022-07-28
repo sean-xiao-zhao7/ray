@@ -376,7 +376,7 @@ export const playlistDATA = [
         tracks: [
             {
                 title: "Satan's Defeat",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },
@@ -385,7 +385,7 @@ export const playlistDATA = [
             },
             {
                 title: "Gully Intervention",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },
@@ -394,7 +394,7 @@ export const playlistDATA = [
             },
             {
                 title: "The Idol of Fear",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },
@@ -403,7 +403,7 @@ export const playlistDATA = [
             },
             {
                 title: "The Guests",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },
@@ -412,7 +412,7 @@ export const playlistDATA = [
             },
             {
                 title: "Vanity",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },
@@ -421,7 +421,7 @@ export const playlistDATA = [
             },
             {
                 title: "Street Life",
-                links: { youtube: "https://www.youtube.com/embed/3nhGqTUDVuk" },
+                links: { youtube: "https://www.youtube.com/embed/-jCtJnRG-go" },
                 images: [],
                 collab: [],
                 album: { title: "The StreetStylin' Album", link: "" },

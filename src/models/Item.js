@@ -43,10 +43,10 @@ class Item {
         this.playlistItem = playlistItem;
     }
 
-    makeSocialButton(parent, social) {
+    makeSocialButton(parent, social, faType='fa-brands') {
         if (this.links[social]) {
             const socialButton = document.createElement("a");
-            socialButton.className = `fa-brands fa-${social} fa-2x`;
+            socialButton.className = `${faType} fa-${social} fa-2x`;
             socialButton.target = "_blank";
             socialButton.href = this.links[social];
             parent.appendChild(socialButton);
@@ -117,10 +117,7 @@ class Item {
         // <a href="#" class="fa-brands fa-soundcloud fa-2x" target="_blank"></a>
         const social = document.createElement("social");
         social.className = "social";
-        const download = document.createElement("a");
-        download.className = "fa fa-download fa-2x";
-        download.target = "_blank";
-        social.appendChild(download);
+        this.makeSocialButton(social, "download", 'fa');
         this.makeSocialButton(social, "youtube");
         this.makeSocialButton(social, "apple");
         this.makeSocialButton(social, "spotify");

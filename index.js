@@ -57,6 +57,22 @@ class App {
                 sidebar.style.display = "block";
             }
         });
+
+        // update footer
+        const footer = document.querySelector("footer");
+        const footerP = document.createElement("p");
+        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${
+            ray.lastname
+        }. All rights reserved.`;
+        footer.appendChild(footerP);
+
+        footer.querySelector(".fa-instagram").href =
+            this.artist.social.instagram;
+        footer.querySelector(".fa-youtube").href = this.artist.social.youtube;
+        footer.querySelector(".fa-apple").href = this.artist.social.apple;
+        footer.querySelector(".fa-spotify").href = this.artist.social.spotify;
+        footer.querySelector(".fa-soundcloud").href =
+            this.artist.social.soundcloud;
     }
 }
 

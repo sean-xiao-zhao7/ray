@@ -1,0 +1,82 @@
+@import "../common/colors.scss";
+@import "../common/fonts.scss";
+
+footer {
+    min-height: 30vh;
+    grid-column: sidebar-start / display-end;
+    grid-column-gap: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.862), rgba(97, 97, 97, 0.922), rgba(0, 0, 0, 0.862)), url(../../assets/images/saugatowersBW.png);
+    background-position: 0 25%;
+    padding: 4rem 2rem 5rem 2rem;
+
+    img {
+        grid-row: 1 / 3;
+        grid-column: 1 / 2;
+        height: 13rem;
+        filter: drop-shadow(2px 3px 6px rgb(63, 63, 63))
+    }
+
+    p {
+        grid-column: 2 / 3;
+        font-size: 1.7rem;
+        font-family: $manrope;
+        color: white;
+        text-align: center;
+    }
+
+    #social {
+        grid-column: 2 / 3;
+        display: grid;
+        grid-template-columns: repeat(6, min-content);
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px;
+            height: 100%;
+            color: white;
+            transition: background-color 0.1s;
+            font-size: 3.5rem;
+        }
+
+        a:nth-child(1) {
+            font-family: $manrope;
+            font-size: 1.7rem;
+        }
+
+        a:before {
+            padding: 5px 7px;
+        }
+
+        a:hover {
+            background-color: $gray2;
+        }
+
+        a.fa-instagram {
+            color: $color-instagram;
+        }
+
+        a.fa-youtube {
+            color: $color-youtube;
+        }
+
+        a.fa-apple {
+            color: white;
+        }
+
+        a.fa-spotify {
+            color: $color-spotify;
+        }
+
+        a.fa-soundcloud {
+            color: orange;
+        }
+    }
+}

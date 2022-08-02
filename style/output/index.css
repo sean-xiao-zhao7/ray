@@ -13,7 +13,7 @@ html {
 html a {
   text-decoration: none;
 }
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 85em) {
   html {
     font-size: 50%;
   }
@@ -39,12 +39,17 @@ body {
   background-repeat: no-repeat;
   overflow: visible;
 }
+@media only screen and (max-width: 62.5em) {
+  #header-image {
+    background-position: 0 20%;
+  }
+}
 
 header {
   grid-column: sidebar-start/display-end;
   font-size: 1.8rem;
   font-family: "Fira Sans", sans-serif;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   display: flex;
   align-items: center;
   padding: 0 5rem 0 18rem;
@@ -56,7 +61,12 @@ header {
     flex-direction: column;
     padding: 0%;
     justify-content: center;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.779), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
+  }
+}
+@media only screen and (max-width: 45em) {
+  header {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   }
 }
 header h1 {
@@ -197,6 +207,11 @@ header #social a.fa-soundcloud {
     grid-column: sidebar-start/display-end;
   }
 }
+@media only screen and (max-width: 45em) {
+  #display {
+    padding: 3rem;
+  }
+}
 #display h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -244,7 +259,13 @@ header #social a.fa-soundcloud {
     display: grid;
     grid-template-columns: repeat(5, min-content);
     grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 45em) {
+  #display .social {
+    justify-content: left;
   }
 }
 #display .social a.fa-2x {

@@ -3,6 +3,7 @@ import Item from "../models/Item.js";
 class Playlist {
     #originalPlaylist = [];
     playlist = [];
+    length;
 
     constructor(playlist = [], isAlbum = false, albumLinks = {}) {
         this.isAlbum = isAlbum;
@@ -10,6 +11,7 @@ class Playlist {
         if (playlist.length > 0) {
             this.#makeModels(playlist);
         }
+        this.length = playlist.length;
     }
 
     #makeModels(playlist) {
@@ -82,7 +84,10 @@ class Playlist {
 
                 // if it's a single, show the content
                 item.render();
-                if (window.innerWidth < 800 && item.type !== "album") {
+                if (
+                    window.innerWidth < 850 &&
+                    (item.type !== "album" || item.tracks.length < 1)
+                ) {
                     sidebar.style.display = "none";
                 }
             });

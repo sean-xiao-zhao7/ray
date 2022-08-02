@@ -9,6 +9,10 @@
         grid-column: sidebar-start / display-end;
     }
 
+    @media only screen and (max-width: $bp-mid) {
+        padding: 3rem;
+    }
+
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -60,7 +64,12 @@
             display: grid;
             grid-template-columns: repeat(5, min-content);
             grid-column-gap: 0.5rem;
+            grid-row-gap: 0.5rem;
             justify-content: center;
+        }
+
+        @media only screen and (max-width: $bp-mid) {
+            justify-content: left;
         }
 
         a.fa-2x {

@@ -45,11 +45,17 @@ class App {
             singlesButton.classList.add("button-clicked");
             albumsButton.classList.remove("button-clicked");
             this.playlist.switch("singles");
+            if (sidebar.style.display !== "block") {
+                sidebar.style.display = "block";
+            }
         });
         albumsButton.addEventListener("click", () => {
             singlesButton.classList.remove("button-clicked");
             albumsButton.classList.add("button-clicked");
             this.playlist.switch("albums");
+            if (sidebar.style.display !== "block") {
+                sidebar.style.display = "block";
+            }
         });
     }
 }

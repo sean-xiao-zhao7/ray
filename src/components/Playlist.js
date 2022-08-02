@@ -82,13 +82,8 @@ class Playlist {
 
                 // if it's a single, show the content
                 item.render();
-
-                // hide list on mobile
-                const hamburger = document.querySelector("#mobile-menu-toggle");
-                if (window.getComputedStyle(hamburger).display !== "none") {
+                if (window.innerWidth < 800 && item.type !== "album") {
                     sidebar.style.display = "none";
-                    hamburger.querySelector("span").textContent =
-                        "See discography";
                 }
             });
 
@@ -97,20 +92,6 @@ class Playlist {
 
         // show the first item in display
         this.playlist[0].render();
-
-        // bind mobile menu toggle
-        const hamburger = document.querySelector("#mobile-menu-toggle");
-        hamburger.addEventListener("click", (event) => {
-            event.preventDefault();
-            if (sidebar.style.display === "block") {
-                sidebar.style.display = "none";
-                hamburger.querySelector("span").textContent = "See discography";
-            } else {
-                sidebar.style.display = "block";
-                hamburger.querySelector("span").textContent =
-                    "Hide discography";
-            }
-        });
     }
 }
 

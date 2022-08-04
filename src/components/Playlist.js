@@ -76,6 +76,10 @@ class Playlist {
 
             // set on click
             playlistItem.addEventListener("click", () => {
+                // scroll to top
+                const display = document.querySelector("#display");
+                display.scrollIntoView({ behavior: "smooth", block: "start" });
+
                 // if this item is an album, update list with album's tracks
                 if (item.type === "album" && item.tracks.playlist.length > 0) {
                     item.tracks.render();

@@ -812,7 +812,7 @@ export const playlistDATA = [
         },
         images: [],
         collab: [],
-        year: "2020",
+        year: "2019",
         type: "album",
         tracks: [
             {
@@ -825,7 +825,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 1,
             },
             {
@@ -838,7 +838,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [artists.tonisha],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 2,
             },
             {
@@ -851,7 +851,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [artists.justin],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 3,
             },
             {
@@ -864,7 +864,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 4,
             },
             {
@@ -877,7 +877,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 5,
             },
             {
@@ -890,7 +890,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 6,
             },
             {
@@ -903,7 +903,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 7,
             },
             {
@@ -914,9 +914,9 @@ export const playlistDATA = [
                         "https://drive.google.com/uc?id=1uy8qUXGLTk0-u5kKm7ybLTBxsBkcfpOJ&export=download",
                 },
                 images: [],
-                collab: [],
+                collab: [artists.tonisha],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 8,
             },
             {
@@ -929,7 +929,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 9,
             },
             {
@@ -942,7 +942,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 10,
             },
             {
@@ -955,7 +955,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [artists.tonisha],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 11,
             },
             {
@@ -968,7 +968,7 @@ export const playlistDATA = [
                 images: [],
                 collab: [],
                 album: { title: "The SPEAK Album", link: "" },
-                year: "2020",
+                year: "2019",
                 trackNum: 12,
             },
         ],

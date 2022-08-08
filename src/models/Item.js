@@ -43,7 +43,7 @@ class Item {
         this.playlistItem = playlistItem;
     }
 
-    makeSocialButton(parent, social, faType='fa-brands') {
+    makeSocialButton(parent, social, faType = "fa-brands") {
         if (this.links[social]) {
             const socialButton = document.createElement("a");
             socialButton.className = `${faType} fa-${social} fa-2x`;
@@ -94,6 +94,9 @@ class Item {
         youtube.allowfullscreen = true;
         youtube.width = "100%";
         youtube.height = "500rem";
+        if (window.innerWidth < 500) {
+            youtube.height = "300rem";
+        }
         youtube.allow =
             "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
         display.appendChild(youtube);
@@ -117,7 +120,7 @@ class Item {
         // <a href="#" class="fa-brands fa-soundcloud fa-2x" target="_blank"></a>
         const social = document.createElement("social");
         social.className = "social";
-        this.makeSocialButton(social, "download", 'fa');
+        this.makeSocialButton(social, "download", "fa");
         this.makeSocialButton(social, "youtube");
         this.makeSocialButton(social, "apple");
         this.makeSocialButton(social, "spotify");

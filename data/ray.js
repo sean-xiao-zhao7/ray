@@ -82,8 +82,6 @@ export const playlistDATA = [
         title: "Saving Grace",
         links: {
             youtube: "https://www.youtube.com/embed/4jvbjBpHI6w",
-            download:
-                "https://drive.google.com/uc?id=1u-6cTcYLiU3jvjgMmnqKJOlJ9zys2BeK&export=download",
         },
         images: [],
         collab: [],
@@ -94,8 +92,6 @@ export const playlistDATA = [
         title: "Son of Man",
         links: {
             youtube: "https://www.youtube.com/embed/E0dfs0zU0Jc",
-            download:
-                "https://drive.google.com/uc?id=1T5oEFLmJMXi9COiIeyy2NUn5wRWHwt_r&export=download",
         },
         images: [],
         collab: [],
@@ -106,8 +102,6 @@ export const playlistDATA = [
         title: "Street Logic",
         links: {
             youtube: "https://www.youtube.com/embed/v6KwmBTDwzQ",
-            download:
-                "https://drive.google.com/uc?id=1qEHbaOluzPUL_qN3z0kZqVFFVOVPjEDy&export=download",
         },
         images: [],
         collab: [],
@@ -118,8 +112,6 @@ export const playlistDATA = [
         title: "À la fin",
         links: {
             youtube: "https://www.youtube.com/embed/NcnYUc_fggA",
-            download:
-                "https://drive.google.com/uc?id=1wcHK2vmnHSph3wwRzKv-jqSCo0_ZxfAw&export=download",
         },
         images: [],
         collab: [],
@@ -134,8 +126,6 @@ export const playlistDATA = [
             apple: "https://music.apple.com/us/album/the-cry-single/1588614061?uo=4&app=itunes",
             deezer: "https://www.deezer.com/us/album/263083592",
             amazon: "https://www.amazon.com/dp/B09HPVS141",
-            download:
-                "https://drive.google.com/uc?id=1U6fN6GAOcDfQAsMI1Gq-_n7FzSsVesoH&export=download",
         },
         images: [],
         collab: [artists.dani, artists.kloud9],
@@ -146,8 +136,6 @@ export const playlistDATA = [
         title: "Surrender",
         links: {
             youtube: "https://www.youtube.com/embed/5yLmplUKC1c",
-            download:
-                "https://drive.google.com/uc?id=1ioaaHi1vqZkmw7mut2nq6GwBqE9Kj8sC&export=download",
         },
         images: [],
         collab: [],
@@ -158,8 +146,6 @@ export const playlistDATA = [
         title: "Triple Aces",
         links: {
             youtube: "https://www.youtube.com/embed/z54w5mxQvEU",
-            download:
-                "https://drive.google.com/uc?id=1MrkVwv4JMgck9-hpMgoKW_udxHrPgxpL&export=download",
         },
         images: [],
         collab: [artists.tamira],

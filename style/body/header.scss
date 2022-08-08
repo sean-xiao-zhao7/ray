@@ -8,6 +8,7 @@
     background-position: 0 0;
     background-repeat: no-repeat;
     overflow: visible;
+    position: sticky;
 
     @media only screen and (max-width: $bp-large) {
         background-position: 0 20%;

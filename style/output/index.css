@@ -21,7 +21,7 @@ html a {
 
 body {
   display: grid;
-  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
+  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] 20vh [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 @media only screen and (max-width: 62.5em) {
@@ -38,6 +38,7 @@ body {
   background-position: 0 0;
   background-repeat: no-repeat;
   overflow: visible;
+  position: sticky;
 }
 @media only screen and (max-width: 62.5em) {
   #header-image {
@@ -205,6 +206,12 @@ header #social a.fa-soundcloud {
 
 #display {
   padding: 4rem 5rem;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.94)), url(../../assets/images/saugatowersBW.png);
+  background-size: 100% auto;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: white;
 }
 @media only screen and (max-width: 62.5em) {
   #display {

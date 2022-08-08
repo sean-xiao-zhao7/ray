@@ -250,7 +250,7 @@ header #social a.fa-soundcloud {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding-top: 2rem;
-  border-top: solid 1px rgba(221, 221, 221, 0.562);
+  border-top: solid 1px rgba(180, 180, 180, 0.562);
   display: grid;
   grid-template-columns: [heading-start] 20% [heading-end body-start] 80% [body-end];
   grid-row-gap: 1rem;

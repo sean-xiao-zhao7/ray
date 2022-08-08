@@ -24,7 +24,7 @@ export const artists = {
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
-        nickname: "J. Rhythmatic",
+        nickname: "Justin Shaw",
     },
 };
 
@@ -169,15 +169,150 @@ export const playlistDATA = [
         year: "2022",
         type: "album",
         tracks: [
-            // { title: "The Distance Between Us", trackNum: 1 },
-            // { title: "Exodus Four-Ten", trackNum: 2 },
-            // { title: "Who Am I", trackNum: 3 },
-            // { title: "Conqueror", trackNum: 4 },
-            // { title: "A Night Away", trackNum: 5 },
-            // { title: "Life Ain't Easy", trackNum: 6 },
-            // { title: "Bleeding Heart", trackNum: 7 },
-            // { title: "Not The Same Brute", trackNum: 8 },
-            // { title: "We Need You", trackNum: 9 },
+            {
+                title: "The Distance Between Us",
+                links: {
+                    youtube: "https://www.youtube.com/embed/M9QvHs0rnPw",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.tamira],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 1,
+            },
+            {
+                title: "Exodus Four-Ten",
+                links: {
+                    youtube: "https://www.youtube.com/embed/3T_QtbRAZrw",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.rayon],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 2,
+            },
+            {
+                title: "Who Am I",
+                links: {
+                    youtube: "https://www.youtube.com/embed/LQPWj51N9MY",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.tonisha],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 3,
+            },
+            {
+                title: "Conqueror",
+                links: {
+                    youtube: "https://www.youtube.com/embed/CTDWuRXGXUI",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.tonisha],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 4,
+            },
+            {
+                title: "A Night Away",
+                links: {
+                    youtube: "https://www.youtube.com/embed/IYUwDcNNi3E",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.rayon],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 5,
+            },
+            {
+                title: "Life Ain't Easy",
+                links: {
+                    youtube: "https://www.youtube.com/embed/V9wjljkVZpI",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.justin],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 6,
+            },
+            {
+                title: "Bleeding Heart",
+                links: {
+                    youtube: "https://www.youtube.com/embed/6yFFlwOF1tk",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.dani, artists.kloud9],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 7,
+            },
+            {
+                title: "Not The Same Brute",
+                links: {
+                    youtube: "https://www.youtube.com/embed/aUOthabyL0k",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.sean],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 8,
+            },
+            {
+                title: "We Need You",
+                links: {
+                    youtube: "https://www.youtube.com/embed/JkxpFrr-4jk",
+                    download:
+                        "https://drive.google.com/uc?id=1_cvqmUK2wHWfWn9tKPcGzXYNC3mFl4E6&export=download",
+                },
+                images: [],
+                collab: [artists.rayon],
+                album: {
+                    title: "Ekklēsia",
+                    link: "https://www.youtube.com/embed/9Jxz_infBUs",
+                },
+                year: "2022",
+                trackNum: 9,
+            },
         ],
     },
 

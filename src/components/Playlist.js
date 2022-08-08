@@ -83,17 +83,15 @@ class Playlist {
                 // if this item is an album, update list with album's tracks
                 if (item.type === "album" && item.tracks.playlist.length > 0) {
                     item.tracks.render();
+                    display.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
                     return;
                 }
 
                 // if it's a single, show the content
                 item.render();
-                if (
-                    window.innerWidth < 850 &&
-                    (item.type !== "album" || item.tracks.length < 1)
-                ) {
-                    sidebar.style.display = "none";
-                }
             });
 
             sidebar.appendChild(playlistItem);

@@ -36,6 +36,10 @@ header {
         background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url('../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg') top left/auto 100% no-repeat;
     }
 
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1.2rem;
+    }
+
     h1 {
         font-weight: 500;
         letter-spacing: -1px;

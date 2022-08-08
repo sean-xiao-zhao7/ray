@@ -53,6 +53,8 @@ footer {
             display: flex;
             flex-direction: row;
             margin-bottom: 3rem;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         a {
@@ -76,6 +78,11 @@ footer {
         a:nth-child(1) {
             font-family: $manrope;
             font-size: 1.7rem;
+
+            @media only screen and (max-width: $bp-large) {
+                width: 100%;
+                text-align: center;
+            }
         }
 
         a:before {

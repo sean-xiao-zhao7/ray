@@ -21,7 +21,7 @@ html a {
 
 body {
   display: grid;
-  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] 20vh [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
+  grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
 }
 @media only screen and (max-width: 62.5em) {
@@ -57,17 +57,12 @@ header {
   justify-content: space-between;
   box-shadow: 0 1px 4px 1px rgb(215, 215, 215);
 }
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 45em) {
   header {
     flex-direction: column;
     padding: 0%;
     justify-content: center;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
-  }
-}
-@media only screen and (max-width: 45em) {
-  header {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url("../../assets/images/avatars-Lo9oruaAMvM5QsWL-0uJ23w-t500x500.jpg") top left/auto 100% no-repeat;
   }
 }
 @media only screen and (max-width: 22em) {
@@ -79,6 +74,17 @@ header h1 {
   font-weight: 500;
   letter-spacing: -1px;
   font-family: "Manrope", sans-serif;
+}
+@media only screen and (max-width: 62.5em) {
+  header h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 22em) {
+  header h1 {
+    font-size: 2.5rem;
+  }
 }
 header #social {
   display: grid;
@@ -207,7 +213,7 @@ header #social a.fa-soundcloud {
 #display {
   padding: 4rem 5rem;
   background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.94)), url(../../assets/images/saugatowersBW.png);
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -217,6 +223,8 @@ header #social a.fa-soundcloud {
   #display {
     grid-row: content-start/content-end;
     grid-column: sidebar-start/display-end;
+    background-size: auto 100%;
+    background-position: 50% 0;
   }
 }
 @media only screen and (max-width: 45em) {

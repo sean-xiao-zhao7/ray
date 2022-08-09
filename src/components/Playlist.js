@@ -45,19 +45,20 @@ class Playlist {
                 this.playlist = this.#originalPlaylist.filter(
                     (item) => item.type !== "album"
                 );
+                this.render();
                 break;
             case "albums":
                 this.playlist = this.#originalPlaylist.filter(
                     (item) => item.type === "album"
                 );
+                this.render(false);
                 break;
             default:
                 break;
         }
-        this.render();
     }
 
-    render() {
+    render(highlight = true) {
         const sidebar = document.querySelector("#sidebar");
         sidebar.innerHTML = "";
         this.playlist.forEach((item) => {
@@ -98,7 +99,7 @@ class Playlist {
         });
 
         // show the first item in display
-        this.playlist[0].render();
+        this.playlist[0].render(highlight);
     }
 }
 

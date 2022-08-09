@@ -53,15 +53,17 @@ class Item {
         }
     }
 
-    render() {
+    render(highlight = true) {
         // highlight sidebar item
-        const otherItems = document.querySelectorAll(".item-link__clicked");
-        if (otherItems.length > 0) {
-            otherItems.forEach((oI) => {
-                oI.classList.remove("item-link__clicked");
-            });
+        if (highlight) {
+            const otherItems = document.querySelectorAll(".item-link__clicked");
+            if (otherItems.length > 0) {
+                otherItems.forEach((oI) => {
+                    oI.classList.remove("item-link__clicked");
+                });
+            }
+            this.playlistItem.classList.add("item-link__clicked");
         }
-        this.playlistItem.classList.add("item-link__clicked");
 
         // render main content
         const display = document.querySelector("#display");
@@ -176,7 +178,7 @@ class Item {
             body3.textContent = this.collab.replace(" ft.", "");
         } else if (this.tracks.length > 0) {
             tracksBody = document.createElement("section");
-            this.tracks.forEach((track) => {
+            this.tracks.playlist.forEach((track) => {
                 const trackEl = document.createElement("p");
                 trackEl.textContent = `${track.trackNum}. ${track.title}`;
                 tracksBody.appendChild(trackEl);

@@ -212,8 +212,8 @@ header #social a.fa-soundcloud {
 
 #display {
   padding: 4rem 5rem;
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.94)), url(../../assets/images/saugatowersBW.png);
-  background-size: auto 100%;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.94)), url(../../assets/images/saugatowersBW.png);
+  background-size: 100vw auto;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -223,7 +223,6 @@ header #social a.fa-soundcloud {
   #display {
     grid-row: content-start/content-end;
     grid-column: sidebar-start/display-end;
-    background-size: auto 100%;
     background-position: 50% 0;
   }
 }

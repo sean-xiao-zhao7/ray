@@ -3,8 +3,8 @@
 
 #display {
     padding: 4rem 5rem;
-    background: linear-gradient(to bottom right, rgb(255 255 255 / 81%), rgb(255 255 255 / 94%)), url(../../assets/images/saugatowersBW.png);
-    background-size: auto 100%;
+    background: linear-gradient(to bottom right, rgb(255 255 255 / 90%), rgb(255 255 255 / 94%)), url(../../assets/images/saugatowersBW.png);
+    background-size: 100vw auto;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,6 @@
     @media only screen and (max-width: $bp-large) {
         grid-row: content-start / content-end;
         grid-column: sidebar-start / display-end;
-        background-size: auto 100%;
         background-position: 50% 0;
     }
 

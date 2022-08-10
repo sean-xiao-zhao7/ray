@@ -62,7 +62,7 @@ header {
     flex-direction: column;
     padding: 0%;
     justify-content: center;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url("../../assets/images/stylus.jpg") top left/auto 100% no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url("../../assets/images/stylus.jpg") top left/auto 100% no-repeat;
   }
 }
 @media only screen and (max-width: 22em) {
@@ -224,6 +224,7 @@ header #social a.fa-soundcloud {
     grid-row: content-start/content-end;
     grid-column: sidebar-start/display-end;
     background-position: 50% 0;
+    background-size: auto 100%;
   }
 }
 @media only screen and (max-width: 45em) {

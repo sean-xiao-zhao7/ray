@@ -13,6 +13,7 @@ export const ray = {
 };
 
 export const artists = {
+    bige: { firstname: "Big", lastname: "E", nickname: "Big E" },
     tone: { firstname: "Tone", lastname: "Avant", nickname: "Tone Avant" },
     tonisha: { firstname: "Tonisha", lastname: "Dumaresq", nickname: "" },
     rayon: { firstname: "Rayon", lastname: "Anthony", nickname: "" },
@@ -31,6 +32,52 @@ export const artists = {
 
 export const playlistDATA = [
     // singles
+    // {
+    //     title: "Lost Ones / Where Do I Go?",
+    //     links: {
+    //         youtube: "https://www.youtube.com/embed/ErWDgkyLfRw",
+    //         hypeddit: "https://hypeddit.com/stylus/strugglin",
+    //     },
+    //     images: [],
+    //     collab: [artists.bige, artists.justin, artists.kloud9, artists.tamira],
+    //     album: {},
+    //     year: "2022",
+    // },
+    {
+        title: "Strugglin'",
+        links: {
+            youtube: "https://www.youtube.com/embed/ErWDgkyLfRw",
+            hypeddit: "https://hypeddit.com/stylus/strugglin",
+        },
+        images: [],
+        collab: [artists.bige, artists.justin, artists.kloud9, artists.tamira],
+        album: {},
+        year: "2022",
+    },
+    {
+        title: "Curious Desires",
+        links: {
+            youtube: "https://www.youtube.com/embed/Z7k_1cs82jY",
+            hypeddit:
+                "https://hypeddit.com/stylusftrayonanthony/curiousdesires2022",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2022",
+    },
+    {
+        title: "Journeymen",
+        links: {
+            youtube: "https://www.youtube.com/embed/nJYFj8UHFQ8",
+            hypeddit:
+                "https://hypeddit.com/stylusftrayonanthony/journeymen2022",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2022",
+    },
     {
         title: "Is it me",
         links: {
@@ -47,6 +94,17 @@ export const playlistDATA = [
         links: { youtube: "https://www.youtube.com/embed/gYhCogfX0DU" },
         images: [],
         collab: [artists.tonisha],
+        album: {},
+        year: "2022",
+    },
+    {
+        title: "Soul Glory",
+        links: {
+            youtube: "https://www.youtube.com/embed/cepeV3WD1D4",
+            hypeddit: "https://hypeddit.com/featuringv/soulglory2022",
+        },
+        images: [],
+        collab: [artists.dani],
         album: {},
         year: "2022",
     },

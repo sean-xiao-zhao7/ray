@@ -13,6 +13,7 @@ export const ray = {
 };
 
 export const artists = {
+    tone: { firstname: "Tone", lastname: "Avant", nickname: "Tone Avant" },
     tonisha: { firstname: "Tonisha", lastname: "Dumaresq", nickname: "" },
     rayon: { firstname: "Rayon", lastname: "Anthony", nickname: "" },
     sean: { firstname: "Sean", lastname: "Xiao", nickname: "" },
@@ -24,12 +25,23 @@ export const artists = {
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
-        nickname: "Justin Shaw",
+        nickname: "J. Rhythmatic",
     },
 };
 
 export const playlistDATA = [
     // singles
+    {
+        title: "Is it me",
+        links: {
+            youtube: "https://www.youtube.com/embed/PSuswgjcAVU",
+            hypeddit: "https://hypeddit.com/toneavantftraymondmowla/isitme2022",
+        },
+        images: [],
+        collab: [artists.tone],
+        album: {},
+        year: "2022",
+    },
     {
         title: "Lightaz",
         links: { youtube: "https://www.youtube.com/embed/gYhCogfX0DU" },

@@ -93,7 +93,11 @@ export const playlistDATA = [
     },
     {
         title: "Lightaz",
-        links: { youtube: "https://www.youtube.com/embed/gYhCogfX0DU" },
+        links: {
+            youtube: "https://www.youtube.com/embed/gYhCogfX0DU",
+            hypeddit:
+                "https://hypeddit.com/stylusfttonishadumaresq/lightaz2022",
+        },
         images: [],
         collab: [artists.tonisha],
         album: {},

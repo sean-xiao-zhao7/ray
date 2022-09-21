@@ -9,6 +9,8 @@ export const ray = {
         spotify: "https://open.spotify.com/artist/6tagqdfCHMk6oBnpDDdgvr",
         soundcloud: "https://soundcloud.com/raymond-mowla",
         shazam: "https://www.shazam.com/artist/raymond-mowla/1476190204",
+        wordpress: "https://childofgodsgrace.wordpress.com/",
+        whatsapp: "https://wa.me/c/16476542279",
     },
 };
 

@@ -47,7 +47,7 @@
         grid-row-gap: 1rem;
 
         @media only screen and (max-width: $bp-large) {
-            grid-template-columns: [heading-start]30%[heading-end body-start]max-content[body-end];
+            grid-template-columns: [heading-start]30%[heading-end body-start] 1fr [body-end];
         }
 
         p {
@@ -119,6 +119,12 @@
 
         a.fa-napster {
             background-color: $color-napster;
+        }
+
+        a.fa-hypeddit {
+            background-color: $color-napster;
+            background-image: url(../../assets/icons/hypeddit.jpeg);
+            background-size: 100% 100%;
         }
 
         a:hover {

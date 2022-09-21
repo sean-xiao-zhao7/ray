@@ -54,7 +54,7 @@ header {
 
     #social {
         display: grid;
-        grid-template-columns: repeat(6, min-content);
+        grid-template-columns: repeat(7, min-content);
 
         a {
             display: flex;
@@ -94,6 +94,10 @@ header {
 
         a.fa-soundcloud {
             color: orange;
+        }
+
+        a.fa-whatsapp {
+            color: #2bb740;
         }
     }
 }

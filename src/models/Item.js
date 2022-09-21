@@ -49,14 +49,7 @@ class Item {
             socialButton.className = `${faType} fa-${social} fa-2x`;
             socialButton.target = "_blank";
             socialButton.href = this.links[social];
-
             parent.appendChild(socialButton);
-
-            if (social === "hypeddit") {
-                socialButton.style.backgroundImage =
-                    "url(../../assets/icons/hypeddit.jpeg)";
-                socialButton.style.backgroundSize = "8rem 8rem";
-            }
         }
     }
 

@@ -47,7 +47,7 @@ footer {
     #social {
         grid-column: 2 / 3;
         display: grid;
-        grid-template-columns: repeat(6, min-content);
+        grid-template-columns: repeat(7, min-content);
 
         @media only screen and (max-width: $bp-large) {
             display: flex;
@@ -72,16 +72,6 @@ footer {
             @media only screen and (max-width: $bp-large) {
                 height: auto;
                 padding: 5px;
-            }
-        }
-
-        a:nth-child(1) {
-            font-family: $manrope;
-            font-size: 1.7rem;
-
-            @media only screen and (max-width: $bp-large) {
-                width: 100%;
-                text-align: center;
             }
         }
 
@@ -111,6 +101,10 @@ footer {
 
         a.fa-soundcloud {
             color: orange;
+        }
+
+        a.fa-whatsapp {
+            color: #2bb740;
         }
     }
 }

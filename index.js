@@ -40,7 +40,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        this.playlist.render();
+        this.playlist.render(true);
 
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");

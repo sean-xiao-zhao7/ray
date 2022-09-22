@@ -57,6 +57,17 @@ export const playlistDATA = [
         year: "2022",
     },
     {
+        title: "Lost Ones",
+        links: {
+            youtube: "https://www.youtube.com/embed/99JIgt3s7pQ",
+            hypeddit: "https://hypeddit.com/stylusftrayon/lostones",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2022",
+    },
+    {
         title: "Curious Desires",
         links: {
             youtube: "https://www.youtube.com/embed/Z7k_1cs82jY",

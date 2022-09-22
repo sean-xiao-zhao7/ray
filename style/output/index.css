@@ -249,6 +249,11 @@ header #social a.fa-whatsapp {
   font-weight: bold;
   color: #a93838;
 }
+#display section#intro p {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  font-family: "Manrope", sans-serif;
+}
 #display .metadata {
   margin-top: 2rem;
   margin-bottom: 2rem;

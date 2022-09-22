@@ -99,7 +99,9 @@ class Playlist {
         });
 
         // show the first item in display
-        this.playlist[0].render(highlight);
+        if (highlight) {
+            this.playlist[0].render();
+        }
     }
 }
 

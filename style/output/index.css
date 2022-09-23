@@ -342,6 +342,10 @@ header #social a.fa-whatsapp {
   transform: translateY(-5px);
 }
 
+#intro-container {
+  display: none;
+}
+
 footer {
   min-height: 30vh;
   grid-column: sidebar-start/display-end;

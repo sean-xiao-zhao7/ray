@@ -43,7 +43,8 @@ class Playlist {
         switch (type) {
             case "singles":
                 this.playlist = this.#originalPlaylist.filter(
-                    (item) => item.type !== "album"
+                    (item) =>
+                        item.type !== "album" && item.type !== "video-album"
                 );
                 this.render();
                 break;

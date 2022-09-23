@@ -18,7 +18,7 @@ class Playlist {
         playlist.forEach((data) => {
             // make album tracks playlist
             let tracksPlaylist = [];
-            if (data.type === "album") {
+            if (data.type === "album" || data.type === "video-album") {
                 tracksPlaylist = new Playlist(data.tracks, true, data.links);
             }
             const newItem = new Item(
@@ -49,9 +49,10 @@ class Playlist {
                 break;
             case "albums":
                 this.playlist = this.#originalPlaylist.filter(
-                    (item) => item.type === "album"
+                    (item) =>
+                        item.type === "album" || item.type === "video-album"
                 );
-                this.render(false);
+                this.render();
                 break;
             default:
                 break;
@@ -70,9 +71,6 @@ class Playlist {
             const titleElement = document.createElement("span");
             const trackNum = this.isAlbum ? `${item.trackNum}. ` : "";
             titleElement.textContent = `${trackNum}${item.title}`;
-            // if (item.type === "album") {
-            //     titleElement.textContent += " (Album)";
-            // }
             playlistItem.appendChild(titleElement);
 
             // set on click

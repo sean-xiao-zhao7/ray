@@ -72,7 +72,7 @@ class Item {
         // add title
         const h1 = document.createElement("h1");
         h1.textContent = this.title + this.collab + ` (${this.year})`;
-        if (this.type === "album") {
+        if (this.type === "album" || this.type === "video-album") {
             h1.textContent += " (Album)";
         }
         display.appendChild(h1);

@@ -33,18 +33,6 @@ export const artists = {
 };
 
 export const playlistDATA = [
-    // singles
-    // {
-    //     title: "Lost Ones / Where Do I Go?",
-    //     links: {
-    //         youtube: "https://www.youtube.com/embed/ErWDgkyLfRw",
-    //         hypeddit: "https://hypeddit.com/stylus/strugglin",
-    //     },
-    //     images: [],
-    //     collab: [artists.bige, artists.justin, artists.kloud9, artists.tamira],
-    //     album: {},
-    //     year: "2022",
-    // },
     {
         title: "Strugglin'",
         links: {
@@ -238,6 +226,78 @@ export const playlistDATA = [
         collab: [artists.tamira],
         album: {},
         year: "2020",
+    },
+
+    // The Encounters Album
+    {
+        title: "The Encounters Album",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/watch?v=Jpw4lj04sjc",
+            youtube: "https://www.youtube.com/embed/Jpw4lj04sjc",
+            hypeddit: "https://hypeddit.com/stylus/the-encounters-album",
+        },
+        images: [],
+        collab: [artists.rayon],
+        year: "2022",
+        type: "video-album",
+        tracks: [
+            {
+                title: "Deep Encounters",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 1,
+            },
+            {
+                title: "Dreamin'",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 2,
+            },
+            {
+                title: "Perceptions",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 3,
+            },
+            {
+                title: "The One to Fight For",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 4,
+            },
+            {
+                title: "Feelin' you",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 5,
+            },
+            {
+                title: "Her",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 6,
+            },
+            {
+                title: "Friend's First",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 7,
+            },
+        ],
     },
 
     // Ekklēsia

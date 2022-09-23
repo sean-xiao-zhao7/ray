@@ -1,0 +1,28 @@
+@import "../common/colors.scss";
+@import "../common/fonts.scss";
+
+#intro-container,
+#credits-container {
+    display: none;
+}
+
+#intro,
+#credits {
+    ul {
+        list-style-position: inside;
+    }
+
+    p,
+    li {
+        font-size: 2.2rem;
+        font-family: $manrope;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+}

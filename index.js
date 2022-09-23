@@ -6,6 +6,7 @@ import { ray, playlistDATA } from "./data/ray.js";
 
 // components
 import Playlist from "./src/components/Playlist.js";
+import Page from "./src/components/Page.js";
 
 class App {
     artist;
@@ -80,6 +81,35 @@ class App {
         footer.querySelector(".fa-soundcloud").href =
             this.artist.social.soundcloud;
         footer.querySelector(".fa-whatsapp").href = this.artist.social.whatsapp;
+
+        // set up intro / credits pages
+        const introPage = new Page("#intro-container");
+        const introLink = document.querySelector("#header-intro-text-link");
+        introLink.addEventListener("click", (event) => {
+            event.preventDefault();
+            introPage.render();
+        });
+        const footerIntroLink = document.querySelector(
+            "#footer-intro-text-link"
+        );
+        footerIntroLink.addEventListener("click", (event) => {
+            event.preventDefault();
+            introPage.render();
+        });
+
+        const creditsPage = new Page("#credits-container");
+        const creditsLink = document.querySelector("#header-credits-text-link");
+        creditsLink.addEventListener("click", (event) => {
+            event.preventDefault();
+            creditsPage.render();
+        });
+        const footerCreditsLink = document.querySelector(
+            "#footer-credits-text-link"
+        );
+        footerCreditsLink.addEventListener("click", (event) => {
+            event.preventDefault();
+            creditsPage.render();
+        });
     }
 }
 

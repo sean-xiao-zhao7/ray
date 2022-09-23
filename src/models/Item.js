@@ -1,3 +1,5 @@
+import { resetSidebarColors } from "../helpers/sidebar.js";
+
 class Item {
     playlistItem;
 
@@ -56,12 +58,7 @@ class Item {
     render(highlight = true) {
         // highlight sidebar item
         if (highlight) {
-            const otherItems = document.querySelectorAll(".item-link__clicked");
-            if (otherItems.length > 0) {
-                otherItems.forEach((oI) => {
-                    oI.classList.remove("item-link__clicked");
-                });
-            }
+            resetSidebarColors();
             this.playlistItem.classList.add("item-link__clicked");
         }
 

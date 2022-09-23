@@ -44,8 +44,35 @@ footer {
         }
     }
 
-    #social {
+    #footer-links {
         grid-column: 2 / 3;
+        display: grid;
+        grid-template-rows: max-content min-content;
+        justify-items: center;
+    }
+
+    #footer-text-links {
+        justify-self: center;
+        font-size: 1.7rem;
+        font-family: $manrope;
+        font-size: 1.7rem;
+        color: white;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited,
+        a:active {
+            color: white
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    #social {
         display: grid;
         grid-template-columns: repeat(7, min-content);
 
@@ -53,7 +80,6 @@ footer {
             display: flex;
             flex-direction: row;
             margin-bottom: 3rem;
-            flex-wrap: wrap;
             justify-content: center;
         }
 
@@ -71,7 +97,7 @@ footer {
 
             @media only screen and (max-width: $bp-large) {
                 height: auto;
-                padding: 5px;
+                padding: 0px;
             }
         }
 

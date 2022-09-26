@@ -74,7 +74,7 @@ footer {
 
     #social {
         display: grid;
-        grid-template-columns: repeat(7, min-content);
+        grid-template-columns: repeat(6, min-content);
 
         @media only screen and (max-width: $bp-large) {
             display: flex;

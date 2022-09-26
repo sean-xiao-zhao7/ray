@@ -28,8 +28,6 @@ class App {
         header.textContent = this.artist.fullName();
         document.title = this.artist.fullName();
 
-        document.querySelector(".fa-wordpress").href =
-            this.artist.social.wordpress;
         document.querySelector(".fa-instagram").href =
             this.artist.social.instagram;
         document.querySelector(".fa-youtube").href = this.artist.social.youtube;
@@ -71,8 +69,6 @@ class App {
         }. All rights reserved.`;
         footer.appendChild(footerP);
 
-        footer.querySelector(".fa-wordpress").href =
-            this.artist.social.wordpress;
         footer.querySelector(".fa-instagram").href =
             this.artist.social.instagram;
         footer.querySelector(".fa-youtube").href = this.artist.social.youtube;

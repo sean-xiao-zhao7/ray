@@ -60,7 +60,7 @@ class Playlist {
         }
     }
 
-    render(highlight = true) {
+    render(highlight = "first") {
         const sidebar = document.querySelector("#sidebar");
         sidebar.innerHTML = "";
         this.playlist.forEach((item) => {
@@ -99,7 +99,14 @@ class Playlist {
 
         // show the first item in display
         if (highlight) {
-            this.playlist[0].render();
+            if (highlight === "first") {
+                this.playlist[0].render();
+            } else {
+                const item = this.playlist.filter(
+                    (item) => item.title === highlight
+                );
+                item[0].render();
+            }
         }
     }
 }

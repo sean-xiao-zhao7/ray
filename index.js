@@ -41,7 +41,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        this.playlist.render(true);
+        this.playlist.render("The Encounters Album");
 
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");

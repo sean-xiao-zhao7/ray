@@ -95,13 +95,12 @@ header #header-links {
 header #header-text-links {
   justify-self: center;
 }
-header #header-text-links a {
-  text-decoration: none;
-  font-family: "Manrope", sans-serif;
-}
+header #header-text-links a,
 header #header-text-links a:visited,
 header #header-text-links a:active {
-  color: inherit;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  color: black;
 }
 header #header-text-links a:hover {
   text-decoration: underline;

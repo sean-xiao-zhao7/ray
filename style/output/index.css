@@ -421,6 +421,7 @@ footer #footer-text-links {
 footer #footer-text-links a {
   text-decoration: none;
 }
+footer #footer-text-links a,
 footer #footer-text-links a:visited,
 footer #footer-text-links a:active {
   color: white;

@@ -56,6 +56,19 @@ export const playlistDATA = [
         year: "2022",
     },
     {
+        title: "Always",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/watch?v=JKDPcHsNJZ8",
+            youtube: "https://www.youtube.com/embed/JKDPcHsNJZ8",
+            hypeddit:
+                "https://hypeddit.com/tonishadumaresqftjrhythmatic/always",
+        },
+        images: [],
+        collab: [artists.tonisha, artists.justin],
+        album: {},
+        year: "2022",
+    },
+    {
         title: "Curious Desires",
         links: {
             youtube: "https://www.youtube.com/embed/Z7k_1cs82jY",

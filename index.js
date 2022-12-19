@@ -39,7 +39,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        this.playlist.render("The Encounters Album");
+        this.playlist.render("The Kingdom Come Album");
 
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");
@@ -60,6 +60,7 @@ class App {
                 sidebar.style.display = "block";
             }
         });
+        albumsButton.click();
 
         // update footer
         const footer = document.querySelector("footer");

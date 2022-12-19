@@ -241,6 +241,78 @@ export const playlistDATA = [
         year: "2020",
     },
 
+    // The Kingdom Come Album
+    {
+        title: "The Kingdom Come Album",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/watch?v=D8R3LWktGXw",
+            youtube: "https://www.youtube.com/embed/D8R3LWktGXw",
+            hypeddit: "https://hypeddit.com/stylusftrayonanthony/kingdomcome",
+        },
+        images: [],
+        collab: [artists.rayon],
+        year: "2022",
+        type: "video-album",
+        tracks: [
+            {
+                title: "Government",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 1,
+            },
+            {
+                title: "Alone",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 2,
+            },
+            {
+                title: "Music",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 3,
+            },
+            {
+                title: "G - Moves",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 4,
+            },
+            {
+                title: "Smile",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 5,
+            },
+            {
+                title: "Runaway",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 6,
+            },
+            {
+                title: "Spiralling Up",
+                links: {},
+                images: [],
+                collab: [],
+                year: "2022",
+                trackNum: 7,
+            },
+        ],
+    },
+
     // The Encounters Album
     {
         title: "The Encounters Album",

@@ -52,6 +52,10 @@ header {
         }
     }
 
+    #name {
+        text-align: center;
+    }
+
     #header-links {
         display: grid;
         grid-template-rows: 70% 30%;

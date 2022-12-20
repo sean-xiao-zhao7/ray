@@ -17,15 +17,18 @@ class App {
             artist.firstname,
             artist.lastname,
             artist.nickname,
-            artist.social
+            artist.social,
+            artist.shortDescription
         );
         this.playlist = new Playlist(playlist);
     }
 
     launch() {
         // make header contents
-        const header = document.querySelector("header h1");
-        header.textContent = this.artist.fullName();
+        const name = document.querySelector("header #name h1");
+        const shortDescription = document.querySelector("header #name span");
+        name.textContent = this.artist.fullName();
+        shortDescription.textContent = this.artist.shortDescription;
         document.title = this.artist.fullName();
 
         document.querySelector(".fa-instagram").href =

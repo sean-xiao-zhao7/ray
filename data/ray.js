@@ -12,6 +12,7 @@ export const ray = {
         wordpress: "https://childofgodsgrace.wordpress.com/",
         whatsapp: "https://wa.me/c/16476542279",
     },
+    shortDescription: "Author | Songwriter | Speaker | Artist",
 };
 
 export const artists = {

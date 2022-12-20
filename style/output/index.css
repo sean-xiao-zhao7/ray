@@ -63,7 +63,7 @@ header {
   header {
     flex-direction: column;
     padding: 3rem;
-    padding-top: 10rem;
+    padding-top: 25vw;
     justify-content: center;
     width: 100%;
   }
@@ -93,12 +93,13 @@ header #name {
   text-align: center;
 }
 header #header-avatar {
-  width: 200px;
+  width: 250px;
   height: auto;
-  border-radius: 200px;
+  border-radius: 250px;
   position: absolute;
-  left: 5rem;
-  top: -170px;
+  left: 10rem;
+  top: -210px;
+  filter: drop-shadow(2px 3px 6px rgb(63, 63, 63));
 }
 @media only screen and (max-width: 45em) {
   header #header-avatar {

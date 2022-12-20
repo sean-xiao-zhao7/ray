@@ -60,7 +60,12 @@ class App {
                 sidebar.style.display = "block";
             }
         });
-        albumsButton.click();
+
+        // show landing page song/item only on mobile
+        var w = window.innerWidth;
+        if (w > 1000) {
+            albumsButton.click();
+        }
 
         // update footer
         const footer = document.querySelector("footer");

@@ -9,7 +9,8 @@
     overflow: visible;
 
     @media only screen and (max-width: $bp-large) {
-        background-position: 0 20%;
+        background-size: 100% auto;
+        background-position-y: 70%;
     }
 }
 

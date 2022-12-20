@@ -44,7 +44,8 @@ body {
 }
 @media only screen and (max-width: 62.5em) {
   #header-image {
-    background-position: 0 20%;
+    background-size: 100% auto;
+    background-position-y: 70%;
   }
 }
 

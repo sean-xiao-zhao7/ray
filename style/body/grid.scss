@@ -9,4 +9,8 @@ body {
         grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end hamburger-start] max-content [hamburger-end menu-start] max-content [menu-end content-start] max-content [content-end];
         grid-template-columns: [sidebar-start] 0 [sidebar-end display-start] 100% [display-end];
     }
+
+    @media only screen and (max-width: $bp-mid) {
+        grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] max-content [header-end hamburger-start] max-content [hamburger-end menu-start] max-content [menu-end content-start] max-content [content-end];
+    }
 }

@@ -33,12 +33,9 @@ body {
 
 #header-image {
   grid-column: sidebar-start/display-end;
-  background: linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), url(../../assets/images/saugatowersBW.png);
-  background-size: 100% auto;
-  background-position: 0 0;
+  background: url(../../assets/images/saugatowersNew.jpg);
   background-repeat: no-repeat;
   overflow: visible;
-  position: sticky;
 }
 @media only screen and (max-width: 62.5em) {
   #header-image {

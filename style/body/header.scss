@@ -17,18 +17,21 @@ header {
     grid-column: sidebar-start / display-end;
     font-size: 1.8rem;
     font-family: $fira;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url('../../assets/images/stylus.jpg') top left/auto 100% no-repeat;
+    // background: url('../../assets/images/stylus2.jpg') top left/auto 100% no-repeat;
+    //linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke),
     display: flex;
     align-items: center;
-    padding: 0 5rem 0 18rem;
+    padding: 0 5rem;
     justify-content: space-between;
     box-shadow: $dropshadow1;
+    position: relative;
 
     @media only screen and (max-width: $bp-mid) {
         flex-direction: column;
         padding: 0%;
         justify-content: center;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url('../../assets/images/stylus.jpg') top left/auto 100% no-repeat;
+        // background: url('../../assets/images/stylus2.jpg') top left/auto 100% no-repeat;
+        //linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke),
     }
 
     @media only screen and (max-width: $bp-small) {
@@ -52,6 +55,16 @@ header {
 
     #name {
         text-align: center;
+
+    }
+
+    #header-avatar {
+        width: 200px;
+        height: auto;
+        border-radius: 200px;
+        position: absolute;
+        left: 5rem;
+        top: -170px;
     }
 
     #header-links {

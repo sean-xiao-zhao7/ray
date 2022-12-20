@@ -47,19 +47,18 @@ header {
   grid-column: sidebar-start/display-end;
   font-size: 1.8rem;
   font-family: "Fira Sans", sans-serif;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.179), whitesmoke), url("../../assets/images/stylus.jpg") top left/auto 100% no-repeat;
   display: flex;
   align-items: center;
-  padding: 0 5rem 0 18rem;
+  padding: 0 5rem;
   justify-content: space-between;
   box-shadow: 0 1px 4px 1px rgb(215, 215, 215);
+  position: relative;
 }
 @media only screen and (max-width: 45em) {
   header {
     flex-direction: column;
     padding: 0%;
     justify-content: center;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke), url("../../assets/images/stylus.jpg") top left/auto 100% no-repeat;
   }
 }
 @media only screen and (max-width: 22em) {
@@ -85,6 +84,14 @@ header h1 {
 }
 header #name {
   text-align: center;
+}
+header #header-avatar {
+  width: 200px;
+  height: auto;
+  border-radius: 200px;
+  position: absolute;
+  left: 5rem;
+  top: -170px;
 }
 header #header-links {
   display: grid;
@@ -386,6 +393,7 @@ footer img {
   grid-column: 1/2;
   height: 13rem;
   filter: drop-shadow(2px 3px 6px rgb(63, 63, 63));
+  border-radius: 50%;
 }
 @media only screen and (max-width: 62.5em) {
   footer img {

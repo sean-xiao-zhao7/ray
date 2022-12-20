@@ -26,7 +26,7 @@ body {
 }
 @media only screen and (max-width: 62.5em) {
   body {
-    grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] minmax(12rem, 15vh) [header-end hamburger-start] max-content [hamburger-end menu-start] max-content [menu-end content-start] max-content [content-end];
+    grid-template-rows: [headerimage-start] 15vh [headerimage-end header-start] max-content [header-end hamburger-start] max-content [hamburger-end menu-start] max-content [menu-end content-start] max-content [content-end];
     grid-template-columns: [sidebar-start] 0 [sidebar-end display-start] 100% [display-end];
   }
 }
@@ -59,13 +59,18 @@ header {
   box-shadow: 0 1px 4px 1px rgb(215, 215, 215);
   position: relative;
 }
+@media only screen and (max-width: 62.5em) {
+  header {
+    padding: 5rem;
+    padding-top: 12vw;
+  }
+}
 @media only screen and (max-width: 45em) {
   header {
     flex-direction: column;
     padding: 3rem;
     padding-top: 25vw;
     justify-content: center;
-    width: 100%;
   }
 }
 @media only screen and (max-width: 22em) {
@@ -101,11 +106,18 @@ header #header-avatar {
   top: -210px;
   filter: drop-shadow(2px 3px 6px rgb(63, 63, 63));
 }
+@media only screen and (max-width: 62.5em) {
+  header #header-avatar {
+    width: 20vw;
+    top: -10rem;
+    left: 40vw;
+  }
+}
 @media only screen and (max-width: 45em) {
   header #header-avatar {
-    width: 40vw;
-    top: -10rem;
-    left: 30vw;
+    width: 36vw;
+    top: -10vw;
+    left: 32vw;
   }
 }
 header #header-links {

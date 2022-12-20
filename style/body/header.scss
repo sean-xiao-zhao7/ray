@@ -26,12 +26,16 @@ header {
     box-shadow: $dropshadow1;
     position: relative;
 
+    @media only screen and (max-width: $bp-large) {
+        padding: 5rem;
+        padding-top: 12vw;
+    }
+
     @media only screen and (max-width: $bp-mid) {
         flex-direction: column;
         padding: 3rem;
         padding-top: 25vw;
         justify-content: center;
-        width: 100%;
         // background: url('../../assets/images/stylus2.jpg') top left/auto 100% no-repeat;
         // linear-gradient(to right, rgba(255, 255, 255, 0.8), whitesmoke),
     }
@@ -69,10 +73,16 @@ header {
         top: -210px;
         filter: drop-shadow(2px 3px 6px rgb(63, 63, 63));
 
-        @media only screen and (max-width: $bp-mid) {
-            width: 40vw;
+        @media only screen and (max-width: $bp-large) {
+            width: 20vw;
             top: -10rem;
-            left: 30vw;
+            left: 40vw;
+        }
+
+        @media only screen and (max-width: $bp-mid) {
+            width: 36vw;
+            top: -10vw;
+            left: 32vw;
         }
     }
 

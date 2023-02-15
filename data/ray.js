@@ -35,6 +35,17 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Close Call",
+        links: {
+            youtube: "https://www.youtube.com/embed/bOYNdjmxT4g",
+            hypeddit: "https://hypeddit.com/stylus/closecall2023",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Strugglin'",
         links: {
             youtube: "https://www.youtube.com/embed/ErWDgkyLfRw",

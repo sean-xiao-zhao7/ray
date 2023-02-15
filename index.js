@@ -42,7 +42,8 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        this.playlist.render("The Kingdom Come Album");
+        const highlight = "Close Call";
+        this.playlist.render(highlight);
 
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");
@@ -66,7 +67,7 @@ class App {
 
         // show landing page song/item only on mobile
         var w = window.innerWidth;
-        if (w > 1000) {
+        if (w > 1000 && !highlight) {
             albumsButton.click();
         }
 

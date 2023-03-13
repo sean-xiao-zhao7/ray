@@ -46,6 +46,18 @@ export const playlistDATA = [
         year: "2023",
     },
     {
+        title: "Glory!",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=KdNqVJgAsnc",
+            embed: "https://www.youtube.com/embed/KdNqVJgAsnc",
+            hypeddit: "https://hypeddit.com/stylus/glory2023",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Strugglin'",
         links: {
             youtube: "https://www.youtube.com/embed/ErWDgkyLfRw",

@@ -83,40 +83,27 @@ class Item {
             display.appendChild(albumTitle);
         }
 
-        // add youtube iframe
-
-        const youtube = document.createElement("iframe");
-        youtube.src =
-            this.type === "album"
-                ? this.links.youtubeAlbum
-                : this.links.youtube;
-        youtube.allowfullscreen = true;
-        youtube.width = "100%";
-        youtube.height = "500rem";
-        if (window.innerWidth < 500) {
-            youtube.height = "300rem";
+        // add embed iframe (main player)
+        const embedElement = document.createElement("iframe");
+        if (this.links.embed) {
+            embedElement.src = this.links.embed;
+        } else if (this.links.youtubeAlbum && this.type === "album") {
+            embedElement.src = this.links.youtubeAlbum;
+        } else {
+            embedElement.src = this.links.youtube;
         }
-        youtube.allow =
+        embedElement.allowfullscreen = true;
+        embedElement.width = "100%";
+        embedElement.height = "500rem";
+        if (window.innerWidth < 500) {
+            embedElement.height = "300rem";
+        }
+        embedElement.allow =
             "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-        display.appendChild(youtube);
-        /* example
-        <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/gYhCogfX0DU"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>;
-        */
+        embedElement.loading = "lazy";
+        display.appendChild(embedElement);
 
         // add social buttons
-        // <a href="#" class="fa-brands fa-instagram fa-2x" target="_blank"></a>
-        // <a href="#" class="fa-brands fa-youtube fa-2x" target="_blank"></a>
-        // <a href="#" class="fa-brands fa-apple fa-2x" target="_blank"></a>
-        // <a href="#" class="fa-brands fa-spotify fa-2x" target="_blank"></a>
-        // <a href="#" class="fa-brands fa-soundcloud fa-2x" target="_blank"></a>
         const social = document.createElement("social");
         social.className = "social";
         this.makeSocialButton(social, "download", "fa");
@@ -127,7 +114,6 @@ class Item {
         this.makeSocialButton(social, "amazon");
         this.makeSocialButton(social, "deezer");
         this.makeSocialButton(social, "hypeddit");
-        // this.makeSocialButton(social, "napster");
         display.appendChild(social);
 
         /* add metadata */

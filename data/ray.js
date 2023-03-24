@@ -26,6 +26,7 @@ export const artists = {
     kloud9: { firstname: "Kloud9", lastname: "", nickname: "Kloud9" },
     tamira: { firstname: "Tamira", lastname: "Roza", nickname: "" },
     suzka: { firstname: "Suzka", lastname: "", nickname: "Suzka" },
+    gina: { firstname: "Gina", lastname: "", nickname: "Gina" },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -138,6 +139,17 @@ export const playlistDATA = [
         collab: [artists.tone],
         album: {},
         year: "2022",
+    },
+    {
+        title: "Gina's Poem - Spoken Word",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=YOYTcu-pJ1A",
+            embed: "https://www.youtube.com/embed/YOYTcu-pJ1A",
+        },
+        images: [],
+        collab: [artists.gina],
+        album: {},
+        year: "2023",
     },
     {
         title: "Lightaz",

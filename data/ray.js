@@ -35,6 +35,18 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Calling You",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=2Z4cRIxJXuo",
+            embed: "https://www.youtube.com/embed/2Z4cRIxJXuo",
+            hypeddit: "https://hypeddit.com/stylusfttamiraroza/callingyou2023",
+        },
+        images: [],
+        collab: [artists.tamira],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Close Call",
         links: {
             youtube: "https://www.youtube.com/embed/bOYNdjmxT4g",

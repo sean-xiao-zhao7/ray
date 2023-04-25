@@ -27,6 +27,7 @@ export const artists = {
     tamira: { firstname: "Tamira", lastname: "Roza", nickname: "" },
     suzka: { firstname: "Suzka", lastname: "", nickname: "Suzka" },
     gina: { firstname: "Gina", lastname: "", nickname: "Gina" },
+    tmr: { firstname: "T.M.R.", nickname: "T.M.R." },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -35,6 +36,18 @@ export const artists = {
 };
 
 export const playlistDATA = [
+    {
+        title: "The Fruit of the Tree of Life",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=UFG4uw0UeMI",
+            embed: "https://www.youtube.com/embed/UFG4uw0UeMI",
+            hypeddit: "https://hypeddit.com/stylus/thefruitofthetreeoflife2023",
+        },
+        images: [],
+        collab: [artists.bige, artists.tmr, artists.justin],
+        album: {},
+        year: "2023",
+    },
     {
         title: "Calling You",
         links: {

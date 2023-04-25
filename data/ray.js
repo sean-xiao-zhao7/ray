@@ -37,6 +37,18 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "One Hundred",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=mUtoiF_Mv7A",
+            embed: "https://www.youtube.com/embed/mUtoiF_Mv7A",
+            hypeddit: "https://hypeddit.com/stylus/onehundred2023",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "The Fruit of the Tree of Life",
         links: {
             youtube: "https://www.youtube.com/watch?v=UFG4uw0UeMI",

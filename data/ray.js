@@ -37,6 +37,30 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Pressure",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=WL3OQuv7TVA",
+            embed: "https://www.youtube.com/embed/WL3OQuv7TVA",
+            hypeddit: "https://hypeddit.com/stylusftrayonanthony/pressure2023",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2023",
+    },
+    {
+        title: "Fiya Startahz",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=LP7ODbIGq1Y",
+            embed: "https://www.youtube.com/embed/LP7ODbIGq1Y",
+            hypeddit: "https://hypeddit.com/stylus/fiyastartahz2023",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "One Hundred",
         links: {
             youtube: "https://www.youtube.com/watch?v=mUtoiF_Mv7A",

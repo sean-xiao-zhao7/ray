@@ -37,6 +37,19 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Reality Check",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=yTcL4QVo5kk",
+            embed: "https://www.youtube.com/embed/yTcL4QVo5kk",
+            hypeddit:
+                "https://hypeddit.com/stylusftrayonanthony/realitycheck2023",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Pressure",
         links: {
             youtube: "https://www.youtube.com/watch?v=WL3OQuv7TVA",

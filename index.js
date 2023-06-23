@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        const highlight = "Reality Check";
+        const highlight = "Shottahz";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

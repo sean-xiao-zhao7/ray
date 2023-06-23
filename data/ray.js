@@ -37,6 +37,23 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Shottahz",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=_mdtF5ZiW74",
+            embed: "https://www.youtube.com/embed/_mdtF5ZiW74",
+            hypeddit: "https://hypeddit.com/stylus/shottahz2023",
+            spotify: "https://open.spotify.com/album/2IN99xye5OQTgSkEy6Kjmq",
+            apple: "https://music.apple.com/us/album/shottahz-feat-stylus/1693357650?i=1693357658",
+            deezer: "https://www.deezer.com/us/album/455339125",
+            amazon: "https://music.amazon.com/albums/B0C8P4HRNF",
+            download: "https://hypeddit.com/stylus/shottahz",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Reality Check",
         links: {
             youtube: "https://www.youtube.com/watch?v=yTcL4QVo5kk",

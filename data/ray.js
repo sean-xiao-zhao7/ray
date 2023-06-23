@@ -351,6 +351,125 @@ export const playlistDATA = [
         year: "2020",
     },
 
+    // Think Different Album
+    {
+        title: "Think Different",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/voQNXA9F5Og",
+            youtube: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+            hypeddit: "https://hypeddit.com/stylus/thinkdifferent2023",
+            spotify: "https://open.spotify.com/album/2tVCjd4libZwavGdFDqLGL",
+            apple: "https://music.apple.com/us/album/think-different/1693199774",
+            amazon: "https://music.amazon.com/albums/B0C8MQCJ41",
+            deezer: "https://www.deezer.com/us/album/454906615",
+        },
+        images: [],
+        collab: [artists.kloud9, artists.tamira, artists.rayon, artists.justin],
+        album: {},
+        year: "2023",
+        type: "album",
+        tracks: [
+            {
+                title: "Safe Space",
+                links: {
+                    youtube: "https://www.youtube.com/embed/yt4IFX-kW7g",
+                },
+                images: [],
+                collab: [artists.kloud9, artists.justin],
+                year: "2023",
+                trackNum: 1,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "Brighter Days",
+                links: {
+                    youtube: "https://www.youtube.com/embed/5nxTN4iQAvY",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2023",
+                trackNum: 2,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "Call To Action",
+                links: {
+                    youtube: "https://www.youtube.com/embed/cGEYlJXld1M",
+                },
+                images: [],
+                collab: [artists.kloud9],
+                year: "2023",
+                trackNum: 3,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "Spiritual Indictment",
+                links: {
+                    youtube: "https://www.youtube.com/embed/4sfTnKN_Sro",
+                },
+                images: [],
+                collab: [artists.tamira],
+                year: "2023",
+                trackNum: 4,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "Mortal Kombat",
+                links: {
+                    youtube: "https://www.youtube.com/embed/U6lPpaGkMfE",
+                },
+                images: [],
+                collab: [artists.justin, artists.kloud9],
+                year: "2023",
+                trackNum: 5,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "Warning",
+                links: {
+                    youtube: "https://www.youtube.com/embed/rcV_X0uqEp0",
+                },
+                images: [],
+                collab: [],
+                year: "2023",
+                trackNum: 6,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+            {
+                title: "All I Need",
+                links: {
+                    youtube: "https://www.youtube.com/embed/TvJc_Nt3bls",
+                },
+                images: [],
+                collab: [],
+                year: "2023",
+                trackNum: 7,
+                album: {
+                    title: "Think Different",
+                    link: "https://www.youtube.com/watch?v=voQNXA9F5Og",
+                },
+            },
+        ],
+    },
+
     // The Kingdom Come Album
     {
         title: "The Kingdom Come Album",

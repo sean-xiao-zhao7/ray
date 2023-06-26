@@ -40,6 +40,7 @@ body {
   grid-column: sidebar-start/display-end;
   background: url(../../assets/images/saugatowersNew.jpg);
   background-repeat: no-repeat;
+  background-size: 100% auto;
   overflow: visible;
 }
 @media only screen and (max-width: 62.5em) {

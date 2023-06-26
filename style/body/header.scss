@@ -6,6 +6,7 @@
     background: url(../../assets/images/saugatowersNew.jpg);
     //linear-gradient(to bottom right, rgba(242, 255, 0, 0.077), rgba(255, 0, 0, 0.071)), 
     background-repeat: no-repeat;
+    background-size: 100% auto;
     overflow: visible;
 
     @media only screen and (max-width: $bp-large) {

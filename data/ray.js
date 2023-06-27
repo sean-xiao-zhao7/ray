@@ -39,12 +39,12 @@ export const playlistDATA = [
     {
         title: "Shottahz",
         links: {
-            youtube: "https://www.youtube.com/watch?v=_mdtF5ZiW74",
-            embed: "https://www.youtube.com/embed/_mdtF5ZiW74",
+            youtube: "https://www.youtube.com/watch?v=9Xk2Ldlt1Fo",
+            embed: "https://www.youtube.com/embed/9Xk2Ldlt1Fo",
             hypeddit: "https://hypeddit.com/stylus/shottahz2023",
-            spotify: "https://open.spotify.com/album/2IN99xye5OQTgSkEy6Kjmq",
-            apple: "https://music.apple.com/us/album/shottahz-feat-stylus/1693357650?i=1693357658",
-            deezer: "https://www.deezer.com/us/album/455339125",
+            spotify: "https://open.spotify.com/album/3DEE8l5oqveMDq43rUEnWz",
+            apple: "https://music.apple.com/us/album/shottahz-feat-stylus/1694216939?i=1694216941",
+            deezer: "https://www.deezer.com/us/album/457426895",
             amazon: "https://music.amazon.com/albums/B0C8P4HRNF",
             download: "https://hypeddit.com/stylus/shottahz",
         },

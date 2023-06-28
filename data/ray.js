@@ -37,6 +37,23 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "InSight",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=ddAOiWn5nVk",
+            embed: "https://www.youtube.com/embed/ddAOiWn5nVk",
+            hypeddit: "https://hypeddit.com/stylus/insight2023",
+            spotify: "https://open.spotify.com/album/3jFuOnqA5HNGUYxkSE1oci",
+            apple: "https://music.apple.com/us/album/in-sight-feat-stylus/1694063507?i=1694063529&app=itunes",
+            deezer: "https://www.deezer.com/album/456974255",
+            amazon: "https://music.amazon.com/albums/B0C95B8HK8",
+            download: "https://hypeddit.com/stylus/insight2023-1",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Shottahz",
         links: {
             youtube: "https://www.youtube.com/watch?v=9Xk2Ldlt1Fo",

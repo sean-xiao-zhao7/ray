@@ -37,6 +37,22 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Back to You",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=b4reScwBbzw",
+            embed: "https://www.youtube.com/embed/b4reScwBbzw",
+            hypeddit: "https://hypeddit.com/stylusftv/backtoyou2023",
+            spotify: "https://open.spotify.com/album/2PeZvLNR5h4xTRgWwnOQ9d",
+            apple: "http://itunes.apple.com/album/id/1696937007",
+            deezer: "https://www.deezer.com/album/463232605",
+            download: "https://hypeddit.com/stylusftv/backtoyou",
+        },
+        images: [],
+        collab: [artists.dani],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "InSight",
         links: {
             youtube: "https://www.youtube.com/watch?v=ddAOiWn5nVk",

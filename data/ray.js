@@ -37,6 +37,22 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Dreamin' of You",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=22vVHD87zOc",
+            embed: "https://www.youtube.com/embed/22vVHD87zOc",
+            hypeddit: "https://hypeddit.com/tamiraandrayon/dreaminofyou2023",
+            spotify: "https://open.spotify.com/album/5zUG4nAPiT3Zv6K3Y1GxL5",
+            apple: "http://itunes.apple.com/album/id1698459824?ls=1&app=itunes",
+            deezer: "https://www.deezer.com/album/466608555",
+            amazon: "https://music.amazon.com/albums/B0CCD7JT73",
+        },
+        images: [],
+        collab: [artists.tamira, artists.rayon],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Back to You",
         links: {
             youtube: "https://www.youtube.com/watch?v=b4reScwBbzw",

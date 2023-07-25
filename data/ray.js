@@ -37,6 +37,21 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Lost at Sea",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=qYd5j4uZ5fw",
+            embed: "https://www.youtube.com/embed/qYd5j4uZ5fw",
+            hypeddit: "https://hypeddit.com/stylusftv/lostatsea2023",
+            spotify: "https://open.spotify.com/album/23mVf3BDzSAh7rjZBobYug",
+            apple: "http://itunes.apple.com/album/id/1698455861",
+            deezer: "https://www.deezer.com/album/466594685",
+        },
+        images: [],
+        collab: [artists.dani],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Dreamin' of You",
         links: {
             youtube: "https://www.youtube.com/watch?v=22vVHD87zOc",

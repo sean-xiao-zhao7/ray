@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        const highlight = "Dreamin' of You";
+        const highlight = "Lost at Sea";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

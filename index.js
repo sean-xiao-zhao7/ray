@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // make playlist sidebar
-        const highlight = "Lost at Sea";
+        const highlight = "The Code RED Album";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

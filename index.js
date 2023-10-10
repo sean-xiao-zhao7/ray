@@ -88,6 +88,7 @@ class App {
         footer.querySelector(".fa-soundcloud").href =
             this.artist.social.soundcloud;
         footer.querySelector(".fa-whatsapp").href = this.artist.social.whatsapp;
+        footer.querySelector(".fa-tiktok").href = this.artist.social.tiktok;
 
         // set up intro / credits pages
         const introPage = new Page("#intro-container");

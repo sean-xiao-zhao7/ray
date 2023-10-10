@@ -468,7 +468,7 @@ footer #footer-text-links a:hover {
 }
 footer #social {
   display: grid;
-  grid-template-columns: repeat(6, min-content);
+  grid-template-columns: repeat(7, min-content);
 }
 @media only screen and (max-width: 62.5em) {
   footer #social {

@@ -37,6 +37,21 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Rain On Me",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=9XoXbW7RJ9A",
+            embed: "https://www.youtube.com/embed/9XoXbW7RJ9A",
+            hypeddit: "https://hypeddit.com/featuringv/rainonme",
+            spotify: "https://open.spotify.com/album/5J53dmp4gUbv9OzBmSVAKv",
+            apple: "http://itunes.apple.com/album/id/1709969845",
+            deezer: "https://www.deezer.com/album/495205321",
+        },
+        images: [],
+        collab: [artists.dani, artists.ariel],
+        album: {},
+        year: "2023",
+    },
+    {
         title: "Lost at Sea",
         links: {
             youtube: "https://www.youtube.com/watch?v=qYd5j4uZ5fw",

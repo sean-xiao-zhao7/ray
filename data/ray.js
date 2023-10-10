@@ -11,6 +11,7 @@ export const ray = {
         shazam: "https://www.shazam.com/artist/raymond-mowla/1476190204",
         wordpress: "https://childofgodsgrace.wordpress.com/",
         whatsapp: "https://wa.me/c/16476542279",
+        tiktok: "https://www.tiktok.com/@raymond.mowla.music",
     },
     shortDescription: "Author | Songwriter | Speaker | Artist",
 };

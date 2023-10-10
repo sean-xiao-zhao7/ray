@@ -40,6 +40,7 @@ class App {
             this.artist.social.soundcloud;
         document.querySelector(".fa-whatsapp").href =
             this.artist.social.whatsapp;
+        document.querySelector(".fa-tiktok").href = this.artist.social.tiktok;
 
         // make playlist sidebar
         const highlight = "Rain On Me";

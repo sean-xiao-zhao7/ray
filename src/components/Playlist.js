@@ -55,6 +55,12 @@ class Playlist {
                 );
                 this.render();
                 break;
+            case "freestyles":
+                this.playlist = this.#originalPlaylist.filter(
+                    (item) => item.type === "freestyle"
+                );
+                this.render();
+                break;
             default:
                 break;
         }

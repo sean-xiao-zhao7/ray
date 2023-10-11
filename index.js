@@ -49,9 +49,11 @@ class App {
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");
         const albumsButton = document.querySelector("button#albums");
+        const freestylesButton = document.querySelector("button#freestyles");
         singlesButton.addEventListener("click", () => {
-            singlesButton.classList.add("button-clicked");
             albumsButton.classList.remove("button-clicked");
+            freestylesButton.classList.remove("button-clicked");
+            singlesButton.classList.add("button-clicked");
             this.playlist.switch("singles");
             if (sidebar.style.display !== "block") {
                 sidebar.style.display = "block";
@@ -59,8 +61,18 @@ class App {
         });
         albumsButton.addEventListener("click", () => {
             singlesButton.classList.remove("button-clicked");
+            freestylesButton.classList.remove("button-clicked");
             albumsButton.classList.add("button-clicked");
             this.playlist.switch("albums");
+            if (sidebar.style.display !== "block") {
+                sidebar.style.display = "block";
+            }
+        });
+        freestylesButton.addEventListener("click", () => {
+            singlesButton.classList.remove("button-clicked");
+            albumsButton.classList.remove("button-clicked");
+            freestylesButton.classList.add("button-clicked");
+            this.playlist.switch("freestyles");
             if (sidebar.style.display !== "block") {
                 sidebar.style.display = "block";
             }

@@ -44,7 +44,9 @@ class Playlist {
             case "singles":
                 this.playlist = this.#originalPlaylist.filter(
                     (item) =>
-                        item.type !== "album" && item.type !== "video-album"
+                        item.type !== "album" &&
+                        item.type !== "video-album" &&
+                        item.type !== "freestyle"
                 );
                 this.render();
                 break;

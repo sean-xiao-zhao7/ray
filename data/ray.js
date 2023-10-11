@@ -38,6 +38,18 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Fu Gee La",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=CU1OiyWoE2c",
+            embed: "https://www.youtube.com/embed/CU1OiyWoE2c",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Rain On Me",
         links: {
             youtube: "https://www.youtube.com/watch?v=9XoXbW7RJ9A",

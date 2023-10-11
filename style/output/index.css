@@ -189,7 +189,7 @@ header #social a.fa-whatsapp {
 #menu {
   grid-column: sidebar-start/display-end;
   display: grid;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(3, max-content);
   border-bottom: solid 1px rgba(221, 221, 221, 0.562);
   box-shadow: 0 1px 4px 1px rgb(216, 216, 216) inset;
 }
@@ -198,7 +198,7 @@ header #social a.fa-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50vw;
+  width: 33.33vw;
   font-family: "Manrope", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;

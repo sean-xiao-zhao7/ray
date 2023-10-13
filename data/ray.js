@@ -38,6 +38,18 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Shootouts",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=OX3O5DP1qq4",
+            embed: "https://www.youtube.com/embed/OX3O5DP1qq4",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Fu Gee La",
         links: {
             youtube: "https://www.youtube.com/watch?v=CU1OiyWoE2c",

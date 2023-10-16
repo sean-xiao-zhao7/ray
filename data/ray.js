@@ -38,6 +38,30 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Speechless",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MYqFyarAxIQ",
+            embed: "https://www.youtube.com/embed/MYqFyarAxIQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Hard Knock Life",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=l-Gw4qJj5YQ",
+            embed: "https://www.youtube.com/embed/l-Gw4qJj5YQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Shootouts",
         links: {
             youtube: "https://www.youtube.com/watch?v=OX3O5DP1qq4",

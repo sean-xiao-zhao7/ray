@@ -38,6 +38,54 @@ export const artists = {
 
 export const playlistDATA = [
     {
+        title: "Represent",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=5wFZALzHTyQ",
+            embed: "https://www.youtube.com/embed/5wFZALzHTyQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Affirmative Action",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=V-CiUrSE1tw",
+            embed: "https://www.youtube.com/embed/V-CiUrSE1tw",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Self Conscience",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=zEbnTdmcmzQ",
+            embed: "https://www.youtube.com/embed/zEbnTdmcmzQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "I Gave You Power",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=LSfrsKg3hIw",
+            embed: "https://www.youtube.com/embed/LSfrsKg3hIw",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Speechless",
         links: {
             youtube: "https://www.youtube.com/watch?v=MYqFyarAxIQ",

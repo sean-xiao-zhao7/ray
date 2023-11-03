@@ -43,7 +43,7 @@ class App {
         document.querySelector(".fa-tiktok").href = this.artist.social.tiktok;
 
         // make playlist sidebar
-        const highlight = "Rain On Me";
+        const highlight = "Daywalkers";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

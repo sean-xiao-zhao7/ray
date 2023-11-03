@@ -37,6 +37,20 @@ export const artists = {
 };
 
 export const playlistDATA = [
+    // freestyles
+
+    {
+        title: "Take It In Blood",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=r2mwPskmBxk",
+            embed: "https://www.youtube.com/embed/r2mwPskmBxk",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
     {
         title: "Represent",
         links: {
@@ -131,6 +145,36 @@ export const playlistDATA = [
         collab: [],
         album: {},
         type: "freestyle",
+        year: "2023",
+    },
+
+    // singles
+
+    {
+        title: "Reminiscin'",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=UKbNSLrMHw8",
+            embed: "https://www.youtube.com/embed/UKbNSLrMHw8",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2023",
+    },
+    {
+        title: "Daywalkers",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=ED8FDYCYndM",
+            embed: "https://www.youtube.com/embed/ED8FDYCYndM",
+            hypeddit: "https://hypeddit.com/styluskloud9/daywalkers2023",
+            spotify: "https://open.spotify.com/album/35GCkXlBPepLTctXjvb795",
+            apple: "http://itunes.apple.com/album/id/1714577141",
+            deezer: "https://www.deezer.com/album/507457141",
+            download: "https://hypeddit.com/daywalkers2023/styluskloud9",
+        },
+        images: [],
+        collab: [artists.kloud9],
+        album: {},
         year: "2023",
     },
     {

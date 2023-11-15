@@ -40,6 +40,18 @@ export const playlistDATA = [
     // freestyles
 
     {
+        title: "The Message",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=rAyDGupl-Wo",
+            embed: "https://www.youtube.com/embed/rAyDGupl-Wo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Take It In Blood",
         links: {
             youtube: "https://www.youtube.com/watch?v=r2mwPskmBxk",

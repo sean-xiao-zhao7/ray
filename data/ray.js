@@ -38,7 +38,18 @@ export const artists = {
 
 export const playlistDATA = [
     // freestyles
-
+    {
+        title: "Symphony",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=Y9aKAJqZ1zE",
+            embed: "https://www.youtube.com/embed/Y9aKAJqZ1zE",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
     {
         title: "The Message",
         links: {

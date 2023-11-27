@@ -39,6 +39,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Players Anthem",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=bvt06BIUBgI",
+            embed: "https://www.youtube.com/embed/bvt06BIUBgI",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Symphony",
         links: {
             youtube: "https://www.youtube.com/watch?v=Y9aKAJqZ1zE",

@@ -38,6 +38,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Gotta Get Mine",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MRrTlDiBfos",
+            embed: "https://www.youtube.com/embed/MRrTlDiBfos",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Players Anthem",
         links: {
             youtube: "https://www.youtube.com/watch?v=bvt06BIUBgI",

@@ -38,6 +38,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "One More Chance",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=D5NzIO1Dfmo",
+            embed: "https://www.youtube.com/embed/D5NzIO1Dfmo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Gotta Get Mine",
         links: {
             youtube: "https://www.youtube.com/watch?v=MRrTlDiBfos",

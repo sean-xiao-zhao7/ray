@@ -38,6 +38,30 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Compton",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=iqqxM95NvQY",
+            embed: "https://www.youtube.com/embed/iqqxM95NvQY",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Who Shot Ya",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MxOn7HjsIiA",
+            embed: "https://www.youtube.com/embed/MxOn7HjsIiA",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "I Got 5 On It",
         links: {
             youtube: "https://www.youtube.com/watch?v=_Nap5BVIXuk",

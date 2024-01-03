@@ -38,6 +38,78 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Worst of the Worst",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=q4_6qMwn6wQ",
+            embed: "https://www.youtube.com/embed/q4_6qMwn6wQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Bucktown",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=gWQmE6snO1Q",
+            embed: "https://www.youtube.com/embed/gWQmE6snO1Q",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Ill Bomb",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=edvSW0owHj0",
+            embed: "https://www.youtube.com/embed/edvSW0owHj0",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Sometimes",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=zzVeHTfZ66o",
+            embed: "https://www.youtube.com/embed/zzVeHTfZ66o",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "Get Away",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=6Vl278HBKNo",
+            embed: "https://www.youtube.com/embed/6Vl278HBKNo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
+        title: "93 'Til Infinity",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=bUr2I9D09AA",
+            embed: "https://www.youtube.com/embed/bUr2I9D09AA",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2023",
+    },
+    {
         title: "Compton",
         links: {
             youtube: "https://www.youtube.com/watch?v=iqqxM95NvQY",

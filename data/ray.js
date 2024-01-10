@@ -38,6 +38,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "They Done Started Sumthin'",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=E1Ys1EGFtXw",
+            embed: "https://www.youtube.com/embed/E1Ys1EGFtXw",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Worst of the Worst",
         links: {
             youtube: "https://www.youtube.com/watch?v=q4_6qMwn6wQ",

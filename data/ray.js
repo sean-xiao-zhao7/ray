@@ -38,6 +38,30 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Book of Rhymes",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=rmaBg-xzWnU",
+            embed: "https://www.youtube.com/embed/rmaBg-xzWnU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Steelo",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=h5t84ha2oe0",
+            embed: "https://www.youtube.com/embed/h5t84ha2oe0",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "They Done Started Sumthin'",
         links: {
             youtube: "https://www.youtube.com/watch?v=E1Ys1EGFtXw",

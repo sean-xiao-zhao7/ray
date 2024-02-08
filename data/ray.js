@@ -38,6 +38,42 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Paparazzi",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=vv5H4683jAI",
+            embed: "https://www.youtube.com/embed/vv5H4683jAI",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "They Bleed Just Like Us",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=hvK6RzpMYdc",
+            embed: "https://www.youtube.com/embed/hvK6RzpMYdc",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Above The Clouds",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=wCaamGiQswo",
+            embed: "https://www.youtube.com/embed/wCaamGiQswo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Book of Rhymes",
         links: {
             youtube: "https://www.youtube.com/watch?v=rmaBg-xzWnU",

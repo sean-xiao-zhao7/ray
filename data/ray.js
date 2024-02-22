@@ -38,6 +38,54 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Benzgiving",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=HI1DDZ0XMvo",
+            embed: "https://www.youtube.com/embed/HI1DDZ0XMvo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Burn",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=D84NpcFAdeU",
+            embed: "https://www.youtube.com/embed/D84NpcFAdeU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Live from New York",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=t_O7nFCe62c",
+            embed: "https://www.youtube.com/embed/t_O7nFCe62c",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "C.R.E.A.M",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=THWexT2aSaw",
+            embed: "https://www.youtube.com/embed/THWexT2aSaw",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Paparazzi",
         links: {
             youtube: "https://www.youtube.com/watch?v=vv5H4683jAI",

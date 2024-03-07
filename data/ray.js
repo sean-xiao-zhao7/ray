@@ -38,6 +38,30 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "The Setup",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=w_AkA1nsgMM",
+            embed: "https://www.youtube.com/embed/w_AkA1nsgMM",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Rainy Dayz",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=FsZ0XWEmz5g",
+            embed: "https://www.youtube.com/embed/FsZ0XWEmz5g",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Benzgiving",
         links: {
             youtube: "https://www.youtube.com/watch?v=HI1DDZ0XMvo",

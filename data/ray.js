@@ -38,6 +38,54 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "I Don't Need Em",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=rW6h1VFyBl4",
+            embed: "https://www.youtube.com/embed/rW6h1VFyBl4",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Calm Down",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=uobBLE5n-oU",
+            embed: "https://www.youtube.com/embed/uobBLE5n-oU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "If I Ruled The World",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=dncp0iCewWs",
+            embed: "https://www.youtube.com/embed/dncp0iCewWs",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Keep It Real",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=aYcMJXmcLlU",
+            embed: "https://www.youtube.com/embed/aYcMJXmcLlU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "The Setup",
         links: {
             youtube: "https://www.youtube.com/watch?v=w_AkA1nsgMM",

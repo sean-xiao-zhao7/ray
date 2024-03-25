@@ -38,6 +38,30 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Renegade",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=X5HfyK6fAMk",
+            embed: "https://www.youtube.com/embed/X5HfyK6fAMk",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Thug Muzik",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=YyMilv-KDyM",
+            embed: "https://www.youtube.com/embed/YyMilv-KDyM",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "I Don't Need Em",
         links: {
             youtube: "https://www.youtube.com/watch?v=rW6h1VFyBl4",

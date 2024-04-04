@@ -38,6 +38,78 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Johnny P's Caddy",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=G-mzOmdbj9A",
+            embed: "https://www.youtube.com/embed/G-mzOmdbj9A",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Dance With The Devil",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=J_Be7qr0Rvk",
+            embed: "https://www.youtube.com/embed/J_Be7qr0Rvk",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Wet Dreamz",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=cgsRDRnP8OY",
+            embed: "https://www.youtube.com/embed/cgsRDRnP8OY",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "The Sweetest Thing",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=I3hfJoo8RB8",
+            embed: "https://www.youtube.com/embed/I3hfJoo8RB8",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Don't Take it Personal",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=Nz3syYNcY34",
+            embed: "https://www.youtube.com/watch?v=Nz3syYNcY34",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Warning",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=pCBXINkepRo",
+            embed: "https://www.youtube.com/embed/pCBXINkepRo",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Renegade",
         links: {
             youtube: "https://www.youtube.com/watch?v=X5HfyK6fAMk",

@@ -40,8 +40,8 @@ export const playlistDATA = [
     {
         title: "Johnny P's Caddy",
         links: {
-            youtube: "https://www.youtube.com/watch?v=G-mzOmdbj9A",
-            embed: "https://www.youtube.com/embed/G-mzOmdbj9A",
+            youtube: "https://www.youtube.com/watch?v=Goat2_DWAj4",
+            embed: "https://www.youtube.com/embed/Goat2_DWAj4",
         },
         images: [],
         collab: [],

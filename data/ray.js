@@ -38,6 +38,54 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Daylight",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MjneS78xLP4",
+            embed: "https://www.youtube.com/embed/MjneS78xLP4",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Have You Seen Her",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=mtQ2tZhNZCA",
+            embed: "https://www.youtube.com/embed/mtQ2tZhNZCA",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Spit",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=uMKj2gBbvzQ",
+            embed: "https://www.youtube.com/embed/uMKj2gBbvzQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "I Shot Ya ",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=ncBAnGO9hxs",
+            embed: "https://www.youtube.com/embed/ncBAnGO9hxs",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Johnny P's Caddy",
         links: {
             youtube: "https://www.youtube.com/watch?v=Goat2_DWAj4",

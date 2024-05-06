@@ -2,7 +2,7 @@
 @import "../common/fonts.scss";
 
 #sidebar {
-    background-color: $gray1;
+    background-color: $dark2;
 
     @media only screen and (max-width: $bp-large) {
         grid-row: menu-start / menu-end;

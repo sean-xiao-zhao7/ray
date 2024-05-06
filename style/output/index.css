@@ -20,6 +20,8 @@ html a {
 }
 
 body {
+  background: linear-gradient(to left, rgb(23, 23, 23), rgb(59, 59, 59), black);
+  color: white;
   display: grid;
   grid-template-rows: [headerimage-start] 80vh [headerimage-end header-start] minmax(12rem, 20vh) [header-end menu-start] max-content [menu-end content-start] max-content [content-end];
   grid-template-columns: [sidebar-start] 20vw [sidebar-end display-start] 80vw [display-end];
@@ -58,7 +60,6 @@ header {
   align-items: center;
   padding: 0 5rem;
   justify-content: space-between;
-  box-shadow: 0 1px 4px 1px rgb(215, 215, 215);
   position: relative;
 }
 @media only screen and (max-width: 62.5em) {
@@ -136,14 +137,14 @@ header #header-text-links a:visited,
 header #header-text-links a:active {
   text-decoration: none;
   font-family: "Manrope", sans-serif;
-  color: black;
+  color: white;
 }
 header #header-text-links a:hover {
   text-decoration: underline;
 }
 header #social {
   display: grid;
-  grid-template-columns: repeat(7, min-content);
+  grid-template-columns: repeat(6, min-content);
 }
 header #social a {
   display: flex;
@@ -174,7 +175,7 @@ header #social a.fa-youtube {
   color: #d14b4b;
 }
 header #social a.fa-apple {
-  color: black;
+  color: white;
 }
 header #social a.fa-spotify {
   color: #1DB954;
@@ -204,7 +205,8 @@ header #social a.fa-whatsapp {
   font-weight: bold;
   text-transform: uppercase;
   padding: 3rem;
-  background-color: rgba(246, 246, 246, 0.562);
+  background-color: rgb(47, 47, 47);
+  color: white;
   transition: background-color 0.1s;
 }
 #menu button i {
@@ -227,7 +229,7 @@ header #social a.fa-whatsapp {
 }
 
 #sidebar {
-  background-color: rgba(246, 246, 246, 0.562);
+  background-color: rgb(47, 47, 47);
 }
 @media only screen and (max-width: 62.5em) {
   #sidebar {
@@ -275,12 +277,12 @@ header #social a.fa-whatsapp {
 
 #display {
   padding: 4rem 5rem;
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.94)), url(../../assets/images/saugatowersBW.png);
+  background: url(../../assets/images/saugatowersBW.png);
   background-size: 100vw auto;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: white;
+  background-color: rgb(47, 47, 47);
 }
 @media only screen and (max-width: 62.5em) {
   #display {
@@ -300,6 +302,9 @@ header #social a.fa-whatsapp {
   margin-bottom: 2rem;
   font-family: "Manrope", sans-serif;
   font-weight: bold;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: rgba(47, 47, 47, 0.935);
 }
 #display h2.album-title {
   font-size: 2.2rem;
@@ -312,8 +317,9 @@ header #social a.fa-whatsapp {
 #display .metadata {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-top: 2rem;
-  border-top: solid 1px rgba(180, 180, 180, 0.562);
+  padding: 2rem;
+  color: white;
+  background-color: rgba(47, 47, 47, 0.935);
   display: grid;
   grid-template-columns: [heading-start] 20% [heading-end body-start] 80% [body-end];
   grid-row-gap: 1rem;
@@ -468,7 +474,7 @@ footer #footer-text-links a:hover {
 }
 footer #social {
   display: grid;
-  grid-template-columns: repeat(7, min-content);
+  grid-template-columns: repeat(6, min-content);
 }
 @media only screen and (max-width: 62.5em) {
   footer #social {

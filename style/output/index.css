@@ -216,6 +216,17 @@ header #social a.fa-whatsapp {
   color: #e95950;
   transition: transform 0.1s;
 }
+@media only screen and (max-width: 45em) {
+  #menu button i {
+    margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (max-width: 45em) {
+  #menu button {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 #menu button:hover,
 #menu button.button-clicked {
   cursor: pointer;
@@ -354,7 +365,8 @@ header #social a.fa-whatsapp {
 }
 @media only screen and (max-width: 45em) {
   #display .social {
-    justify-content: left;
+    justify-content: center;
+    grid-template-columns: repeat(6, max-content);
   }
 }
 #display .social a.fa-2x {

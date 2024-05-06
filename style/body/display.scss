@@ -81,7 +81,8 @@
         }
 
         @media only screen and (max-width: $bp-mid) {
-            justify-content: left;
+            justify-content: center;
+            grid-template-columns: repeat(6, max-content);
         }
 
         a.fa-2x {

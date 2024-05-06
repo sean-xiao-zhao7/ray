@@ -29,6 +29,15 @@
             font-size: 3rem;
             color: $color-instagram;
             transition: transform 0.1s;
+
+            @media only screen and (max-width: $bp-mid) {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        @media only screen and (max-width: $bp-mid) {
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 

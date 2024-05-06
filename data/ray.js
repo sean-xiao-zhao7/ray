@@ -38,6 +38,54 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "All I Need",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=u-k1zdlyfSg",
+            embed: "https://www.youtube.com/embed/u-k1zdlyfSg",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Is It A Crime",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=4EyLQ2llk_0",
+            embed: "https://www.youtube.com/embed/4EyLQ2llk_0",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Think It Over",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=J8yDUWEeQcM",
+            embed: "https://www.youtube.com/embed/J8yDUWEeQcM",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Between the Sheets",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=u7fgst_-1Ag",
+            embed: "https://www.youtube.com/embed/u7fgst_-1Ag",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Daylight",
         links: {
             youtube: "https://www.youtube.com/watch?v=MjneS78xLP4",

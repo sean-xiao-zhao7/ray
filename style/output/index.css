@@ -544,22 +544,42 @@ footer #social a.fa-whatsapp {
   display: none;
 }
 
+#intro {
+  background-color: rgba(47, 47, 47, 0.935);
+  padding: 2rem;
+}
+
 #intro ul,
 #credits ul {
   list-style-position: inside;
 }
-#intro p,
 #intro li,
-#credits p,
 #credits li {
   font-size: 2.2rem;
   font-family: "Manrope", sans-serif;
+  background-color: rgba(47, 47, 47, 0.935);
+  padding: 2rem;
 }
 #intro p,
 #credits p {
+  font-size: 2.2rem;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 3rem;
 }
 #intro li,
 #credits li {
   margin-bottom: 1rem;
+}
+#intro a,
+#intro a:visited,
+#intro a:active,
+#credits a,
+#credits a:visited,
+#credits a:active {
+  color: rgb(89, 161, 255);
+}
+
+#credits p {
+  background-color: rgba(47, 47, 47, 0.935);
+  padding: 2rem;
 }

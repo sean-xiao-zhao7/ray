@@ -6,23 +6,43 @@
     display: none;
 }
 
+#intro {
+    background-color: $dark-transparent1;
+    padding: 2rem;
+
+}
+
 #intro,
 #credits {
     ul {
         list-style-position: inside;
     }
 
-    p,
     li {
         font-size: 2.2rem;
         font-family: $manrope;
+        background-color: $dark-transparent1;
+        padding: 2rem;
     }
 
     p {
+        font-size: 2.2rem;
+        font-family: $manrope;
         margin-bottom: 3rem;
     }
 
     li {
         margin-bottom: 1rem;
     }
+
+    a,
+    a:visited,
+    a:active {
+        color: rgb(89, 161, 255)
+    }
+}
+
+#credits p {
+    background-color: $dark-transparent1;
+    padding: 2rem;
 }

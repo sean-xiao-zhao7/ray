@@ -38,6 +38,66 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Fast Lane",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=8lEMWrVyyFU",
+            embed: "https://www.youtube.com/embed/8lEMWrVyyFU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Dreadful Day",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=OyUGJXT2SWU",
+            embed: "https://www.youtube.com/embed/OyUGJXT2SWU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Danger",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=cuxskow8490",
+            embed: "https://www.youtube.com/embed/cuxskow8490",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Got 'Til It's Gone",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=k5kw-g-61DA",
+            embed: "https://www.youtube.com/embed/k5kw-g-61DA",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Thematics",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=K2C_Q153f5A",
+            embed: "https://www.youtube.com/embed/K2C_Q153f5A",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "All I Need",
         links: {
             youtube: "https://www.youtube.com/watch?v=u-k1zdlyfSg",

@@ -41,8 +41,8 @@ class App {
         document.querySelector(".fa-whatsapp").href =
             this.artist.social.whatsapp;
 
-        // make playlist sidebar
-        const highlight = "Think Different";
+        // set first displayed item
+        const highlight = "The Revivalist Mixtape";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

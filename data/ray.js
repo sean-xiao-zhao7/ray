@@ -28,6 +28,7 @@ export const artists = {
     suzka: { firstname: "Suzka", lastname: "", nickname: "Suzka" },
     gina: { firstname: "Gina", lastname: "", nickname: "Gina" },
     tmr: { firstname: "T.M.R.", nickname: "T.M.R." },
+    bigjon: { firstname: "Jonathan", nickname: "Big Jon" },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -1196,6 +1197,27 @@ export const playlistDATA = [
         collab: [artists.tamira],
         album: {},
         year: "2020",
+    },
+
+    // The Revivalist Mixtape
+    {
+        title: "The Revivalist Mixtape",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/7XGfID-z_WY",
+            youtube: "https://www.youtube.com/watch?v=7XGfID-z_WY",
+            soundcloud:
+                "https://soundcloud.com/raymond-mowla/the-legacy-mixtape-2021?si=50405be924924e1fab7b5d26765e342e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+            hypeddit: "https://hypeddit.com/stylus/therevivalistmixtapevol1",
+            spotify: "https://open.spotify.com/album/4exLP0Y9TEN5dQR0NiPdUn",
+            apple: "https://music.apple.com/us/album/the-revivalist-mixtape-vol-1-ep-feat-v-big-jon-stylus/1755336656",
+            deezer: "https://www.deezer.com/us/album/610248452",
+            download: "https://hypeddit.com/stylus/therevivalistmixtape",
+        },
+        images: [],
+        collab: [artists.dani, artists.bigjon],
+        year: "2024",
+        type: "album",
+        tracks: [],
     },
 
     // Think Different Album

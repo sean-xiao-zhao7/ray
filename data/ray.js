@@ -1199,6 +1199,172 @@ export const playlistDATA = [
         year: "2020",
     },
 
+    // Theōphany Album
+    {
+        title: "Theōphany",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/y8tBt2lJBDk",
+            youtube: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+            hypeddit: "https://hypeddit.com/stylus/theophany",
+            spotify: "https://open.spotify.com/album/5ElcMIWa5QshoJT2p0B99h",
+            apple: "https://music.apple.com/us/album/theophany-an-encounter-with-a-deity-that/1756734323?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/614111382",
+            amazon: "https://music.amazon.com/albums/B0D98GVY2X",
+        },
+        images: [],
+        collab: [artists.justin, artists.tamira, artists.kloud9, artists.rayon],
+        album: {},
+        year: "2024",
+        type: "album",
+        tracks: [
+            {
+                title: "Intro",
+                links: {
+                    youtube: "https://www.youtube.com/embed/urepyJsPPoA",
+                    youtubeAlbum: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+                images: [],
+                collab: [],
+                year: "2024",
+                trackNum: 1,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Spiritual Heights",
+                links: {
+                    youtube: "https://www.youtube.com/embed/BE54n7Y_Z_Y",
+                },
+                images: [],
+                collab: [artists.justin, artists.kloud9],
+                year: "2024",
+                trackNum: 2,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Keeper of My Soul",
+                links: {
+                    youtube: "https://www.youtube.com/embed/NOUrumFDVEs",
+                },
+                images: [],
+                collab: [artists.tamira],
+                year: "2024",
+                trackNum: 3,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Smoke n Mirrors",
+                links: {
+                    youtube: "https://www.youtube.com/embed/2wqwprqew9k",
+                },
+                images: [],
+                collab: [],
+                year: "2024",
+                trackNum: 4,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Heal Me Again",
+                links: {
+                    youtube: "https://www.youtube.com/embed/y8tBt2lJBDk",
+                    spotify:
+                        "https://open.spotify.com/track/6yXptDemy1biZoxe6sRcQl",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2024",
+                trackNum: 5,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Same Ol Kingdom Ways",
+                links: {
+                    youtube: "https://www.youtube.com/embed/h02hM_V2Qhs",
+                },
+                images: [],
+                collab: [artists.tamira, artists.rayon],
+                year: "2024",
+                trackNum: 6,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "The Way",
+                links: {
+                    youtube: "https://www.youtube.com/embed/BJMM-Wf0fmU",
+                },
+                images: [],
+                collab: [artists.tamira],
+                year: "2024",
+                trackNum: 7,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "They Didn't Know That They Didn't Know",
+                links: {
+                    youtube: "https://www.youtube.com/embed/1iDgc9UMOeg",
+                },
+                images: [],
+                collab: [artists.justin, artists.rayon],
+                year: "2024",
+                trackNum: 8,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "Demonology",
+                links: {
+                    youtube: "https://www.youtube.com/embed/y8tBt2lJBDk",
+                    spotify:
+                        "https://open.spotify.com/track/3BZia5dRvGtJ6NNbJRg96q",
+                },
+                images: [],
+                collab: [artists.justin],
+                year: "2024",
+                trackNum: 9,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+            {
+                title: "The Journey of Prayer",
+                links: {
+                    youtube: "https://www.youtube.com/embed/-KQTIA56iU8",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2024",
+                trackNum: 10,
+                album: {
+                    title: "Theōphany",
+                    link: "https://www.youtube.com/watch?v=y8tBt2lJBDk",
+                },
+            },
+        ],
+    },
+
     // The Revivalist Mixtape
     {
         title: "The Revivalist Mixtape",

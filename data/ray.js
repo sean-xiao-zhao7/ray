@@ -39,6 +39,30 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "It's Yourz",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=gqGPKPGN5rA",
+            embed: "https://www.youtube.com/embed/gqGPKPGN5rA",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Rampage",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=LmPuJInZLNs",
+            embed: "https://www.youtube.com/embed/LmPuJInZLNs",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Fast Lane",
         links: {
             youtube: "https://www.youtube.com/watch?v=8lEMWrVyyFU",

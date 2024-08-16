@@ -39,6 +39,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Incarcerated Scarfaces",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=ckucd5XNdcc",
+            embed: "https://www.youtube.com/embed/ckucd5XNdcc",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "It's Yourz",
         links: {
             youtube: "https://www.youtube.com/watch?v=gqGPKPGN5rA",

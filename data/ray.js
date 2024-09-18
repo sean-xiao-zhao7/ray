@@ -798,6 +798,23 @@ export const playlistDATA = [
     // singles
 
     {
+        title: "Dear Mama - A Letter to the Mother of a King",
+        links: {
+            spotify: "https://open.spotify.com/album/5LxBP2J4YNmF3s89bsmJ16",
+            apple: "https://music.apple.com/us/album/dear-mama-a-letter-to-the-mother-of-a-king-single/1768713023?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/644016081",
+            youtube: "https://www.youtube.com/watch?v=Dy1RRkeGeq0",
+            embed: "https://www.youtube.com/embed/Dy1RRkeGeq0",
+            hypeddit: "https://hypeddit.com/stylus/dearmama",
+            download:
+                "https://hypeddit.com/stylus/dearmamaalettertothemotherofaking",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2024",
+    },
+    {
         title: "Reminiscin'",
         links: {
             youtube: "https://www.youtube.com/watch?v=UKbNSLrMHw8",

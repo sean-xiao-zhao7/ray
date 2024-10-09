@@ -1252,6 +1252,77 @@ export const playlistDATA = [
         year: "2020",
     },
 
+    // albums
+
+    //
+    {
+        title: "Amnesty",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/W8R0Q048IrM",
+            youtube: "https://www.youtube.com/watch?v=W8R0Q048IrM",
+            hypeddit: "https://hypeddit.com/featuringrayonstylus/amnesty2024",
+            spotify: "https://open.spotify.com/album/6CMf4toIUZNRiabl8YGt1h",
+            apple: "https://music.apple.com/us/album/amnesty-single/1772555811?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/652961631",
+            amazon: "https://music.amazon.com/albums/B0DJL43X3D",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2024",
+        type: "album",
+        tracks: [
+            {
+                title: "It's Gon' be Okay",
+                links: {
+                    youtube: "https://www.youtube.com/embed/W8R0Q048IrM",
+                    youtubeAlbum:
+                        "https://www.youtube.com/watch?v=W8R0Q048IrM&t=0s",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2024",
+                trackNum: 1,
+                album: {
+                    title: "Amnesty",
+                    link: "https://www.youtube.com/watch?v=W8R0Q048IrM",
+                },
+            },
+            {
+                title: "Sacrifice",
+                links: {
+                    youtube: "https://www.youtube.com/embed/W8R0Q048IrM",
+                    youtubeAlbum:
+                        "https://www.youtube.com/watch?v=W8R0Q048IrM&t=183s",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2024",
+                trackNum: 2,
+                album: {
+                    title: "Amnesty",
+                    link: "https://www.youtube.com/watch?v=W8R0Q048IrM",
+                },
+            },
+            {
+                title: "You",
+                links: {
+                    youtube: "https://www.youtube.com/embed/W8R0Q048IrM",
+                    youtubeAlbum:
+                        "https://www.youtube.com/watch?v=W8R0Q048IrM&t=380s",
+                },
+                images: [],
+                collab: [artists.rayon],
+                year: "2024",
+                trackNum: 3,
+                album: {
+                    title: "Amnesty",
+                    link: "https://www.youtube.com/watch?v=W8R0Q048IrM",
+                },
+            },
+        ],
+    },
+
     // Theōphany Album
     {
         title: "Theōphany",

@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Dear Mama - A Letter to the Mother of a King";
+        const highlight = "Amnesty";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

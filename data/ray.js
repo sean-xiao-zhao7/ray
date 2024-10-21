@@ -798,6 +798,22 @@ export const playlistDATA = [
     // singles
 
     {
+        title: "This is Love",
+        links: {
+            spotify: "https://open.spotify.com/album/2TtWbrHehGDI0OUcrCFXn0",
+            deezer: "https://www.deezer.com/album/655447051",
+            youtube: "https://www.youtube.com/watch?v=yZIynzmPa1o",
+            embed: "https://www.youtube.com/embed/yZIynzmPa1o",
+            hypeddit: "https://hypeddit.com/stylus/thisislove",
+            amazon: "https://www.amazon.com/music/player/albums/B0DJWK317X",
+            download: "https://hypeddit.com/stylus/thisislove2024",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2024",
+    },
+    {
         title: "Dear Mama - A Letter to the Mother of a King",
         links: {
             spotify: "https://open.spotify.com/album/5LxBP2J4YNmF3s89bsmJ16",

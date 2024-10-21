@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Amnesty";
+        const highlight = "This is Love";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

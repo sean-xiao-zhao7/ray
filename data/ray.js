@@ -39,6 +39,42 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Twenty Five",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=dnWOutidsWQ",
+            embed: "https://www.youtube.com/embed/dnWOutidsWQ",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Phone Tap",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=_2PMVfDs9sU",
+            embed: "https://www.youtube.com/embed/_2PMVfDs9sU",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
+        title: "Rappers R N Danger",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=HNSs38VFEW8",
+            embed: "https://www.youtube.com/embed/HNSs38VFEW8",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Incarcerated Scarfaces",
         links: {
             youtube: "https://www.youtube.com/watch?v=ckucd5XNdcc",

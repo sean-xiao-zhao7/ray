@@ -39,10 +39,10 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
-        title: "Twenty Five",
+        title: "4th Chamber",
         links: {
-            youtube: "https://www.youtube.com/watch?v=dnWOutidsWQ",
-            embed: "https://www.youtube.com/embed/dnWOutidsWQ",
+            youtube: "https://www.youtube.com/watch?v=xen0TPksBiQ",
+            embed: "https://www.youtube.com/embed/xen0TPksBiQ",
         },
         images: [],
         collab: [],
@@ -832,7 +832,22 @@ export const playlistDATA = [
     },
 
     // singles
-
+    {
+        title: "Twenty Five",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=dnWOutidsWQ",
+            embed: "https://www.youtube.com/embed/dnWOutidsWQ",
+            hypeddit: "https://hypeddit.com/stylus/twentyfive2024",
+            spotify: "https://open.spotify.com/album/4bw8hpjd3qWS9RFpkDCK0S",
+            apple: "https://music.apple.com/us/album/twenty-five-feat-stylus-single/1777950900?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/665814481",
+            download: "https://hypeddit.com/stylus/twentyfive",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2024",
+    },
     {
         title: "This is Love",
         links: {

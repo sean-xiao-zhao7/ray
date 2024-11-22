@@ -39,6 +39,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "GOD Pt. III",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=AQZUFbKVIE8",
+            embed: "https://www.youtube.com/embed/AQZUFbKVIE8",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "4th Chamber",
         links: {
             youtube: "https://www.youtube.com/watch?v=xen0TPksBiQ",

@@ -39,6 +39,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "One Love",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=6W1_j2Pd2Tk",
+            embed: "https://www.youtube.com/embed/6W1_j2Pd2Tk",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "GOD Pt. III",
         links: {
             youtube: "https://www.youtube.com/watch?v=AQZUFbKVIE8",
@@ -844,6 +856,24 @@ export const playlistDATA = [
     },
 
     // singles
+    {
+        title: "The Get Up",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=LTo_RWtQv5Q",
+            embed: "https://www.youtube.com/embed/LTo_RWtQv5Q",
+            hypeddit: "https://hypeddit.com/2025music/thegetup",
+            spotify: "https://open.spotify.com/album/00e0sa95bvCQhOWZJl7Jyd",
+            apple: "https://music.apple.com/us/album/the-get-up-feat-rayon-anthony-stylus-single/1788159429?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/691383841",
+            amazon: "https://music.amazon.com/albums/B0DRZTW6QT",
+            download:
+                "https://hypeddit.com/featuringrayonanthonystylus/thegetup",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2025",
+    },
     {
         title: "Twenty Five",
         links: {

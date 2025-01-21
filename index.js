@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "The Get Up";
+        const highlight = "What You Think About Us?";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

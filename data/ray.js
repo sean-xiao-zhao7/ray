@@ -857,6 +857,25 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "What You Think About Us?",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=A2WNgm9SB_8",
+            embed: "https://www.youtube.com/embed/A2WNgm9SB_8",
+            hypeddit: "https://hypeddit.com/rayonanthony/whatyouthinkaboutus",
+            spotify: "https://open.spotify.com/album/7hziQ5qZ7cjnOjnhYZRmiK",
+            apple: "https://music.apple.com/us/album/what-you-think-about-us-feat-rayon-anthony-single/1790592469?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/697796551",
+            yandex: "https://music.yandex.com/track/135254366",
+            amazon: "https://music.amazon.com/albums/B0DT3V6MZF",
+            download:
+                "https://hypeddit.com/rayonanthony/whatyouthinkaboutus2025",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "The Get Up",
         links: {
             youtube: "https://www.youtube.com/watch?v=LTo_RWtQv5Q",

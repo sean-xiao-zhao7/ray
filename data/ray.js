@@ -857,6 +857,25 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "The Last Kiss Goodbye",
+        links: {
+            hypeddit: "https://hypeddit.com/rayonanthony/thelastkissgoodbye",
+            spotify: "https://open.spotify.com/album/6CVOx2gzsFL0N4wlsdgrah",
+            apple: "https://music.apple.com/us/album/the-last-kiss-goodbye-single/1791779833?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/701043621",
+            youtube: "https://www.youtube.com/watch?v=WMcmbxS3Cl8",
+            embed: "https://www.youtube.com/embed/WMcmbxS3Cl8",
+            amazon: "https://music.amazon.com/albums/B0DTL94NPB",
+            download:
+                "https://hypeddit.com/rayonanthony/thelastkissgoodbye2025",
+            yandex: "https://music.yandex.com/track/135434782",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "What You Think About Us?",
         links: {
             youtube: "https://www.youtube.com/watch?v=A2WNgm9SB_8",

@@ -29,6 +29,7 @@ export const artists = {
     gina: { firstname: "Gina", lastname: "", nickname: "Gina" },
     tmr: { firstname: "T.M.R.", nickname: "T.M.R." },
     bigjon: { firstname: "Jonathan", nickname: "Big Jon" },
+    shya: { firstname: "Shya", nickname: "Shya" },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -856,6 +857,37 @@ export const playlistDATA = [
     },
 
     // singles
+    {
+        title: "Never Gone",
+        links: {
+            hypeddit: "https://hypeddit.com/stylusftrayonanthony/nevergone",
+            spotify: "https://open.spotify.com/album/6MuGDYT5PRnBytVo8g2oXu",
+            apple: "https://music.apple.com/us/album/never-gone-feat-rayon-anthony-single/1793200688?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/704643751",
+            amazon: "https://amazon.com/dp/B0DVC479RR",
+            youtube: "https://www.youtube.com/watch?v=UVW9YrntiHk",
+            embed: "https://www.youtube.com/embed/UVW9YrntiHk",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2025",
+    },
+    {
+        title: "The Perfect Crime",
+        links: {
+            hypeddit: "https://hypeddit.com/shya2025/theperfectcrime",
+            spotify: "https://open.spotify.com/album/2cCApDUMgbVsNodY3AjFeT",
+            apple: "https://music.apple.com/us/album/the-perfect-crime-single/1792706142?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/703496681",
+            youtube: "https://www.youtube.com/watch?v=BPnaMA-Lq9Y",
+            embed: "https://www.youtube.com/embed/BPnaMA-Lq9Y",
+        },
+        images: [],
+        collab: [artists.shya],
+        album: {},
+        year: "2025",
+    },
     {
         title: "The Last Kiss Goodbye",
         links: {

@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "The Last Kiss Goodbye";
+        const highlight = "Never Gone";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

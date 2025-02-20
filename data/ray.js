@@ -40,6 +40,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Life is Christ",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=lrkIbcZJUzc",
+            embed: "https://www.youtube.com/embed/lrkIbcZJUzc",
+        },
+        images: [],
+        collab: [artists.justin],
+        album: {},
+        type: "freestyle",
+        year: "2025",
+    },
+    {
         title: "One Love",
         links: {
             youtube: "https://www.youtube.com/watch?v=6W1_j2Pd2Tk",
@@ -1433,7 +1445,20 @@ export const playlistDATA = [
 
     // albums
 
-    //
+    // The Revivalist Mixtape
+    {
+        title: "The Ascension Mixtape",
+        links: {
+            youtubeAlbum: "https://www.youtube.com/embed/btn43g3ixSo",
+            youtube: "https://www.youtube.com/watch?v=btn43g3ixSo",
+        },
+        images: [],
+        collab: [],
+        year: "2025",
+        type: "album",
+        tracks: [],
+    },
+
     {
         title: "Amnesty",
         links: {

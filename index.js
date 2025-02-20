@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Never Gone";
+        const highlight = "The Ascension Mixtape";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

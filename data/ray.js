@@ -1451,6 +1451,12 @@ export const playlistDATA = [
         links: {
             youtubeAlbum: "https://www.youtube.com/embed/btn43g3ixSo",
             youtube: "https://www.youtube.com/watch?v=btn43g3ixSo",
+            hypeddit: "https://hypeddit.com/stylus/theascensionmixtapevol1",
+            spotify: "https://open.spotify.com/album/6nA7bJURmQVCjwkACfcbKa",
+            deezer: "https://www.deezer.com/album/722578091",
+            amazon: "https://music.amazon.com/albums/B0DZCWVVFJ",
+            yandex: "https://music.yandex.com/track/136893324",
+            download: "https://hypeddit.com/stylus/theascensionmixtape",
         },
         images: [],
         collab: [],

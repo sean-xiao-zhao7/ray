@@ -870,6 +870,22 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Hard Calls",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/hardcalls2025",
+            spotify: "https://open.spotify.com/album/3paGudUflIfvTOsBrFHNDF",
+            deezer: "https://www.deezer.com/album/737485421",
+            amazon: "https://www.amazon.com/music/player/albums/B0F3LRHX6L",
+            youtube: "https://www.youtube.com/watch?v=pxalqaWlv4Q",
+            embed: "https://www.youtube.com/embed/pxalqaWlv4Q",
+            download: "https://hypeddit.com/stylus/hardcalls",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Never Gone",
         links: {
             hypeddit: "https://hypeddit.com/stylusftrayonanthony/nevergone",

@@ -40,6 +40,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Incarcerated Scarfaces",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=ckucd5XNdcc",
+            embed: "https://www.youtube.com/embed/ckucd5XNdcc",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2024",
+    },
+    {
         title: "Life is Christ",
         links: {
             youtube: "https://www.youtube.com/watch?v=lrkIbcZJUzc",
@@ -104,18 +116,6 @@ export const playlistDATA = [
         links: {
             youtube: "https://www.youtube.com/watch?v=HNSs38VFEW8",
             embed: "https://www.youtube.com/embed/HNSs38VFEW8",
-        },
-        images: [],
-        collab: [],
-        album: {},
-        type: "freestyle",
-        year: "2024",
-    },
-    {
-        title: "Incarcerated Scarfaces",
-        links: {
-            youtube: "https://www.youtube.com/watch?v=ckucd5XNdcc",
-            embed: "https://www.youtube.com/embed/ckucd5XNdcc",
         },
         images: [],
         collab: [],
@@ -869,6 +869,22 @@ export const playlistDATA = [
     },
 
     // singles
+    {
+        title: "The Penitent",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/thepenitent",
+            spotify: "https://open.spotify.com/album/5xiesIWhUcsmUq59dKGaFT",
+            deezer: "https://www.deezer.com/album/742264561",
+            youtube: "https://www.youtube.com/watch?v=xEA78ymLSXg",
+            embed: "https://www.youtube.com/embed/xEA78ymLSXg",
+            download: "https://hypeddit.com/stylus/thepenitent2025",
+            apple: "https://music.apple.com/us/album/the-penitent-single/1808439808?uo=4&app=itunes",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
     {
         title: "Hard Calls",
         links: {

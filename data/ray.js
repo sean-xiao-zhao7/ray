@@ -870,6 +870,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Voices",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/voices",
+            spotify: "https://open.spotify.com/album/1aJRJZ2vqYmlJy17HXLH2C",
+            deezer: "https://www.deezer.com/album/745040431",
+            youtube:
+                "https://www.youtube.com/watch?v=JW2x86rAad8&ab_channel=RaymondMowla",
+            embed: "https://www.youtube.com/embed/JW2x86rAad8",
+            download: "https://hypeddit.com/stylus/voices2025",
+            apple: "https://music.apple.com/us/album/voices-single/1809616356?uo=4&app=itunes",
+            amazon: "https://music.amazon.com/albums/B0F5NSKS2V",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "The Penitent",
         links: {
             hypeddit: "https://hypeddit.com/stylus/thepenitent",

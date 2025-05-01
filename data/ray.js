@@ -870,6 +870,23 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Paid In Full",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/paidinfull",
+            spotify: "https://open.spotify.com/album/6oYQzaz1a4u7lZYzHzz9ij",
+            deezer: "https://www.deezer.com/album/750033881",
+            youtube: "https://www.youtube.com/watch?v=UffipI7YTp4",
+            embed: "https://www.youtube.com/embed/UffipI7YTp4",
+            download: "https://hypeddit.com/stylus/paidinfulldownload",
+            apple: "https://music.apple.com/us/album/paid-in-full-single/1811631363?uo=4&app=itunes",
+            amazon: "https://music.amazon.com/albums/B0F6ZMFCXK",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Voices",
         links: {
             hypeddit: "https://hypeddit.com/stylus/voices",

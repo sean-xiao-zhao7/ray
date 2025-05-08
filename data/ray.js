@@ -35,6 +35,10 @@ export const artists = {
         lastname: "Shaw",
         nickname: "J. Rhythmatic",
     },
+    york: {
+        firstname: "The York University Gospel Choir Senior Ensemble",
+        nickname: "The York University Gospel Choir Senior Ensemble",
+    },
 };
 
 export const playlistDATA = [
@@ -869,6 +873,24 @@ export const playlistDATA = [
     },
 
     // singles
+    {
+        title: "The Blessing",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/theblessing2025",
+            spotify: "https://open.spotify.com/album/1iFKlqa7ejKNVxRyBmB6uB",
+            deezer: "https://www.deezer.com/album/752390061",
+            youtube: "https://www.youtube.com/watch?v=HqO4dpf0MbU",
+            embed: "https://www.youtube.com/embed/HqO4dpf0MbU",
+            download: "https://hypeddit.com/stylus/theblessing",
+            apple: "https://music.apple.com/us/album/the-blessing-single/1812575862?uo=4&app=itunes",
+            amazon: "https://music.amazon.com/albums/B0F7L2HMD9",
+            yandex: "https://music.yandex.com/track/49187703",
+        },
+        images: [],
+        collab: [artists.york],
+        album: {},
+        year: "2025",
+    },
     {
         title: "Paid In Full",
         links: {

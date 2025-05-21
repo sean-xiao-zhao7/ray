@@ -874,6 +874,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Pray Without Ceasing",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/praywithoutceasing",
+            spotify: "https://open.spotify.com/album/1f0JsfRPFwUd4Fyai8SdB9",
+            deezer: "https://www.deezer.com/album/757851021",
+            youtube: "https://www.youtube.com/watch?v=YLaI6i4jB4Y",
+            embed: "https://www.youtube.com/embed/YLaI6i4jB4Y",
+            download: "https://hypeddit.com/stylus/praywithoutceasing2025",
+            apple: "https://music.apple.com/us/album/pray-without-ceasing-single/1814833300?uo=4&app=itunes",
+            amazon: "https://music.amazon.com/albums/B0F8VXL9J4",
+            yandex: "https://music.yandex.com/track/139323766",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "The Blessing",
         links: {
             hypeddit: "https://hypeddit.com/stylus/theblessing2025",

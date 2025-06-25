@@ -44,6 +44,18 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Shook Ones",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=9pesJWhNI1I",
+            embed: "https://www.youtube.com/embed/9pesJWhNI1I",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2025",
+    },
+    {
         title: "Incarcerated Scarfaces",
         links: {
             youtube: "https://www.youtube.com/watch?v=ckucd5XNdcc",

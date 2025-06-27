@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Pray Without Ceasing";
+        const highlight = "Dauntless";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

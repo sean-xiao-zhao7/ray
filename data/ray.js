@@ -886,6 +886,17 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Dauntless",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=9lpnLvASNWY",
+            embed: "https://www.youtube.com/embed/9lpnLvASNWY",
+        },
+        images: [],
+        collab: [artists.rayon],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Pray Without Ceasing",
         links: {
             hypeddit: "https://hypeddit.com/stylus/praywithoutceasing",

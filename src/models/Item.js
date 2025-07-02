@@ -48,7 +48,11 @@ class Item {
     makeSocialButton(parent, social, faType = "fa-brands") {
         if (this.links[social]) {
             const socialButton = document.createElement("a");
-            socialButton.className = `${faType} fa-${social} fa-2x`;
+            if (social === "pandora") {
+                socialButton.className = `fa-solid fa-p fa-2x pandora`;
+            } else {
+                socialButton.className = `${faType} fa-${social} fa-2x`;
+            }
             socialButton.target = "_blank";
             socialButton.href = this.links[social];
             parent.appendChild(socialButton);
@@ -114,6 +118,7 @@ class Item {
         this.makeSocialButton(social, "amazon");
         this.makeSocialButton(social, "deezer");
         this.makeSocialButton(social, "hypeddit");
+        this.makeSocialButton(social, "pandora");
         display.appendChild(social);
 
         /* add metadata */

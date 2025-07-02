@@ -406,6 +406,9 @@ header #social a.fa-whatsapp {
 #display .social a.fa-napster {
   background-color: #0054a8;
 }
+#display .social a.pandora {
+  background-color: #2196f3;
+}
 #display .social a.fa-hypeddit {
   background-color: #0054a8;
   background-image: url(../../assets/icons/hypeddit.jpeg);

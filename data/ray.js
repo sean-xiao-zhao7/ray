@@ -886,6 +886,42 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "The Calling",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=DoXTaXwc5kA",
+            embed: "https://www.youtube.com/embed/DoXTaXwc5kA",
+            hypeddit: "https://hypeddit.com/stylusftbigjon/thecalling",
+            spotify: "https://open.spotify.com/album/6aetyw7116FhkoVBQOaJnv",
+            apple: "https://music.apple.com/us/album/the-calling-feat-big-jon-single/1830407134?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/797647731",
+            amazon: "https://music.amazon.in/albums/B0FKT867WQ",
+            pandora: "https://www.pandora.com/AL:51590983",
+            download: "https://hypeddit.com/stylusftbigjon/thecalling2025",
+        },
+        images: [],
+        collab: [artists.bigjon],
+        album: {},
+        year: "2025",
+    },
+    {
+        title: "See",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=PXZeHQklUxw",
+            embed: "https://www.youtube.com/embed/PXZeHQklUxw",
+            hypeddit: "https://hypeddit.com/stylusftbigjon/occipital",
+            spotify: "https://open.spotify.com/album/6OSRRQWUO7p8VvVNGPXoAj",
+            apple: "https://music.apple.com/us/album/see-single/1825830757?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/784778691",
+            amazon: "https://music.amazon.com/albums/B0FH2XBB7D",
+            pandora: "https://www.pandora.com/AL:50549565",
+            download: "https://hypeddit.com/stylusftbigjon/see2025",
+        },
+        images: [],
+        collab: [artists.bigjon],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Dauntless",
         links: {
             youtube: "https://www.youtube.com/watch?v=9lpnLvASNWY",

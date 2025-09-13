@@ -886,6 +886,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Revive",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=1evO1T3bVlc",
+            embed: "https://www.youtube.com/embed/1evO1T3bVlc",
+            hypeddit: "https://hypeddit.com/stylus/revive2025",
+            spotify: "https://open.spotify.com/album/0HglFDWOFEzgYu4YFWL5MI",
+            apple: "https://music.apple.com/us/album/revive-single/1838892349?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/us/album/819068061",
+            amazon: "https://music.amazon.com/albums/B0FQJCRQ1K",
+            pandora: "https://www.pandora.com/AL:53321816",
+            download: "https://hypeddit.com/stylus/revive",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "The Calling",
         links: {
             youtube: "https://www.youtube.com/watch?v=DoXTaXwc5kA",

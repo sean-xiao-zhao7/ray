@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Revive";
+        const highlight = "The Final Reckoning";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

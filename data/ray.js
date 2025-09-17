@@ -886,6 +886,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "The Final Reckoning",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=dV9QJk3rNiY",
+            embed: "https://www.youtube.com/embed/dV9QJk3rNiY",
+            hypeddit: "https://hypeddit.com/stylus/thefinalreckoning2025",
+            spotify:
+                "https://hypeddit.com/stylus/thefinalreckoning2025#spotify",
+            apple: "https://music.apple.com/us/album/the-final-reckoning-feat-aln-single/1839626987?uo=4&app=itunes",
+            deezer: "https://hypeddit.com/stylus/thefinalreckoning2025#deezer",
+            amazon: "https://music.amazon.ca/albums/B0FR1Y3TW7",
+            download: "https://hypeddit.com/stylusftaln/thefinalreckoning2025",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Revive",
         links: {
             youtube: "https://www.youtube.com/watch?v=1evO1T3bVlc",

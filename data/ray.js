@@ -886,6 +886,23 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Watchers",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=zr0tU9Eg_OQ",
+            embed: "https://www.youtube.com/embed/zr0tU9Eg_OQ",
+            hypeddit: "https://hypeddit.com/stylus/watchers",
+            spotify: "https://open.spotify.com/album/0noNyZARDnKR6OfAnOVMcc",
+            apple: "https://music.apple.com/us/album/watchers-single/1849839891?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/847360732",
+            amazon: "https://music.amazon.com/albums/B0FYHHHPGV",
+            download: "https://hypeddit.com/stylus/watchers",
+        },
+        images: [],
+        collab: [artists.justin],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "The Final Reckoning",
         links: {
             youtube: "https://www.youtube.com/watch?v=dV9QJk3rNiY",

@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "Watchers";
+        const highlight = "Right In Front of Ya Eyes";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons

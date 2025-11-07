@@ -886,6 +886,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Right In Front of Ya Eyes",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/rightinfrontofyaeyes",
+            spotify: "https://open.spotify.com/album/1iSGe92TeVghuoQzwwHqnw",
+            youtube: "https://www.youtube.com/watch?v=LVzlHt0Fxyw",
+            embed: "https://www.youtube.com/embed/LVzlHt0Fxyw",
+            apple: "https://music.apple.com/us/album/right-in-front-of-ya-eyes-single/1850105609?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/847865602",
+            amazon: "https://music.amazon.com/albums/B0FYQFR6YV",
+            pandora: "https://www.pandora.com/AL:55707270",
+            download: "https://hypeddit.com/stylus/rightinfrontofyaeyes2025",
+        },
+        images: [],
+        collab: [artists.rayon, artists.kloud9],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Watchers",
         links: {
             youtube: "https://www.youtube.com/watch?v=zr0tU9Eg_OQ",

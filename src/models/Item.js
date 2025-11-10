@@ -119,6 +119,7 @@ class Item {
         this.makeSocialButton(social, "deezer");
         this.makeSocialButton(social, "hypeddit");
         this.makeSocialButton(social, "pandora");
+        this.makeSocialButton(social, "tidal");
         display.appendChild(social);
 
         /* add metadata */

@@ -1740,7 +1740,28 @@ export const playlistDATA = [
         year: "2020",
     },
 
-    // albums
+    // Albums
+
+    {
+        title: "The Epoch Album",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/epochalbum",
+            youtubeAlbum: "https://www.youtube.com/embed/tsyQiADOTdk",
+            youtube: "https://www.youtube.com/watch?v=tsyQiADOTdk",
+            spotify: "https://open.spotify.com/album/0X8xR5GYZMTOQwhmJD0D68",
+            apple: "https://music.apple.com/us/album/the-epoch-album/1851656273?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/852080402",
+            amazon: "https://music.amazon.com/albums/B0G19Y8B82",
+            pandora: "https://www.pandora.com/AL:56045581",
+            tidal: "https://listen.tidal.com/album/472315151",
+        },
+        images: [],
+        collab: [artists.rayon, artists.justin, artists.kloud9, artists.bigjon, artists.york],
+        album: {},
+        year: "2025",
+        type: "video-album",
+        tracks: []
+    },
 
     // The Revivalist Mixtape
     {

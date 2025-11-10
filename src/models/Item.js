@@ -93,7 +93,7 @@ class Item {
         }
         embedElement.allowfullscreen = true;
         embedElement.width = "100%";
-        embedElement.height = "500rem";
+        embedElement.height = "700rem";
         if (window.innerWidth < 500) {
             embedElement.height = "300rem";
         }

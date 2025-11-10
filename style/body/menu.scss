@@ -5,7 +5,8 @@
     grid-column: sidebar-start / display-end;
     display: grid;
     grid-template-columns: repeat(3, max-content);
-    border-bottom: solid 1px $gray2;
+    border-bottom: solid 1px $gray5;
+    border-top: solid 1px $gray5;
     box-shadow: $upshadow1;
 
     button {
@@ -27,7 +28,7 @@
             display: inline-block;
             margin-right: 0.5rem;
             font-size: 3rem;
-            color: $color-instagram;
+            color: $color-highlight;
             transition: transform 0.1s;
 
             @media only screen and (max-width: $bp-mid) {

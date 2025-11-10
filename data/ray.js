@@ -1746,7 +1746,7 @@ export const playlistDATA = [
         title: "The Epoch Album",
         links: {
             hypeddit: "https://hypeddit.com/stylus/epochalbum",
-            youtubeAlbum: "https://www.youtube.com/embed/tsyQiADOTdk",
+            embed: "https://www.youtube.com/embed/tsyQiADOTdk",
             youtube: "https://www.youtube.com/watch?v=tsyQiADOTdk",
             spotify: "https://open.spotify.com/album/0X8xR5GYZMTOQwhmJD0D68",
             apple: "https://music.apple.com/us/album/the-epoch-album/1851656273?uo=4&app=itunes",
@@ -1759,7 +1759,7 @@ export const playlistDATA = [
         collab: [artists.rayon, artists.justin, artists.kloud9, artists.bigjon, artists.york],
         album: {},
         year: "2025",
-        type: "video-album",
+        type: "album",
         tracks: []
     },
 

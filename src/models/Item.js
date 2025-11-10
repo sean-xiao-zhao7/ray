@@ -48,29 +48,24 @@ class Item {
     makeSocialButton(parent, social, faType = "fa-brands") {
         if (this.links[social]) {
             const socialButton = document.createElement("a");
-            if (social === "pandora") {
-                socialButton.className = `fa-solid fa-p fa-2x pandora`;
-            } else {
-                socialButton.className = `${faType} fa-${social} fa-2x`;
-            }
+            socialButton.className = `${faType} fa-${social} fa-2x`;
             socialButton.target = "_blank";
             socialButton.href = this.links[social];
             parent.appendChild(socialButton);
         }
     }
 
+    // construct main section of the page for a single track/album
     render(highlight = true) {
-        // highlight sidebar item
+        // reset sidebar and page container
         if (highlight) {
             resetSidebarColors();
             this.playlistItem.classList.add("item-link__clicked");
         }
-
-        // render main content
         const display = document.querySelector("#display");
         display.innerHTML = "";
 
-        // add title
+        // add main title
         const h1 = document.createElement("h1");
         h1.textContent = this.title + this.collab + ` (${this.year})`;
         if (this.type === "album" || this.type === "video-album") {
@@ -78,7 +73,7 @@ class Item {
         }
         display.appendChild(h1);
 
-        // add album title if exists
+        // add album sub-title if exists
         let albumTitle;
         if (this.trackNum !== 0) {
             albumTitle = document.createElement("h2");
@@ -87,7 +82,7 @@ class Item {
             display.appendChild(albumTitle);
         }
 
-        // add embed iframe (main player)
+        // set up embed iframe youtube player
         const embedElement = document.createElement("iframe");
         if (this.links.embed) {
             embedElement.src = this.links.embed;
@@ -122,74 +117,63 @@ class Item {
         this.makeSocialButton(social, "tidal");
         display.appendChild(social);
 
-        /* add metadata */
-        // add headings
+        // add metadata container
         const metadata = document.createElement("section");
         metadata.className = "metadata";
+        let headingAlbumTitle, headingCollab, headingTracks, bodyAlbumTitle, bodyCollab, tracksBody;
+
+        // add metadata album title for singles
+        if (this.type === "single" && this.album.title) {
+            headingAlbumTitle = document.createElement("p");
+            headingAlbumTitle.className = "heading";
+            headingAlbumTitle.textContent = "Album:";
+            bodyAlbumTitle = document.createElement("p");
+            bodyAlbumTitle.className = "body";
+            bodyAlbumTitle.textContent = this.album.title;
+            metadata.append(
+                headingAlbumTitle,
+                bodyAlbumTitle
+            );
+        }
+
+        // add metadata year released
         const headingYear = document.createElement("p");
+        const bodyYear = document.createElement("p");
         headingYear.className = "heading";
         headingYear.textContent = "Year:";
-        // for single track only
-        let heading2, heading3, headingTracks;
-        if (this.type === "single") {
-            heading2 = document.createElement("p");
-            heading2.className = "heading";
-            if (!this.album.title) {
-                heading2.textContent = "";
-            } else {
-                heading2.textContent = "Album:";
-            }
+        bodyYear.className = "body";
+        bodyYear.textContent = this.year;
+        metadata.append(
+            headingYear,
+            bodyYear,
+        );
 
-            heading3 = document.createElement("p");
-            heading3.className = "heading";
-            if (this.collab) {
-                heading3.textContent = "Featuring:";
-            } else {
-                heading3.textContent = "";
-            }
-        } else {
+        // add metadata tracks if any
+        if (this.tracks.length > 0) {
             headingTracks = document.createElement("p");
             headingTracks.className = "heading";
             headingTracks.textContent = "Tracks:";
-        }
-
-        // add bodies to headings
-        const bodyYear = document.createElement("p");
-        bodyYear.className = "body";
-        bodyYear.textContent = this.year;
-        // for single tracks only
-        let body2, body3, tracksBody;
-        if (this.type === "single") {
-            body2 = document.createElement("p");
-            body2.className = "body";
-            body2.textContent = this.album.title;
-            body3 = document.createElement("p");
-            body3.className = "body";
-            body3.textContent = this.collab.replace(" ft.", "");
-        } else if (this.tracks.length > 0) {
             tracksBody = document.createElement("section");
             this.tracks.playlist.forEach((track) => {
                 const trackEl = document.createElement("p");
                 trackEl.textContent = `${track.trackNum}. ${track.title}`;
                 tracksBody.appendChild(trackEl);
             });
-        }
-        // add elements to metadata container
-        if (this.type === "single") {
-            metadata.append(
-                heading2,
-                body2,
-                headingYear,
-                bodyYear,
-                heading3,
-                body3
-            );
-        } else if (this.tracks.length > 0) {
-            metadata.append(headingYear, bodyYear, headingTracks, tracksBody);
-        } else {
-            metadata.append(headingYear, bodyYear);
+            metadata.append(headingTracks, tracksBody);
         }
 
+        // add metadata collabs
+        if (this.collab && this.collab.length > 0) {
+            headingCollab = document.createElement("p");
+            headingCollab.className = "heading";
+            headingCollab.textContent = "Featuring:";
+            bodyCollab = document.createElement("p");
+            bodyCollab.className = "body";
+            bodyCollab.textContent = this.collab.replace(" ft.", "");
+            metadata.append(headingCollab, bodyCollab);
+        }
+
+        // add completed metadata to DOM
         display.appendChild(metadata);
     }
 }

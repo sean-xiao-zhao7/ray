@@ -21,6 +21,10 @@
         padding: 3rem;
     }
 
+    iframe {
+        border: 0;
+    }
+
     h1 {
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -45,7 +49,7 @@
         margin-bottom: 2rem;
         padding: 2rem;
         color: white;
-        background-color: $dark-transparent1;
+        background-color: $dark2;
         display: grid;
         grid-template-columns: [heading-start]20%[heading-end body-start]80%[body-end];
         grid-row-gap: 1rem;
@@ -126,8 +130,17 @@
             background-color: $color-napster;
         }
 
-        a.pandora {
+        a.fa-pandora {
             background-color: $color-pandora;
+        }
+
+        a.fa-deezer {
+            background-color: $color-deezer;
+        }
+
+        a.fa-apple {
+            background-color: $color-apple-background;
+            color: #1d1d1f;
         }
 
         a.fa-hypeddit {

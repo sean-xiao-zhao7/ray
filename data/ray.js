@@ -30,6 +30,7 @@ export const artists = {
     tmr: { firstname: "T.M.R.", nickname: "T.M.R." },
     bigjon: { firstname: "Jonathan", nickname: "Big Jon" },
     shya: { firstname: "Shya", nickname: "Shya" },
+    aln: { firstname: 'A.L.N', nickname: 'A.L.N' },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -1756,7 +1757,7 @@ export const playlistDATA = [
             tidal: "https://listen.tidal.com/album/472315151",
         },
         images: [],
-        collab: [artists.rayon, artists.justin, artists.kloud9, artists.bigjon, artists.york],
+        collab: [artists.rayon, artists.justin, artists.kloud9, artists.aln, artists.bigjon, artists.york],
         album: {},
         year: "2025",
         type: "album",

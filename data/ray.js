@@ -887,6 +887,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Could've Been Me",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/couldvebeenme",
+            spotify: "https://open.spotify.com/album/7u0F2G6faDpCFcCqJz4wPW",
+            youtube: "https://www.youtube.com/watch?v=GUNoPNcB7Nc",
+            embed: "https://www.youtube.com/embed/GUNoPNcB7Nc",
+            apple: "https://music.apple.com/us/album/couldve-been-me-single/1854296286?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/860128302",
+            amazon: "https://music.amazon.com/albums/B0G33JXS5L",
+            pandora: "https://www.pandora.com/AL:56650817",
+            download: "https://hypeddit.com/stylus/couldvebeenme2025",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Right In Front of Ya Eyes",
         links: {
             hypeddit: "https://hypeddit.com/stylus/rightinfrontofyaeyes",

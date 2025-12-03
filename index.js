@@ -82,12 +82,14 @@ class App {
         if (w > 1000 && !highlight) {
             albumsButton.click();
         }
+        albumsButton.click();
 
         // update footer
         const footer = document.querySelector("footer");
         const footerP = document.createElement("p");
-        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${ray.lastname
-            }. All rights reserved.`;
+        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${
+            ray.lastname
+        }. All rights reserved.`;
         footer.appendChild(footerP);
 
         footer.querySelector(".fa-instagram").href =

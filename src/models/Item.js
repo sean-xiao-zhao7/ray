@@ -115,12 +115,18 @@ class Item {
         this.makeSocialButton(social, "hypeddit");
         this.makeSocialButton(social, "pandora");
         this.makeSocialButton(social, "tidal");
+        this.makeSocialButton(social, "yandex");
         display.appendChild(social);
 
         // add metadata container
         const metadata = document.createElement("section");
         metadata.className = "metadata";
-        let headingAlbumTitle, headingCollab, headingTracks, bodyAlbumTitle, bodyCollab, tracksBody;
+        let headingAlbumTitle,
+            headingCollab,
+            headingTracks,
+            bodyAlbumTitle,
+            bodyCollab,
+            tracksBody;
 
         // add metadata album title for singles
         if (this.type === "single" && this.album.title) {
@@ -130,10 +136,7 @@ class Item {
             bodyAlbumTitle = document.createElement("p");
             bodyAlbumTitle.className = "body";
             bodyAlbumTitle.textContent = this.album.title;
-            metadata.append(
-                headingAlbumTitle,
-                bodyAlbumTitle
-            );
+            metadata.append(headingAlbumTitle, bodyAlbumTitle);
         }
 
         // add metadata year released
@@ -143,10 +146,7 @@ class Item {
         headingYear.textContent = "Year:";
         bodyYear.className = "body";
         bodyYear.textContent = this.year;
-        metadata.append(
-            headingYear,
-            bodyYear,
-        );
+        metadata.append(headingYear, bodyYear);
 
         // add metadata tracks if any
         if (this.tracks.length > 0) {

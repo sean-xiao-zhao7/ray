@@ -143,6 +143,11 @@
             color: #1d1d1f;
         }
 
+        a.fa-yandex {
+            background-color: white;
+            color: $color-yandex;
+        }
+
         a.fa-hypeddit {
             background-color: $color-napster;
             background-image: url(../../assets/icons/hypeddit.jpeg);

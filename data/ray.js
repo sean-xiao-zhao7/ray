@@ -30,7 +30,7 @@ export const artists = {
     tmr: { firstname: "T.M.R.", nickname: "T.M.R." },
     bigjon: { firstname: "Jonathan", nickname: "Big Jon" },
     shya: { firstname: "Shya", nickname: "Shya" },
-    aln: { firstname: 'A.L.N', nickname: 'A.L.N' },
+    aln: { firstname: "A.L.N", nickname: "A.L.N" },
     justin: {
         firstname: "Justin",
         lastname: "Shaw",
@@ -886,6 +886,25 @@ export const playlistDATA = [
     },
 
     // singles
+    {
+        title: "Dear Jesus",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/dearjesus2025",
+            spotify: "https://open.spotify.com/album/1c8Ja9OZghyDMmxqylhjwY",
+            youtube: "https://www.youtube.com/watch?v=9z1z9zGsr5A",
+            embed: "https://www.youtube.com/embed/9z1z9zGsr5A",
+            apple: "https://music.apple.com/us/album/dear-jesus-single/1856593358?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/865388102",
+            amazon: "https://music.amazon.com/albums/B0G49GW218",
+            pandora: "https://www.pandora.com/AL:57056194",
+            yandex: "https://music.yandex.com/track/145596417",
+            download: "https://hypeddit.com/stylus/dearjesus",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2025",
+    },
     {
         title: "Could've Been Me",
         links: {
@@ -1775,11 +1794,18 @@ export const playlistDATA = [
             tidal: "https://listen.tidal.com/album/472315151",
         },
         images: [],
-        collab: [artists.rayon, artists.justin, artists.kloud9, artists.aln, artists.bigjon, artists.york],
+        collab: [
+            artists.rayon,
+            artists.justin,
+            artists.kloud9,
+            artists.aln,
+            artists.bigjon,
+            artists.york,
+        ],
         album: {},
         year: "2025",
         type: "album",
-        tracks: []
+        tracks: [],
     },
 
     // The Revivalist Mixtape

@@ -888,25 +888,6 @@ export const playlistDATA = [
 
     // singles
     {
-        title: "Upside Down",
-        links: {
-            hypeddit: "https://hypeddit.com/stylus/upsidedown",
-            spotify: "https://open.spotify.com/album/6IDxfQvHuUsmqyLw64HIeK",
-            youtube: "https://www.youtube.com/watch?v=z0bSaXu2ERM",
-            embed: "https://www.youtube.com/embed/z0bSaXu2ERM",
-            apple: "https://music.apple.com/us/album/upside-down-single/1859590923?uo=4&app=itunes",
-            deezer: "https://www.deezer.com/album/872751672",
-            amazon: "https://music.amazon.com/albums/B0G5P9PL89",
-            pandora: "https://www.pandora.com/AL:57567056",
-            yandex: "https://music.yandex.com/track/34350",
-            download: "https://hypeddit.com/stylus/upsidedown2025",
-        },
-        images: [],
-        collab: [artists.cody],
-        album: {},
-        year: "2025",
-    },
-    {
         title: "Dear Jesus",
         links: {
             hypeddit: "https://hypeddit.com/stylus/dearjesus2025",
@@ -922,6 +903,25 @@ export const playlistDATA = [
         },
         images: [],
         collab: [],
+        album: {},
+        year: "2025",
+    },
+    {
+        title: "Upside Down",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/upsidedown",
+            spotify: "https://open.spotify.com/album/6IDxfQvHuUsmqyLw64HIeK",
+            youtube: "https://www.youtube.com/watch?v=z0bSaXu2ERM",
+            embed: "https://www.youtube.com/embed/z0bSaXu2ERM",
+            apple: "https://music.apple.com/us/album/upside-down-single/1859590923?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/872751672",
+            amazon: "https://music.amazon.com/albums/B0G5P9PL89",
+            pandora: "https://www.pandora.com/AL:57567056",
+            yandex: "https://music.yandex.com/track/34350",
+            download: "https://hypeddit.com/stylus/upsidedown2025",
+        },
+        images: [],
+        collab: [artists.cody],
         album: {},
         year: "2025",
     },

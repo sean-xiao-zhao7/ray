@@ -78,7 +78,7 @@ class App {
         // this.playlist.render(highlight);
 
         // show singles sidebar, then put the first single song in contents area
-        singlesButton.click();
+        albumsButton.click();
 
         // show landing page song/item only on mobile
         var w = window.innerWidth;

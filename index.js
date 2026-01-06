@@ -41,23 +41,10 @@ class App {
         document.querySelector(".fa-whatsapp").href =
             this.artist.social.whatsapp;
 
-        // set first displayed item
-        const highlight = "Quarter Past Four";
-        this.playlist.render(highlight);
-
         // bind singles/albums buttons
         const singlesButton = document.querySelector("button#singles");
         const albumsButton = document.querySelector("button#albums");
         const freestylesButton = document.querySelector("button#freestyles");
-        singlesButton.addEventListener("click", () => {
-            albumsButton.classList.remove("button-clicked");
-            freestylesButton.classList.remove("button-clicked");
-            singlesButton.classList.add("button-clicked");
-            this.playlist.switch("singles");
-            if (sidebar.style.display !== "block") {
-                sidebar.style.display = "block";
-            }
-        });
         albumsButton.addEventListener("click", () => {
             singlesButton.classList.remove("button-clicked");
             freestylesButton.classList.remove("button-clicked");
@@ -76,13 +63,28 @@ class App {
                 sidebar.style.display = "block";
             }
         });
+        singlesButton.addEventListener("click", () => {
+            albumsButton.classList.remove("button-clicked");
+            freestylesButton.classList.remove("button-clicked");
+            singlesButton.classList.add("button-clicked");
+            this.playlist.switch("singles");
+            if (sidebar.style.display !== "block") {
+                sidebar.style.display = "block";
+            }
+        });
+
+        // set first displayed item manually if needed
+        // const highlight = "Quarter Past Four";
+        // this.playlist.render(highlight);
+
+        // show singles sidebar, then put the first single song in contents area
+        singlesButton.click();
 
         // show landing page song/item only on mobile
         var w = window.innerWidth;
         if (w > 1000 && !highlight) {
             albumsButton.click();
         }
-        albumsButton.click();
 
         // update footer
         const footer = document.querySelector("footer");

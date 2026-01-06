@@ -113,6 +113,7 @@ class Playlist {
                 const item = this.playlist.filter(
                     (item) => item.title === highlight
                 );
+                console.log(item[0]);
                 item[0].render();
             }
         }

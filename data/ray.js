@@ -887,6 +887,21 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Quarter Past Four",
+        links: {
+            hypeddit: "https://hypeddit.com/stylusshya/quarterpastfour",
+            spotify: "https://open.spotify.com/album/2PGm59eoVBUFiU9tIU8qOj",
+            youtube: "https://www.youtube.com/watch?v=IOp0OrN_8xg",
+            embed: "https://www.youtube.com/embed/IOp0OrN_8xg",
+            apple: "https://music.apple.com/us/album/quarter-past-four-single/1866120759?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/889887532",
+        },
+        images: [],
+        collab: [artists.shya],
+        album: {},
+        year: "2025",
+    },
+    {
         title: "Could've Been Me",
         links: {
             hypeddit: "https://hypeddit.com/stylus/couldvebeenme",

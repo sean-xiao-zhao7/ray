@@ -42,7 +42,7 @@ class App {
             this.artist.social.whatsapp;
 
         // set first displayed item
-        const highlight = "The Epoch Album";
+        const highlight = "Quarter Past Four";
         this.playlist.render(highlight);
 
         // bind singles/albums buttons
@@ -87,9 +87,8 @@ class App {
         // update footer
         const footer = document.querySelector("footer");
         const footerP = document.createElement("p");
-        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${
-            ray.lastname
-        }. All rights reserved.`;
+        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${ray.lastname
+            }. All rights reserved.`;
         footer.appendChild(footerP);
 
         footer.querySelector(".fa-instagram").href =

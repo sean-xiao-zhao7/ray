@@ -888,6 +888,38 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Dear Father",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/dearfather",
+            spotify: "https://open.spotify.com/album/3jf3QXsKD9s9x7F2LulL0m",
+            youtube: "https://www.youtube.com/watch?v=fDE0qNpV5TM",
+            embed: "https://www.youtube.com/embed/fDE0qNpV5TM",
+            apple: "https://music.apple.com/us/album/dear-father-single/1868669686?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/896496052",
+            download: "https://hypeddit.com/stylus/dearfather2026",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
+        title: "Storms",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/storms",
+            spotify: "https://open.spotify.com/album/6XTlrHTHPjQOaKg1aak5wd",
+            youtube: "https://www.youtube.com/watch?v=Pi2GxaUk-pg",
+            embed: "https://www.youtube.com/embed/Pi2GxaUk-pg",
+            apple: "https://music.apple.com/us/album/storms-single/1868604620?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/896372682",
+            download: "https://hypeddit.com/stylus/storms2026",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Quarter Past Four",
         links: {
             hypeddit: "https://hypeddit.com/stylusshya/quarterpastfour",

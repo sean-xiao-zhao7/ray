@@ -888,6 +888,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Street Insanity",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/streetinsanity2026",
+            spotify: "https://open.spotify.com/album/7j59YEEE4HnRX60SeEeQT5",
+            youtube: "https://www.youtube.com/watch?v=O1JZHSdV_bU",
+            embed: "https://www.youtube.com/embed/O1JZHSdV_bU",
+            apple: "https://music.apple.com/us/album/street-insanity-single/1875355696?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/913451021",
+            amazon: "https://music.amazon.com/albums/B0GM3LJRKK",
+            yandex: "https://music.yandex.com/track/148001772",
+            download: "https://hypeddit.com/stylus/streetinsanity",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Dear Father",
         links: {
             hypeddit: "https://hypeddit.com/stylus/dearfather",

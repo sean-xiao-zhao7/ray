@@ -888,6 +888,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Counterfeit Kings",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/counterfeitkings",
+            spotify: "https://open.spotify.com/album/1OCKJS6JUpdhQd4RGniGgP",
+            youtube: "https://www.youtube.com/watch?v=J_yHElDmo9U",
+            embed: "https://www.youtube.com/embed/J_yHElDmo9U",
+            apple: "https://music.apple.com/us/album/counterfeit-kings-single/1883443847?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/935134291",
+            amazon: "https://music.amazon.ca/albums/B0GRQ4WJQ6",
+            yandex: "https://music.yandex.com/track/149007531",
+            download: "https://hypeddit.com/stylus/counterfeitkings2026",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Street Insanity",
         links: {
             hypeddit: "https://hypeddit.com/stylus/streetinsanity2026",

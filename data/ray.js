@@ -46,6 +46,42 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Bun Di Ganga?",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=Jz_VQE6K1js",
+            embed: "https://www.youtube.com/embed/Jz_VQE6K1js",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
+        title: "Saiyan Style",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MPTKUOd5dQg",
+            embed: "https://www.youtube.com/embed/MPTKUOd5dQg",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
+        title: "Once Upon A Time",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=yzlAasrGvjE",
+            embed: "https://www.youtube.com/embed/yzlAasrGvjE",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
         title: "Shook Ones",
         links: {
             youtube: "https://www.youtube.com/watch?v=9pesJWhNI1I",

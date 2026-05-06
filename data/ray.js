@@ -924,6 +924,24 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Fallin\' For You",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/fallinforyou2026",
+            spotify: "https://open.spotify.com/album/67galbYNgN7aSCUkDM0RNh",
+            youtube: "https://www.youtube.com/watch?v=JcMPCopoY3I",
+            embed: "https://www.youtube.com/embed/JcMPCopoY3I",
+            apple: "https://music.apple.com/us/album/fallin-for-you-single/1892810415?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/959751761",
+            amazon: "https://music.amazon.ca/albums/B0GWXB256Z",
+            yandex: "https://music.yandex.com/track/62408061",
+            download: "https://hypeddit.com/stylus/fallinforyou",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Counterfeit Kings",
         links: {
             hypeddit: "https://hypeddit.com/stylus/counterfeitkings",

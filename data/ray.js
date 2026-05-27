@@ -924,6 +924,22 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Deception",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/deception2026",
+            spotify: "https://open.spotify.com/album/7qvWXuwQk2HMBtVkPyfuLd",
+            youtube: "https://www.youtube.com/watch?v=VjGg7SNzBqo",
+            embed: "https://www.youtube.com/embed/VjGg7SNzBqo",
+            apple: "https://music.apple.com/us/album/deception-single/1896405480?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/977621441",
+            amazon: "https://music.amazon.ca/albums/B0GZVX5Y1B",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Fallin\' For You",
         links: {
             hypeddit: "https://hypeddit.com/stylus/fallinforyou2026",

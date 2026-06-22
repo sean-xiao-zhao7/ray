@@ -922,7 +922,7 @@ export const playlistDATA = [
         year: "2023",
     },
 
-    // singles
+    // singles    
     {
         title: "Deception",
         links: {
@@ -1952,7 +1952,51 @@ export const playlistDATA = [
     },
 
     // Albums
-
+    {
+        title: "The Soul Stone EP: Soul For A Soul",
+        links: {
+            embed: "https://www.youtube.com/embed/AHasFYjZDr0",
+            youtube: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+        type: "album",
+        tracks: [{
+            title: "Maverick",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 1,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            }
+        },
+        {
+            title: "Assurance",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 2,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            }
+        },
+        {
+            title: "Street Psalm",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 3,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            },
+        },],
+    },
     {
         title: "The Epoch Album",
         links: {

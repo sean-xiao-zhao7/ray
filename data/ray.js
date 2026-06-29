@@ -46,7 +46,7 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
-        title: "Bun Di Ganga?",
+        title: "Bun Di Ganja?",
         links: {
             youtube: "https://www.youtube.com/watch?v=Jz_VQE6K1js",
             embed: "https://www.youtube.com/embed/Jz_VQE6K1js",

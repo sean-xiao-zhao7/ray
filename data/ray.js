@@ -1957,6 +1957,12 @@ export const playlistDATA = [
         links: {
             embed: "https://www.youtube.com/embed/AHasFYjZDr0",
             youtube: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            spotify: 'https://open.spotify.com/album/1DQVwIo3BAA6gyr0s29IJJ',
+            apple: 'https://music.apple.com/us/album/the-soul-stone-soul-for-a-soul-single/6787680537?uo=4&app=itunes',
+            deezer: 'https://www.deezer.com/album/1021617351',
+            tidal: "https://listen.tidal.com/album/540248584",
+            pandora: "https://www.pandora.com/AL:67974386",
+            amazon: "https://music.amazon.ca/albums/B0H7PTRBLD",
         },
         images: [],
         collab: [],

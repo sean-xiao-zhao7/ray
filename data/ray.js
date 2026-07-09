@@ -922,7 +922,18 @@ export const playlistDATA = [
         year: "2023",
     },
 
-    // singles    
+    // singles
+    {
+        title: "Do The Good Die Young?",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=O8wlvBlORJ4",
+            embed: "https://www.youtube.com/embed/O8wlvBlORJ4",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
     {
         title: "Deception",
         links: {

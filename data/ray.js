@@ -888,6 +888,22 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "What I Could've Been",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/whaticouldvebeen",
+            spotify: "https://open.spotify.com/album/1xtp7XrUFQvOuzldloRxPK",
+            youtube: "https://www.youtube.com/watch?v=VOyBcLV6-pk",
+            embed: "https://www.youtube.com/embed/VOyBcLV6-pk",
+            apple: "https://music.apple.com/gh/album/what-i-couldve-been/6808949700?i=6808949701",
+            deezer: "https://www.deezer.com/en/album/1071652002",
+            amazon: "https://music.amazon.ca/albums/B0HHXTTQGW",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Counterfeit Kings",
         links: {
             hypeddit: "https://hypeddit.com/stylus/counterfeitkings",

@@ -46,6 +46,42 @@ export const artists = {
 export const playlistDATA = [
     // freestyles
     {
+        title: "Bun Di Ganja?",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=Jz_VQE6K1js",
+            embed: "https://www.youtube.com/embed/Jz_VQE6K1js",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
+        title: "Saiyan Style",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=MPTKUOd5dQg",
+            embed: "https://www.youtube.com/embed/MPTKUOd5dQg",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
+        title: "Once Upon A Time",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=yzlAasrGvjE",
+            embed: "https://www.youtube.com/embed/yzlAasrGvjE",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "freestyle",
+        year: "2026",
+    },
+    {
         title: "Shook Ones",
         links: {
             youtube: "https://www.youtube.com/watch?v=9pesJWhNI1I",
@@ -897,6 +933,51 @@ export const playlistDATA = [
             apple: "https://music.apple.com/gh/album/what-i-couldve-been/6808949700?i=6808949701",
             deezer: "https://www.deezer.com/en/album/1071652002",
             amazon: "https://music.amazon.ca/albums/B0HHXTTQGW",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
+        title: "Do The Good Die Young?",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=O8wlvBlORJ4",
+            embed: "https://www.youtube.com/embed/O8wlvBlORJ4",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
+        title: "Deception",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/deception2026",
+            spotify: "https://open.spotify.com/album/7qvWXuwQk2HMBtVkPyfuLd",
+            youtube: "https://www.youtube.com/watch?v=VjGg7SNzBqo",
+            embed: "https://www.youtube.com/embed/VjGg7SNzBqo",
+            apple: "https://music.apple.com/us/album/deception-single/1896405480?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/977621441",
+            amazon: "https://music.amazon.ca/albums/B0GZVX5Y1B",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
+        title: "Fallin\' For You",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/fallinforyou2026",
+            spotify: "https://open.spotify.com/album/67galbYNgN7aSCUkDM0RNh",
+            youtube: "https://www.youtube.com/watch?v=JcMPCopoY3I",
+            embed: "https://www.youtube.com/embed/JcMPCopoY3I",
+            apple: "https://music.apple.com/us/album/fallin-for-you-single/1892810415?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/959751761",
+            amazon: "https://music.amazon.ca/albums/B0GWXB256Z",
+            yandex: "https://music.yandex.com/track/62408061",
+            download: "https://hypeddit.com/stylus/fallinforyou",
         },
         images: [],
         collab: [],
@@ -1898,7 +1979,57 @@ export const playlistDATA = [
     },
 
     // Albums
-
+    {
+        title: "The Soul Stone EP: Soul For A Soul",
+        links: {
+            embed: "https://www.youtube.com/embed/AHasFYjZDr0",
+            youtube: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            spotify: 'https://open.spotify.com/album/1DQVwIo3BAA6gyr0s29IJJ',
+            apple: 'https://music.apple.com/us/album/the-soul-stone-soul-for-a-soul-single/6787680537?uo=4&app=itunes',
+            deezer: 'https://www.deezer.com/album/1021617351',
+            tidal: "https://listen.tidal.com/album/540248584",
+            pandora: "https://www.pandora.com/AL:67974386",
+            amazon: "https://music.amazon.ca/albums/B0H7PTRBLD",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+        type: "album",
+        tracks: [{
+            title: "Maverick",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 1,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            }
+        },
+        {
+            title: "Assurance",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 2,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            }
+        },
+        {
+            title: "Street Psalm",
+            images: [],
+            collab: [],
+            year: "2026",
+            trackNum: 3,
+            album: {
+                title: "The Soul Stone EP: Soul For A Soul",
+                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+            },
+        },],
+    },
     {
         title: "The Epoch Album",
         links: {

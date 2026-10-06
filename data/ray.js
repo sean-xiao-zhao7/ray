@@ -924,10 +924,32 @@ export const playlistDATA = [
 
     // singles
     {
+        title: "Luminosity",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/luminosity",
+            spotify: "https://open.spotify.com/album/5lIlcolvOCjcXwc2aBNcJL",
+            youtube: "https://www.youtube.com/watch?v=acnv6aiLPbw",
+            embed: "https://www.youtube.com/embed/acnv6aiLPbw",
+            apple: "https://music.apple.com/us/album/luminosity-single/6816361193?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/1106598812",
+            amazon: "https://music.amazon.ca/albums/B0HL4CLVXP",
+            download: "https://hypeddit.com/stylus/luminosity2026",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+    },
+    {
         title: "Do The Good Die Young?",
         links: {
             youtube: "https://www.youtube.com/watch?v=O8wlvBlORJ4",
             embed: "https://www.youtube.com/embed/O8wlvBlORJ4",
+            spotify: "https://open.spotify.com/album/1LuUNgHJGUUqBhDt8rkbFo",
+            apple: "https://music.apple.com/us/album/do-the-good-die-young-single/6790062467?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/1027145942",
+            amazon: "https://music.amazon.ca/albums/B0H8KXRJ2B",
+
         },
         images: [],
         collab: [],

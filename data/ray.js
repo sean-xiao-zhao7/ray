@@ -965,7 +965,6 @@ export const playlistDATA = [
             apple: "https://music.apple.com/us/album/do-the-good-die-young-single/6790062467?uo=4&app=itunes",
             deezer: "https://www.deezer.com/album/1027145942",
             amazon: "https://music.amazon.ca/albums/B0H8KXRJ2B",
-
         },
         images: [],
         collab: [],
@@ -989,7 +988,7 @@ export const playlistDATA = [
         year: "2026",
     },
     {
-        title: "Fallin\' For You",
+        title: "Fallin' For You",
         links: {
             hypeddit: "https://hypeddit.com/stylus/fallinforyou2026",
             spotify: "https://open.spotify.com/album/67galbYNgN7aSCUkDM0RNh",
@@ -2001,14 +2000,36 @@ export const playlistDATA = [
     },
 
     // Albums
+
+    // Vintages: A Journey of Faith
+    {
+        title: "Vintages: A Journey of Faith",
+        links: {
+            hypeddit: "https://hypeddit.com/stylus/vintages",
+            embed: "https://www.youtube.com/embed/arKr8ZMCHYg",
+            youtube: "https://www.youtube.com/watch?v=arKr8ZMCHYg",
+            spotify: "https://open.spotify.com/album/7iXCd7D6ZKBfKKDChDQSOr",
+            apple: "https://music.apple.com/us/album/vintages-a-journey-of-faith/6823514696?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/1123030202",
+            amazon: "https://music.amazon.ca/albums/B0HN7BC1BF",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        year: "2026",
+        type: "album",
+        tracks: [],
+    },
+
+    // The Soul Stone EP: Soul For A Soul
     {
         title: "The Soul Stone EP: Soul For A Soul",
         links: {
             embed: "https://www.youtube.com/embed/AHasFYjZDr0",
             youtube: "https://www.youtube.com/watch?v=AHasFYjZDr0",
-            spotify: 'https://open.spotify.com/album/1DQVwIo3BAA6gyr0s29IJJ',
-            apple: 'https://music.apple.com/us/album/the-soul-stone-soul-for-a-soul-single/6787680537?uo=4&app=itunes',
-            deezer: 'https://www.deezer.com/album/1021617351',
+            spotify: "https://open.spotify.com/album/1DQVwIo3BAA6gyr0s29IJJ",
+            apple: "https://music.apple.com/us/album/the-soul-stone-soul-for-a-soul-single/6787680537?uo=4&app=itunes",
+            deezer: "https://www.deezer.com/album/1021617351",
             tidal: "https://listen.tidal.com/album/540248584",
             pandora: "https://www.pandora.com/AL:67974386",
             amazon: "https://music.amazon.ca/albums/B0H7PTRBLD",
@@ -2018,39 +2039,41 @@ export const playlistDATA = [
         album: {},
         year: "2026",
         type: "album",
-        tracks: [{
-            title: "Maverick",
-            images: [],
-            collab: [],
-            year: "2026",
-            trackNum: 1,
-            album: {
-                title: "The Soul Stone EP: Soul For A Soul",
-                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
-            }
-        },
-        {
-            title: "Assurance",
-            images: [],
-            collab: [],
-            year: "2026",
-            trackNum: 2,
-            album: {
-                title: "The Soul Stone EP: Soul For A Soul",
-                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
-            }
-        },
-        {
-            title: "Street Psalm",
-            images: [],
-            collab: [],
-            year: "2026",
-            trackNum: 3,
-            album: {
-                title: "The Soul Stone EP: Soul For A Soul",
-                link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+        tracks: [
+            {
+                title: "Maverick",
+                images: [],
+                collab: [],
+                year: "2026",
+                trackNum: 1,
+                album: {
+                    title: "The Soul Stone EP: Soul For A Soul",
+                    link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+                },
             },
-        },],
+            {
+                title: "Assurance",
+                images: [],
+                collab: [],
+                year: "2026",
+                trackNum: 2,
+                album: {
+                    title: "The Soul Stone EP: Soul For A Soul",
+                    link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+                },
+            },
+            {
+                title: "Street Psalm",
+                images: [],
+                collab: [],
+                year: "2026",
+                trackNum: 3,
+                album: {
+                    title: "The Soul Stone EP: Soul For A Soul",
+                    link: "https://www.youtube.com/watch?v=AHasFYjZDr0",
+                },
+            },
+        ],
     },
     {
         title: "The Epoch Album",

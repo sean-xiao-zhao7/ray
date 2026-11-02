@@ -24,6 +24,10 @@
         color: white;
         transition: background-color 0.1s;
 
+        @media only screen and (max-width: $bp-mid) {
+            font-size: 1.8rem;
+        }
+
         i {
             display: inline-block;
             margin-right: 0.5rem;

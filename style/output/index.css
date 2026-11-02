@@ -207,6 +207,11 @@ header #social a.fa-whatsapp {
   color: white;
   transition: background-color 0.1s;
 }
+@media only screen and (max-width: 45em) {
+  #menu button {
+    font-size: 1.8rem;
+  }
+}
 #menu button i {
   display: inline-block;
   margin-right: 0.5rem;

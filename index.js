@@ -45,9 +45,12 @@ class App {
         const singlesButton = document.querySelector("button#singles");
         const albumsButton = document.querySelector("button#albums");
         const freestylesButton = document.querySelector("button#freestyles");
+        const podcastsButton = document.querySelector("button#podcasts");
+
         albumsButton.addEventListener("click", () => {
             singlesButton.classList.remove("button-clicked");
             freestylesButton.classList.remove("button-clicked");
+            podcastsButton.classList.remove("button-clicked");
             albumsButton.classList.add("button-clicked");
             this.playlist.switch("albums");
             if (sidebar.style.display !== "block") {
@@ -57,6 +60,7 @@ class App {
         freestylesButton.addEventListener("click", () => {
             singlesButton.classList.remove("button-clicked");
             albumsButton.classList.remove("button-clicked");
+            podcastsButton.classList.remove("button-clicked");
             freestylesButton.classList.add("button-clicked");
             this.playlist.switch("freestyles");
             if (sidebar.style.display !== "block") {
@@ -66,8 +70,19 @@ class App {
         singlesButton.addEventListener("click", () => {
             albumsButton.classList.remove("button-clicked");
             freestylesButton.classList.remove("button-clicked");
+            podcastsButton.classList.remove("button-clicked");
             singlesButton.classList.add("button-clicked");
             this.playlist.switch("singles");
+            if (sidebar.style.display !== "block") {
+                sidebar.style.display = "block";
+            }
+        });
+        podcastsButton.addEventListener("click", () => {
+            singlesButton.classList.remove("button-clicked");
+            albumsButton.classList.remove("button-clicked");
+            freestylesButton.classList.remove("button-clicked");
+            podcastsButton.classList.add("button-clicked");
+            this.playlist.switch("podcasts");
             if (sidebar.style.display !== "block") {
                 sidebar.style.display = "block";
             }
@@ -89,8 +104,9 @@ class App {
         // update footer
         const footer = document.querySelector("footer");
         const footerP = document.createElement("p");
-        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${ray.lastname
-            }. All rights reserved.`;
+        footerP.textContent = `© ${new Date().getFullYear()} ${ray.firstname} ${
+            ray.lastname
+        }. All rights reserved.`;
         footer.appendChild(footerP);
 
         footer.querySelector(".fa-instagram").href =
@@ -101,6 +117,7 @@ class App {
         footer.querySelector(".fa-soundcloud").href =
             this.artist.social.soundcloud;
         footer.querySelector(".fa-whatsapp").href = this.artist.social.whatsapp;
+        footer.querySelector(".fa-podcast").href = this.artist.social.podcast;
 
         // set up intro / credits pages
         const introPage = new Page("#intro-container");

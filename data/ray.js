@@ -44,6 +44,25 @@ export const artists = {
 };
 
 export const playlistDATA = [
+    // podcasts
+    {
+        title: "The Drawbridge Podcast - Episode 1",
+        links: {
+            youtube: "https://www.youtube.com/watch?v=f16CS3mn2qQ",
+            embed: "https://www.youtube.com/embed/f16CS3mn2qQ",
+            podcast:
+                "https://mowlaraymond.podbean.com/e/the-drawbridge-podcast-episode-1/",
+
+            download:
+                "https://mcdn.podbean.com/mf/web/azfuabjfv6fx23wf/The_Drawbridge_Podcast_Episode_1.mp3",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "podcasts",
+        year: "2026",
+    },
+
     // freestyles
     {
         title: "Bun Di Ganja?",

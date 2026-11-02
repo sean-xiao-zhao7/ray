@@ -4,7 +4,7 @@
 #menu {
     grid-column: sidebar-start / display-end;
     display: grid;
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(4, max-content);
     border-bottom: solid 1px $gray5;
     border-top: solid 1px $gray5;
     box-shadow: $upshadow1;
@@ -14,7 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 33.33vw;
+        width: 25vw;
         font-family: $manrope;
         font-size: 2.3rem;
         font-weight: bold;

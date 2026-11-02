@@ -46,7 +46,8 @@ class Playlist {
                     (item) =>
                         item.type !== "album" &&
                         item.type !== "video-album" &&
-                        item.type !== "freestyle"
+                        item.type !== "freestyle" &&
+                        item.type !== "podcasts"
                 );
                 this.render();
                 break;
@@ -60,6 +61,12 @@ class Playlist {
             case "freestyles":
                 this.playlist = this.#originalPlaylist.filter(
                     (item) => item.type === "freestyle"
+                );
+                this.render();
+                break;
+            case "podcasts":
+                this.playlist = this.#originalPlaylist.filter(
+                    (item) => item.type === "podcasts"
                 );
                 this.render();
                 break;

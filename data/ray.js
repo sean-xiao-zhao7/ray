@@ -45,11 +45,35 @@ export const artists = {
 
 export const playlistDATA = [
     // podcasts
+
     {
-        title: "The Drawbridge Podcast - Episode 1",
+        title: "The Drawbridge Podcast Episode 2 - Incognito Mode",
+        links: {
+            youtube: "https://youtu.be/4PgpTO8XSvc",
+            embed: "https://www.youtube.com/embed/4PgpTO8XSvc",
+            spotify:
+                "https://open.spotify.com/episode/4BJ7XoGgQq6ufzmzIeCDgr?si=BX7f_c54Rou-q00ps16wnw",
+            apple: "https://podcasts.apple.com/ca/podcast/the-drawbridge-episode-2-incognito-mode/id6829779469?i=1000801711760",
+            podcast:
+                "https://thedrawbridgepodcast.podbean.com/e/the-drawbridge-episode-2-incognito-mode/",
+
+            download:
+                "https://mcdn.podbean.com/mf/web/2rm5imu2fkx9exgn/The_Drawbridge_Podcast_-_Episode_28y4nt.mp3",
+        },
+        images: [],
+        collab: [],
+        album: {},
+        type: "podcasts",
+        year: "2026",
+    },
+    {
+        title: "The Drawbridge Podcast - Ep. 1 - Life in the age of AI",
         links: {
             youtube: "https://www.youtube.com/watch?v=f16CS3mn2qQ",
             embed: "https://www.youtube.com/embed/f16CS3mn2qQ",
+            spotify:
+                "https://open.spotify.com/episode/0DQeLlpv57KdTBxXtT2bWG?si=0AwRTiu_RsmhSAn_pVAeaA",
+            apple: "https://podcasts.apple.com/ca/podcast/the-drawbridge-podcast-episode-1/id6829779469?i=1000799416429",
             podcast:
                 "https://mowlaraymond.podbean.com/e/the-drawbridge-podcast-episode-1/",
 
